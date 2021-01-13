@@ -1,5 +1,32 @@
 [
   {
+    "name": "yaqc-bluesky",
+    "releases": [
+      {
+        "version": "v2020.1.0",
+        "release_date": "2021-01-13T02:36:59",
+        "title": "v2020.1.0",
+        "body": "### Added\r\n- happi support\r\n- happi is now a dependency\r\n\r\n### Changed\r\n- removed base attribute stop (None) that only existed to pass bluesky ducktype checks\r\n- added bluesky as explicit dependency, pinned to newer than 1.6.6",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.1.0"
+      },
+      {
+        "version": "v2020.07.1",
+        "release_date": "2020-07-30T23:52:22",
+        "title": "v2020.07.1",
+        "body": "Remove name field",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
+      },
+      {
+        "version": "v2020.07.0",
+        "release_date": "2020-07-30T23:08:47",
+        "title": "v2020.07.0",
+        "body": "initial release",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "hklpy",
     "releases": [
       {
@@ -350,26 +377,6 @@
       }
     ],
     "new_commits": 15
-  },
-  {
-    "name": "yaqc-bluesky",
-    "releases": [
-      {
-        "version": "v2020.07.1",
-        "release_date": "2020-07-30T23:52:22",
-        "title": "v2020.07.1",
-        "body": "Remove name field",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
-      },
-      {
-        "version": "v2020.07.0",
-        "release_date": "2020-07-30T23:08:47",
-        "title": "v2020.07.0",
-        "body": "initial release",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.0"
-      }
-    ],
-    "new_commits": 44
   },
   {
     "name": "bluesky-darkframes",
