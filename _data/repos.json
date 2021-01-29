@@ -224,7 +224,7 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
       }
     ],
-    "new_commits": 4
+    "new_commits": 6
   },
   {
     "name": "ophyd",
