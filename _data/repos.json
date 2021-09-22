@@ -197,7 +197,7 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
-    "new_commits": 5
+    "new_commits": 7
   },
   {
     "name": "yaqc-bluesky",
@@ -459,7 +459,7 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
-    "new_commits": 101
+    "new_commits": 106
   },
   {
     "name": "bluesky-darkframes",
