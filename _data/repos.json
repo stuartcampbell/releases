@@ -197,7 +197,7 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
-    "new_commits": 7
+    "new_commits": 9
   },
   {
     "name": "yaqc-bluesky",
@@ -300,7 +300,7 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v0.8.0"
       }
     ],
-    "new_commits": 91
+    "new_commits": 98
   },
   {
     "name": "event-model",
