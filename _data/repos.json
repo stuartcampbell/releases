@@ -87,7 +87,7 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "bluesky-queueserver",
