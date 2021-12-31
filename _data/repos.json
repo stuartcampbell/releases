@@ -527,7 +527,7 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
-    "new_commits": 2
+    "new_commits": 4
   },
   {
     "name": "bluesky-httpserver",
