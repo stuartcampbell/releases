@@ -1,5 +1,102 @@
 [
   {
+    "name": "databroker",
+    "releases": [
+      {
+        "version": "v1.2.5",
+        "release_date": "2022-01-21T19:57:43",
+        "title": "v1.2.5",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish to PyPI by @mrakitin in https://github.com/bluesky/databroker/pull/676\r\n* Get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/677\r\n* DOC: corrected the same typo a few times. by @clintonroy in https://github.com/bluesky/databroker/pull/682\r\n* DOC: just a typo fix. by @clintonroy in https://github.com/bluesky/databroker/pull/683\r\n* don't use intake v0.6.5, and get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/685\r\n* release notes v1.2.5 by @gwbischof in https://github.com/bluesky/databroker/pull/686\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.4...v1.2.5",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
+      },
+      {
+        "version": "v1.2.4",
+        "release_date": "2021-10-07T18:15:42",
+        "title": "databroker v1.2.4",
+        "body": "### Fixed\r\n* tzlocal support",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2020-12-17T22:57:38",
+        "title": "v1.2.0",
+        "body": "## Added\r\n* New accessors on BlueskyEventStream named config, timestamps, and config_timestamps provide xarray Datasets of secondary readings from Event Descriptors and Events.\r\n* A\u201csummary\u201d projector that operates, inexpensively, on just the \u2018start\u2019 document.\r\n\r\n## Fixed\r\n* Adjust to upstream (yet unreleased) changes to intake.\r\n* When the \u2018stop\u2019 document is not yet available (or permanently missing) the IPython repr degrades gracefully.\r\n* When comparing BlueskyRun (v2) or a Header (v1) to another object via equality, return False if the other object is of a different type, instead of raising an exception.\r\n\r\n## Changed\r\n* Remove configuration columns from output of BlueskyEventStream.read() and .to_dask(). The new config acccessor should be used to access these.\r\n* In v1, provide more helpful exceptions when a Datum is referenced by an Event is not found. (In v2 this is already done, via event_model.Filler.)\r\n* The method BlueskyRun.canonical has been renamed to BlueskyRun.documents. The old name is deprecated and issues a warning when used.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2020-09-04T16:51:57",
+        "title": "databroker v1.1.0",
+        "body": "v1.1.0 (2020-09-03)\r\n-------------------\r\n\r\n## Added\r\n\r\n* Experimental ``databroker.projector`` module\r\n* A ``stats`` method on the ``BlueskyMongoCatalog`` to access MongoDB storage\r\n  info.\r\n\r\n## Fixed\r\n\r\n* Do more to try to recover from inaccurate ``shape`` metadata.\r\n* Tolerate old Resource documents that rely on MongoDB ``_id`` and are missing\r\n  ``uid``.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
+      },
+      {
+        "version": "v0.13.3",
+        "release_date": "2019-08-22T21:29:32",
+        "title": "v0.13.3",
+        "body": "### Enhancements\r\n\r\n* Replaced deprecated unordered bulk write (requires ``pymongo >= 3.0``).\r\n\r\n### Documentation\r\n\r\n* Update the links in the sidebar to point to the Bluesky Project.\r\n\r\n### Packaging\r\n\r\n* Added missing files in the source distribution for PyPI.\r\n\r\nSee [the v0.13.3 GitHub milestone](https://github.com/bluesky/databroker/milestone/10?closed=1) for a full enumeration of the changes in this release.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.3"
+      },
+      {
+        "version": "v0.13.1",
+        "release_date": "2019-07-30T14:06:12",
+        "title": "v0.13.1",
+        "body": "This release makes the sqlite-backed asset registry threadsafe, for compatibility with bluesky 1.6.0.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.1"
+      },
+      {
+        "version": "v0.11.2rc1",
+        "release_date": "2018-06-25T16:02:41",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
+      },
+      {
+        "version": "v0.11.3",
+        "release_date": "2018-09-05T22:47:11",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
+      },
+      {
+        "version": "v0.11.1",
+        "release_date": "2018-05-19T23:49:39",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.1"
+      },
+      {
+        "version": "v0.11.0",
+        "release_date": "2018-05-15T17:02:56",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
+      },
+      {
+        "version": "v0.9.4",
+        "release_date": "2017-12-06T20:31:59",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
+      },
+      {
+        "version": "v0.10.0",
+        "release_date": "2018-02-20T13:46:03",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
+      },
+      {
+        "version": "v0.8.1",
+        "release_date": "2017-05-22T13:57:54",
+        "title": "v0.8.1",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-queueserver",
     "releases": [
       {
@@ -445,96 +542,6 @@
       }
     ],
     "new_commits": 0
-  },
-  {
-    "name": "databroker",
-    "releases": [
-      {
-        "version": "v1.2.4",
-        "release_date": "2021-10-07T18:15:42",
-        "title": "databroker v1.2.4",
-        "body": "### Fixed\r\n* tzlocal support",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
-      },
-      {
-        "version": "v1.2.0",
-        "release_date": "2020-12-17T22:57:38",
-        "title": "v1.2.0",
-        "body": "## Added\r\n* New accessors on BlueskyEventStream named config, timestamps, and config_timestamps provide xarray Datasets of secondary readings from Event Descriptors and Events.\r\n* A\u201csummary\u201d projector that operates, inexpensively, on just the \u2018start\u2019 document.\r\n\r\n## Fixed\r\n* Adjust to upstream (yet unreleased) changes to intake.\r\n* When the \u2018stop\u2019 document is not yet available (or permanently missing) the IPython repr degrades gracefully.\r\n* When comparing BlueskyRun (v2) or a Header (v1) to another object via equality, return False if the other object is of a different type, instead of raising an exception.\r\n\r\n## Changed\r\n* Remove configuration columns from output of BlueskyEventStream.read() and .to_dask(). The new config acccessor should be used to access these.\r\n* In v1, provide more helpful exceptions when a Datum is referenced by an Event is not found. (In v2 this is already done, via event_model.Filler.)\r\n* The method BlueskyRun.canonical has been renamed to BlueskyRun.documents. The old name is deprecated and issues a warning when used.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
-      },
-      {
-        "version": "v1.1.0",
-        "release_date": "2020-09-04T16:51:57",
-        "title": "databroker v1.1.0",
-        "body": "v1.1.0 (2020-09-03)\r\n-------------------\r\n\r\n## Added\r\n\r\n* Experimental ``databroker.projector`` module\r\n* A ``stats`` method on the ``BlueskyMongoCatalog`` to access MongoDB storage\r\n  info.\r\n\r\n## Fixed\r\n\r\n* Do more to try to recover from inaccurate ``shape`` metadata.\r\n* Tolerate old Resource documents that rely on MongoDB ``_id`` and are missing\r\n  ``uid``.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
-      },
-      {
-        "version": "v0.13.3",
-        "release_date": "2019-08-22T21:29:32",
-        "title": "v0.13.3",
-        "body": "### Enhancements\r\n\r\n* Replaced deprecated unordered bulk write (requires ``pymongo >= 3.0``).\r\n\r\n### Documentation\r\n\r\n* Update the links in the sidebar to point to the Bluesky Project.\r\n\r\n### Packaging\r\n\r\n* Added missing files in the source distribution for PyPI.\r\n\r\nSee [the v0.13.3 GitHub milestone](https://github.com/bluesky/databroker/milestone/10?closed=1) for a full enumeration of the changes in this release.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.3"
-      },
-      {
-        "version": "v0.13.1",
-        "release_date": "2019-07-30T14:06:12",
-        "title": "v0.13.1",
-        "body": "This release makes the sqlite-backed asset registry threadsafe, for compatibility with bluesky 1.6.0.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.1"
-      },
-      {
-        "version": "v0.11.2rc1",
-        "release_date": "2018-06-25T16:02:41",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
-      },
-      {
-        "version": "v0.11.3",
-        "release_date": "2018-09-05T22:47:11",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
-      },
-      {
-        "version": "v0.11.1",
-        "release_date": "2018-05-19T23:49:39",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.1"
-      },
-      {
-        "version": "v0.11.0",
-        "release_date": "2018-05-15T17:02:56",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
-      },
-      {
-        "version": "v0.9.4",
-        "release_date": "2017-12-06T20:31:59",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
-      },
-      {
-        "version": "v0.10.0",
-        "release_date": "2018-02-20T13:46:03",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
-      },
-      {
-        "version": "v0.8.1",
-        "release_date": "2017-05-22T13:57:54",
-        "title": "v0.8.1",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
-      }
-    ],
-    "new_commits": 17
   },
   {
     "name": "bluesky-httpserver",
