@@ -141,18 +141,18 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.1"
       },
       {
-        "version": "v0.11.2rc1",
-        "release_date": "2018-06-25T16:02:41",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
-      },
-      {
         "version": "v0.11.3",
         "release_date": "2018-09-05T22:47:11",
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
+      },
+      {
+        "version": "v0.11.2rc1",
+        "release_date": "2018-06-25T16:02:41",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
       },
       {
         "version": "v0.11.1",
@@ -169,18 +169,18 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
       },
       {
-        "version": "v0.9.4",
-        "release_date": "2017-12-06T20:31:59",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
-      },
-      {
         "version": "v0.10.0",
         "release_date": "2018-02-20T13:46:03",
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
+      },
+      {
+        "version": "v0.9.4",
+        "release_date": "2017-12-06T20:31:59",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
       },
       {
         "version": "v0.8.1",
@@ -507,11 +507,11 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.3.0"
       },
       {
-        "version": "v1.0.0",
-        "release_date": "2017-11-07T18:21:01",
+        "version": "v1.2.0",
+        "release_date": "2018-06-06T12:14:30",
         "title": "",
         "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.0.0"
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.2.0"
       },
       {
         "version": "v1.1.0",
@@ -521,11 +521,11 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.1.0"
       },
       {
-        "version": "v1.2.0",
-        "release_date": "2018-06-06T12:14:30",
+        "version": "v1.0.0",
+        "release_date": "2017-11-07T18:21:01",
         "title": "",
         "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.2.0"
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.0.0"
       },
       {
         "version": "v0.8.0",
