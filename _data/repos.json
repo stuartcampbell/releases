@@ -648,6 +648,13 @@
         "title": "v0.3.12",
         "body": "Fixed a bug involving limits\r\n\r\nThis release fixes a bug that occurred where limits were not being set.\r\nThis was fixed by #11 .",
         "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.12"
+      },
+      {
+        "version": "v0.3.11",
+        "release_date": "2016-06-20T21:59:01",
+        "title": "v0.3.11",
+        "body": "",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.11"
       }
     ],
     "new_commits": 0
