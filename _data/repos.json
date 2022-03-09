@@ -1,13 +1,20 @@
 [
   {
-    "name": "bluesky-queueserver-api",
+    "name": "bluesky-httpserver",
     "releases": [
       {
-        "version": "v0.0.2",
-        "release_date": "2022-03-03T20:33:30",
-        "title": "Release v0.0.2",
+        "version": "v0.0.3",
+        "release_date": "2022-03-09T03:41:04",
+        "title": "Release v0.0.3",
         "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.3"
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2021-10-07T02:44:04",
+        "title": "Release v0.0.2 (2021-10-06)",
+        "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
@@ -15,6 +22,13 @@
   {
     "name": "bluesky-queueserver",
     "releases": [
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-03-09T03:37:52",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.12"
+      },
       {
         "version": "v0.0.11",
         "release_date": "2022-02-27T22:45:56",
@@ -56,6 +70,19 @@
         "title": "Bluesky Queue Server v0.0.6",
         "body": "Added\r\n-----\r\n\r\n* New API: ``ReceiveConsoleOutputAsync`` (async version of ``ReceiveConsoleOutput``)\r\n  for receiving console output from RE Manager in `asyncio`-based applications (e.g. HTTP Server).\r\n\r\nChanged\r\n-------\r\n\r\n* Renamed parameters of `start-re-manager`:\r\n  - ``--zmq-publish`` is renamed to ``--zmq-publish-console``\r\n  - ``--zmq-publish-addr`` is renamed to ``--zmq-publish-console-addr``\r\n* Parameters ``default``, ``min``, ``max`` and ``step`` of ``parameter_annotation_decorator`` now must be\r\n  python expressions of supported types (``default``) or `int` or `float` numbers (``min``, ``max``\r\n  and ``step``). In previous versions the parameter values had to be converted to strings in user code.\r\n",
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.6"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-queueserver-api",
+    "releases": [
+      {
+        "version": "v0.0.2",
+        "release_date": "2022-03-03T20:33:30",
+        "title": "Release v0.0.2",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
@@ -576,19 +603,6 @@
       }
     ],
     "new_commits": 0
-  },
-  {
-    "name": "bluesky-httpserver",
-    "releases": [
-      {
-        "version": "v0.0.2",
-        "release_date": "2021-10-07T02:44:04",
-        "title": "Release v0.0.2 (2021-10-06)",
-        "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
-      }
-    ],
-    "new_commits": 38
   },
   {
     "name": "hklpy",
