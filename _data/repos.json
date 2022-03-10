@@ -160,13 +160,6 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
       },
       {
-        "version": "v1.2.4",
-        "release_date": "2021-10-07T18:15:42",
-        "title": "databroker v1.2.4",
-        "body": "### Fixed\r\n* tzlocal support",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
-      },
-      {
         "version": "v1.2.0",
         "release_date": "2020-12-17T22:57:38",
         "title": "v1.2.0",
