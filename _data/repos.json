@@ -35,13 +35,6 @@
         "title": "Release v0.0.3",
         "body": "",
         "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.3"
-      },
-      {
-        "version": "v0.0.2",
-        "release_date": "2021-10-07T02:44:04",
-        "title": "Release v0.0.2 (2021-10-06)",
-        "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
