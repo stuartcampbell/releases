@@ -1,5 +1,39 @@
 [
   {
+    "name": "bluesky-queueserver-api",
+    "releases": [
+      {
+        "version": "v0.0.5",
+        "release_date": "2022-04-09T20:12:10",
+        "title": "Release v0.0.5",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.5"
+      },
+      {
+        "version": "v0.0.4",
+        "release_date": "2022-04-05T20:46:32",
+        "title": "Release v0.0.4",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.4"
+      },
+      {
+        "version": "v0.0.3",
+        "release_date": "2022-03-09T04:11:05",
+        "title": "Release v0.0.3",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.3"
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2022-03-03T20:33:30",
+        "title": "Release v0.0.2",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-queueserver",
     "releases": [
       {
@@ -326,33 +360,6 @@
         "title": "Release v0.0.2 (2021-10-06)",
         "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
         "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "bluesky-queueserver-api",
-    "releases": [
-      {
-        "version": "v0.0.4",
-        "release_date": "2022-04-05T20:46:32",
-        "title": "Release v0.0.4",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.4"
-      },
-      {
-        "version": "v0.0.3",
-        "release_date": "2022-03-09T04:11:05",
-        "title": "Release v0.0.3",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.3"
-      },
-      {
-        "version": "v0.0.2",
-        "release_date": "2022-03-03T20:33:30",
-        "title": "Release v0.0.2",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
