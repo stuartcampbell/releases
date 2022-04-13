@@ -210,6 +210,13 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.0"
       },
       {
+        "version": "v1.7.0",
+        "release_date": "2021-07-14T16:09:59",
+        "title": "bluesky v1.7.0",
+        "body": "# Fixed\r\n- Fixed missing log output for CLI ZMQ proxy.\r\n- Deprecated argument `logfile` of `bluesky.commandline.zmq_proxy.start_dispatcher`.\r\n- Better behavior when zmq RemoteDispatcher receives malformed messages.\r\n\r\n# Enhancements\r\n- Reorganized utils into subpackage, no API changes.\r\n- Added `bluesky.utils.jupyter.NotebookProgressBar`.\r\n- `bluesky.utils.PersistentDict` now inherits from `collections.abc.MutableMapping`.\r\n- New module `bluesky.protocols` designed for type checking devices. See PEP 544.\r\n",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
+      },
+      {
         "version": "v1.6.7",
         "release_date": "2020-11-04T19:18:52",
         "title": "bluesky v1.6.7",
