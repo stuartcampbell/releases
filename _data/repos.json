@@ -484,13 +484,6 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
       },
       {
-        "version": "v1.2.0",
-        "release_date": "2020-12-17T22:57:38",
-        "title": "v1.2.0",
-        "body": "## Added\r\n* New accessors on BlueskyEventStream named config, timestamps, and config_timestamps provide xarray Datasets of secondary readings from Event Descriptors and Events.\r\n* A\u201csummary\u201d projector that operates, inexpensively, on just the \u2018start\u2019 document.\r\n\r\n## Fixed\r\n* Adjust to upstream (yet unreleased) changes to intake.\r\n* When the \u2018stop\u2019 document is not yet available (or permanently missing) the IPython repr degrades gracefully.\r\n* When comparing BlueskyRun (v2) or a Header (v1) to another object via equality, return False if the other object is of a different type, instead of raising an exception.\r\n\r\n## Changed\r\n* Remove configuration columns from output of BlueskyEventStream.read() and .to_dask(). The new config acccessor should be used to access these.\r\n* In v1, provide more helpful exceptions when a Datum is referenced by an Event is not found. (In v2 this is already done, via event_model.Filler.)\r\n* The method BlueskyRun.canonical has been renamed to BlueskyRun.documents. The old name is deprecated and issues a warning when used.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
-      },
-      {
         "version": "v1.1.0",
         "release_date": "2020-09-04T16:51:57",
         "title": "databroker v1.1.0",
@@ -545,13 +538,6 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
-      },
-      {
-        "version": "v0.9.4",
-        "release_date": "2017-12-06T20:31:59",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
       },
       {
         "version": "v0.8.1",
