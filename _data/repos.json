@@ -794,13 +794,6 @@
     "name": "event-model",
     "releases": [
       {
-        "version": "v1.17.2",
-        "release_date": "2021-06-21T18:56:03",
-        "title": "event-model v1.17.2",
-        "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
-      },
-      {
         "version": "v1.17.1",
         "release_date": "2021-01-29T21:13:47",
         "title": "v1.17.1",
@@ -871,6 +864,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
       }
     ],
-    "new_commits": 6
+    "new_commits": 15
   }
 ]
