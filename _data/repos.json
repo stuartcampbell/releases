@@ -375,13 +375,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
       },
       {
-        "version": "v1.6.7",
-        "release_date": "2020-11-04T19:18:52",
-        "title": "bluesky v1.6.7",
-        "body": "## Fixed\r\n*  Tweak layout of plots produced by the Best-Effort Callback when showing many LiveGrids.\r\n* The bluesky.simulators.check_limits() simulator now calls obj.check_value() instead of looking at obj.limits.\r\n* When a document is emitted from a RunEngine, a log message is always issued. Previously, Resource and Datum documents were missed.\r\n* Various docstrings were fixed to match the actual function signatures.\r\n* The utility bluesky.utils.is_movable() for checking with an object satifies the expected interfaced for a \u201cmovable\u201d object now correctly treats the stop method and position attribute as optional.\r\n* Documentation about the expected interface for \u201cmovable\u201d objects was incomplete and has been revised to match reality.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.7"
-      },
-      {
         "version": "v1.6.6",
         "release_date": "2020-08-26T16:18:55",
         "title": "bluesky v1.6.6",
