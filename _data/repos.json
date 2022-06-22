@@ -493,7 +493,7 @@
         "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
       }
     ],
-    "new_commits": 11
+    "new_commits": 12
   },
   {
     "name": "bluesky-httpserver",
@@ -670,7 +670,7 @@
         "href": "https://github.com/bluesky/suitcase-msgpack/releases/tag/v0.3.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "suitcase-jsonl",
@@ -683,7 +683,7 @@
         "href": "https://github.com/bluesky/suitcase-jsonl/releases/tag/v0.2.2"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "suitcase-mongo",
@@ -703,7 +703,7 @@
         "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.1.0b5"
       }
     ],
-    "new_commits": 7
+    "new_commits": 9
   },
   {
     "name": "databroker-pack",
@@ -716,7 +716,7 @@
         "href": "https://github.com/bluesky/databroker-pack/releases/tag/v0.3.1"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "suitcase-json-metadata",
@@ -729,7 +729,7 @@
         "href": "https://github.com/bluesky/suitcase-json-metadata/releases/tag/v0.2.1"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "suitcase-csv",
@@ -742,7 +742,7 @@
         "href": "https://github.com/bluesky/suitcase-csv/releases/tag/v0.3.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "suitcase-nxsas",
@@ -768,7 +768,7 @@
         "href": "https://github.com/bluesky/suitcase-dataexchange/releases/tag/v0.1.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "bluesky-darkframes",
@@ -788,7 +788,7 @@
         "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.1.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 2
   },
   {
     "name": "event-model",
