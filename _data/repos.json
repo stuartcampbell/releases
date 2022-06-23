@@ -815,6 +815,13 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
       },
       {
+        "version": "v1.17.0",
+        "release_date": "2020-12-17T22:46:45",
+        "title": "v1.17.0",
+        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
+      },
+      {
         "version": "v1.16.1",
         "release_date": "2020-11-15T03:00:13",
         "title": "v1.16.1",
@@ -855,6 +862,13 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.6.0"
+      },
+      {
+        "version": "v1.5.0",
+        "release_date": "2018-05-15T15:42:21",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.5.0"
       },
       {
         "version": "v1.4.0",
