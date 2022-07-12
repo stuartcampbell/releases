@@ -338,6 +338,19 @@
     "new_commits": 0
   },
   {
+    "name": "suitcase-tiff",
+    "releases": [
+      {
+        "version": "v0.4.0",
+        "release_date": "2022-05-10T17:15:31",
+        "title": "suitcase-tiff v0.4.0",
+        "body": "## v0.4.0 (2022-05-10)\r\n\r\n- Fix to deal with descriptors that lie about the shape.\r\n- Add zero-padding to the frame number in the exported files.\r\n- CI updates to use GitHub Actions for checking style, testing, and publishing to PyPI.\r\n- Fix versioneer compatibility with Python 3.11.",
+        "href": "https://github.com/bluesky/suitcase-tiff/releases/tag/v0.4.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "yaqc-bluesky",
     "releases": [
       {
@@ -828,6 +841,13 @@
         "title": "v1.17.1",
         "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2020-12-17T22:46:45",
+        "title": "v1.17.0",
+        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
       },
       {
         "version": "v1.16.1",
