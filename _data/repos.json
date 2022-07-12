@@ -780,19 +780,6 @@
     "new_commits": 1
   },
   {
-    "name": "suitcase-nxsas",
-    "releases": [
-      {
-        "version": "v0.1.0",
-        "release_date": "2021-10-12T16:41:19",
-        "title": "Release v0.1.0",
-        "body": "Initial release.",
-        "href": "https://github.com/bluesky/suitcase-nxsas/releases/tag/v0.1.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "suitcase-dataexchange",
     "releases": [
       {
