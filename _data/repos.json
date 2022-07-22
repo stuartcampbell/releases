@@ -403,13 +403,6 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.0"
       },
       {
-        "version": "v2020.07.1",
-        "release_date": "2020-07-30T23:52:22",
-        "title": "v2020.07.1",
-        "body": "Remove name field",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
-      },
-      {
         "version": "v2020.07.0",
         "release_date": "2020-07-30T23:08:47",
         "title": "v2020.07.0",
@@ -496,48 +489,15 @@
     "new_commits": 78
   },
   {
-    "name": "bluesky-widgets",
-    "releases": [
-      {
-        "version": "v0.0.12",
-        "release_date": "2022-04-05T21:44:44",
-        "title": "Release v0.0.12",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
-      },
-      {
-        "version": "v0.0.11",
-        "release_date": "2022-03-24T03:16:53",
-        "title": "Release v0.0.11",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
-      }
-    ],
-    "new_commits": 17
-  },
-  {
-    "name": "suitcase-specfile",
-    "releases": [
-      {
-        "version": "v0.2.5",
-        "release_date": "2022-04-04T19:27:55",
-        "title": "Release v0.2.5",
-        "body": "## What's Changed\r\n* Corrected SPEC header formation from bluesky start doc by @whs92 in https://github.com/bluesky/suitcase-specfile/pull/17\r\n* v0.2.5. release notes by @gwbischof in https://github.com/bluesky/suitcase-specfile/pull/22\r\n\r\n**Full Changelog**: https://github.com/bluesky/suitcase-specfile/compare/v0.2.4...v0.2.5",
-        "href": "https://github.com/bluesky/suitcase-specfile/releases/tag/v0.2.5"
-      },
-      {
-        "version": "v0.2.4",
-        "release_date": "2021-10-12T21:15:12",
-        "title": "Release v0.2.4",
-        "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements",
-        "href": "https://github.com/bluesky/suitcase-specfile/releases/tag/v0.2.4"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "bluesky",
     "releases": [
+      {
+        "version": "v1.8.3",
+        "release_date": "2022-04-08T17:30:14",
+        "title": "bluesky v1.8.3",
+        "body": "## What's Changed\r\n* DOC: document pycertifspec as hardware interface by @untzag in https://github.com/bluesky/bluesky/pull/1498\r\n* ENH: add extra dependencies by @untzag in https://github.com/bluesky/bluesky/pull/1509\r\n* ENH: don't call stage unless stageable by @untzag in https://github.com/bluesky/bluesky/pull/1507\r\n* Many motor BestEffortCallback by @maffettone in https://github.com/bluesky/bluesky/pull/1511\r\n* v1.8.3 release notes by @gwbischof in https://github.com/bluesky/bluesky/pull/1514\r\n\r\n## New Contributors\r\n* @maffettone made their first contribution in https://github.com/bluesky/bluesky/pull/1511\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.2...v1.8.3",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
+      },
       {
         "version": "v1.8.2",
         "release_date": "2021-12-20T23:36:17",
@@ -665,7 +625,47 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
-    "new_commits": 39
+    "new_commits": 23
+  },
+  {
+    "name": "bluesky-widgets",
+    "releases": [
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-04-05T21:44:44",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
+      },
+      {
+        "version": "v0.0.11",
+        "release_date": "2022-03-24T03:16:53",
+        "title": "Release v0.0.11",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
+      }
+    ],
+    "new_commits": 17
+  },
+  {
+    "name": "suitcase-specfile",
+    "releases": [
+      {
+        "version": "v0.2.5",
+        "release_date": "2022-04-04T19:27:55",
+        "title": "Release v0.2.5",
+        "body": "## What's Changed\r\n* Corrected SPEC header formation from bluesky start doc by @whs92 in https://github.com/bluesky/suitcase-specfile/pull/17\r\n* v0.2.5. release notes by @gwbischof in https://github.com/bluesky/suitcase-specfile/pull/22\r\n\r\n**Full Changelog**: https://github.com/bluesky/suitcase-specfile/compare/v0.2.4...v0.2.5",
+        "href": "https://github.com/bluesky/suitcase-specfile/releases/tag/v0.2.5"
+      },
+      {
+        "version": "v0.2.4",
+        "release_date": "2021-10-12T21:15:12",
+        "title": "Release v0.2.4",
+        "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements",
+        "href": "https://github.com/bluesky/suitcase-specfile/releases/tag/v0.2.4"
+      }
+    ],
+    "new_commits": 0
   },
   {
     "name": "suitcase-core",
