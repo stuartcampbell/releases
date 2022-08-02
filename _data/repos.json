@@ -374,13 +374,6 @@
         "title": "v0.3.12",
         "body": "Fixed a bug involving limits\r\n\r\nThis release fixes a bug that occurred where limits were not being set.\r\nThis was fixed by #11 .",
         "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.12"
-      },
-      {
-        "version": "v0.3.11",
-        "release_date": "2016-06-20T21:59:01",
-        "title": "v0.3.11",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.11"
       }
     ],
     "new_commits": 0
@@ -645,13 +638,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.0"
       },
       {
-        "version": "v1.2.0",
-        "release_date": "2018-02-20T20:47:07",
-        "title": "bluesky version 1.2",
-        "body": "## Features\r\n* Refreshed documentation with a new Tutorial section.\r\n* Extend scan() and rel_scan() to handle multiple motors, rendering inner_product_scan() and relative_inner_product_scan() redundant.\r\n* A new plan stub, repeat(), repeats another plan N times with optional interleaved delays \u2014 a kind of customizable version of count().\r\n* Better validation of user-defined per_step functions and more informative error messages to match.\r\n\r\n## Bug Fixes\r\n* Fix axes orientation in LiveRaster.\r\n* Make BestEffortCallback display multi-motor scans properly.\r\n* Fix bug in ts_msg_hook() where it conflated month and minute. Also, include sub-second precision.\r\n* Avoid situation where plan without hints caused the BestEffortCallback to error instead of do its best to guess useful behavior.\r\n* Skip un-filled externally-stored data in LiveTable. This fixes a bug where it is expecting array data but gets UUID (datum_id) and errors out.\r\n## Deprecations\r\nThe caching_repeater() plan has been deprecated because it is incompatible with some preprocessors. It will be removed in a future release of bluesky. It was not documented in any previous releases and rarely if ever used, so the impact of this removal is expected to be low.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.2.0"
-      },
-      {
         "version": "v1.1.0",
         "release_date": "2017-12-19T22:53:55",
         "title": "bluesky version 1.1",
@@ -890,13 +876,6 @@
         "title": "v1.16.0",
         "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
-      },
-      {
-        "version": "v1.15.2",
-        "release_date": "2020-06-12T19:28:01",
-        "title": "v1.15.2",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
       },
       {
         "version": "v1.13.3",
