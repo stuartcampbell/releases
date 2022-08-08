@@ -521,13 +521,6 @@
         "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16rc1"
       },
       {
-        "version": "v0.3.15",
-        "release_date": "2020-12-20T19:00:56",
-        "title": "v0.3.15",
-        "body": "bug fixes and documentation (including examples)\r\n\r\n* [Release Notes](https://github.com/bluesky/hklpy/blob/v0.3.15/docs/source/release_notes.rst)\r\n* [Auto-generated Table of Tags, PRs, Issues, Commits](https://github.com/bluesky/hklpy/wiki/release-notes-0.3.15)\r\n\r\nNote that **wavelength units have changed** from `nm` to `angstroms`.  See the release notes for further information.",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.15"
-      },
-      {
         "version": "v0.3.14",
         "release_date": "2020-06-25T08:00:52",
         "title": "v0.3.14",
