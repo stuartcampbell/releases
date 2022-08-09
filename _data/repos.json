@@ -1,5 +1,18 @@
 [
   {
+    "name": "area-detector-handlers",
+    "releases": [
+      {
+        "version": "v0.0.9",
+        "release_date": "2022-08-09T18:25:11",
+        "title": "v0.0.9",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/area-detector-handlers/pull/29\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/area-detector-handlers/pull/30\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/area-detector-handlers/compare/v0.0.8...v0.0.9",
+        "href": "https://github.com/bluesky/area-detector-handlers/releases/tag/v0.0.9"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "ophyd",
     "releases": [
       {
@@ -777,7 +790,7 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
-    "new_commits": 23
+    "new_commits": 30
   },
   {
     "name": "suitcase-specfile",
