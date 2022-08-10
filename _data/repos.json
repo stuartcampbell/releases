@@ -312,13 +312,6 @@
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.16"
       },
       {
-        "version": "v0.0.15",
-        "release_date": "2022-06-23T16:58:45",
-        "title": "Release v0.0.15",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.15"
-      },
-      {
         "version": "v0.0.14",
         "release_date": "2022-04-09T02:27:16",
         "title": "Release v0.0.14",
@@ -692,20 +685,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
       },
       {
-        "version": "v1.6.7",
-        "release_date": "2020-11-04T19:18:52",
-        "title": "bluesky v1.6.7",
-        "body": "## Fixed\r\n*  Tweak layout of plots produced by the Best-Effort Callback when showing many LiveGrids.\r\n* The bluesky.simulators.check_limits() simulator now calls obj.check_value() instead of looking at obj.limits.\r\n* When a document is emitted from a RunEngine, a log message is always issued. Previously, Resource and Datum documents were missed.\r\n* Various docstrings were fixed to match the actual function signatures.\r\n* The utility bluesky.utils.is_movable() for checking with an object satifies the expected interfaced for a \u201cmovable\u201d object now correctly treats the stop method and position attribute as optional.\r\n* Documentation about the expected interface for \u201cmovable\u201d objects was incomplete and has been revised to match reality.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.7"
-      },
-      {
-        "version": "v1.6.6",
-        "release_date": "2020-08-26T16:18:55",
-        "title": "bluesky v1.6.6",
-        "body": "bluesky v1.6.6 (2020-08-26)\r\n---------------------\r\n\r\n## Fixed\r\n\r\n- `bluesky.utils.PersistentDict` has new methods `bluesky.utils.PersistentDict.reload()` and `bluesky.utils.PersistentDict.flush()` to syncing from and to disk. It flushes at garbage collection or system exit, which ensures that any values that have been mutated are updated on disk.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.6"
-      },
-      {
         "version": "v1.6.4",
         "release_date": "2020-07-08T16:19:43",
         "title": "bluesky version 1.6.4",
@@ -781,13 +760,6 @@
         "title": "bluesky version 0.11.0",
         "body": "\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-11-0)",
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.11.0"
-      },
-      {
-        "version": "v0.10.0",
-        "release_date": "2017-09-06T21:17:00",
-        "title": "bluesky version 0.10.0",
-        "body": "We are proud to announce the 0.10.0 release of bluesky.\r\n\r\n* Automatic best-effort visualization and peak-fitting is available for all plans, including user-defined ones.\r\n* The \u201cSPEC-like\u201d API has been fully removed, and its most useful features have been applied to the library in a self-consistent way. See [here](https://nsls-ii.github.io/bluesky/api_changes.html#api-changes) for detailed instructions on migrating.\r\n* Improved tooling for streaming documents over a network for live processing and visualization in a different process or on a different machine.\r\n\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-10-0)",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
     "new_commits": 32
