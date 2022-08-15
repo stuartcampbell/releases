@@ -514,13 +514,6 @@
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.9"
       },
       {
-        "version": "v0.0.8",
-        "release_date": "2021-10-15T20:31:52",
-        "title": "Release v0.0.8 (2021-10-15)",
-        "body": "Fix for `sdist` and Conda packages.",
-        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.8"
-      },
-      {
         "version": "v0.0.7",
         "release_date": "2021-10-07T02:37:31",
         "title": "Release v0.0.7 (2021-10-06)",
