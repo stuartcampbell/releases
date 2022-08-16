@@ -387,6 +387,33 @@
     "new_commits": 0
   },
   {
+    "name": "bluesky-widgets",
+    "releases": [
+      {
+        "version": "v0.0.13",
+        "release_date": "2022-08-01T15:08:46",
+        "title": "Release v0.0.13",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.13"
+      },
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-04-05T21:44:44",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
+      },
+      {
+        "version": "v0.0.11",
+        "release_date": "2022-03-24T03:16:53",
+        "title": "Release v0.0.11",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-httpserver",
     "releases": [
       {
@@ -778,26 +805,6 @@
       }
     ],
     "new_commits": 1
-  },
-  {
-    "name": "bluesky-widgets",
-    "releases": [
-      {
-        "version": "v0.0.12",
-        "release_date": "2022-04-05T21:44:44",
-        "title": "Release v0.0.12",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
-      },
-      {
-        "version": "v0.0.11",
-        "release_date": "2022-03-24T03:16:53",
-        "title": "Release v0.0.11",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
-      }
-    ],
-    "new_commits": 22
   },
   {
     "name": "suitcase-specfile",
