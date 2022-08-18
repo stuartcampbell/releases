@@ -72,13 +72,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
       },
       {
-        "version": "v1.8.2",
-        "release_date": "2021-12-20T23:36:17",
-        "title": "bluesky v1.8.2",
-        "body": "v1.8.2 (2021-12-20)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* Changed from using ``SafeConfigParser`` to ``ConfigParser`` in\r\n  ``versioneer.py`` (fix to support Python 3.11).\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added public ``call_returns_result`` property.\r\n* Implemented human-readable printable representation for ``PeakStats``.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Updated ``RunEngine`` docstring with ``call_returns_result`` property.\r\n* Fixed a small mistake in ``bp.scan`` docstring.\r\n* Added documentation about intended behavior of fraction in the ``watch``\r\n  method of the status object.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.2"
-      },
-      {
         "version": "v1.8.1",
         "release_date": "2021-10-11T16:27:48",
         "title": "bluesky v1.8.1",
