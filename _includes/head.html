@@ -12,10 +12,10 @@
 
   <link rel="icon" sizes="256x256" href="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
   <meta itemprop="logo" content="https://www.gravatar.com/avatar/{{ site.gravatar }}?s=256&d=blank" />
-  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
+  <link rel="shortcut icon" href="https://www.bnl.gov/favicon.ico">
   <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
 
-  <link rel="alternate" type="application/rss+xml" title="elementary Blog" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="Release Status" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <meta name="author" content="{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.author }}{% endif %}" />
   <meta name="theme-color" content="{% if page.theme-color %}{{ page.theme-color }}{% else %}{{ site.theme-color }}{% endif %}" />
@@ -43,8 +43,4 @@
 
   <link rel="stylesheet" type="text/css" media="all" href="{{ '/css/main.css' | prepend: site.baseurl | append: '?v=' | append: hash }}" />
 
-  {% if jekyll.environment == "production" %}
-    <script async defer data-domain="releases.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
-    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script> 
-  {% endif %}
 </head>
