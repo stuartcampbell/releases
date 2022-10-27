@@ -494,6 +494,13 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.7.0"
       },
       {
+        "version": "v1.6.4",
+        "release_date": "2022-04-08T19:29:26",
+        "title": "ophyd v1.6.4",
+        "body": "## What's Changed\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1019\r\n* report signal name on ValueError in Signal.describe() by @jklynch in https://github.com/bluesky/ophyd/pull/1020\r\n* Added timeout arguments to FakeEpicsSignal by @DominicOram in https://github.com/bluesky/ophyd/pull/1023\r\n* v1.6.4 release notes by @gwbischof in https://github.com/bluesky/ophyd/pull/1031\r\n\r\n## New Contributors\r\n* @DominicOram made their first contribution in https://github.com/bluesky/ophyd/pull/1023\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.3...v1.6.4",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.4"
+      },
+      {
         "version": "v1.6.3",
         "release_date": "2021-10-11T19:21:30",
         "title": "v1.6.3",
