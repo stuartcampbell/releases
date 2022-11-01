@@ -52,7 +52,7 @@
         "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
       }
     ],
-    "new_commits": 2
+    "new_commits": 4
   },
   {
     "name": "bluesky-queueserver",
