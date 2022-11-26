@@ -480,13 +480,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.9.0"
       },
       {
-        "version": "v1.8.3",
-        "release_date": "2022-04-08T17:30:14",
-        "title": "bluesky v1.8.3",
-        "body": "## What's Changed\r\n* DOC: document pycertifspec as hardware interface by @untzag in https://github.com/bluesky/bluesky/pull/1498\r\n* ENH: add extra dependencies by @untzag in https://github.com/bluesky/bluesky/pull/1509\r\n* ENH: don't call stage unless stageable by @untzag in https://github.com/bluesky/bluesky/pull/1507\r\n* Many motor BestEffortCallback by @maffettone in https://github.com/bluesky/bluesky/pull/1511\r\n* v1.8.3 release notes by @gwbischof in https://github.com/bluesky/bluesky/pull/1514\r\n\r\n## New Contributors\r\n* @maffettone made their first contribution in https://github.com/bluesky/bluesky/pull/1511\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.2...v1.8.3",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
-      },
-      {
         "version": "v1.8.2",
         "release_date": "2021-12-20T23:36:17",
         "title": "bluesky v1.8.2",
