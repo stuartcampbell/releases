@@ -811,13 +811,6 @@
     "name": "yaqc-bluesky",
     "releases": [
       {
-        "version": "v2022.4.1",
-        "release_date": "2022-04-26T16:53:38",
-        "title": "2022.4.1",
-        "body": "### Fixed\r\n- More error tolerant wait until still method which properly sets the exception of the status object",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.1"
-      },
-      {
         "version": "v2022.4.0",
         "release_date": "2022-04-19T15:49:26",
         "title": "2022.4.0",
@@ -846,13 +839,6 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.9.0"
       },
       {
-        "version": "v2021.1.1",
-        "release_date": "2021-01-26T02:23:03",
-        "title": "v2021.1.1",
-        "body": "### Changed\r\n- overloaded happi default for item name requirements: now any valid python identifier works",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.1"
-      },
-      {
         "version": "v2021.1.0",
         "release_date": "2021-01-13T02:36:59",
         "title": "v2021.1.0",
@@ -874,7 +860,7 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.0"
       }
     ],
-    "new_commits": 2
+    "new_commits": 4
   },
   {
     "name": "suitcase-specfile",
