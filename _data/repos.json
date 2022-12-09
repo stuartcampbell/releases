@@ -1,45 +1,18 @@
 [
   {
-    "name": "bluesky-widgets",
-    "releases": [
-      {
-        "version": "v0.0.14",
-        "release_date": "2022-11-17T20:54:01",
-        "title": "Release v0.0.14",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.14"
-      },
-      {
-        "version": "v0.0.13",
-        "release_date": "2022-08-01T15:08:46",
-        "title": "Release v0.0.13",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.13"
-      },
-      {
-        "version": "v0.0.12",
-        "release_date": "2022-04-05T21:44:44",
-        "title": "Release v0.0.12",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
-      },
-      {
-        "version": "v0.0.11",
-        "release_date": "2022-03-24T03:16:53",
-        "title": "Release v0.0.11",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "event-model",
     "releases": [
       {
+        "version": "v1.19.1",
+        "release_date": "2022-12-09T16:17:36",
+        "title": "v1.19.1 (2022-12-09)",
+        "body": "v1.19.1 (2022-12-09)\r\n====================\r\n\r\nThis release fixes compatibility with Python 3.7, which was inadvertently\r\nbroken in the previous release, 1.19.0.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
+      },
+      {
         "version": "v1.19.0",
         "release_date": "2022-11-03T18:03:35",
-        "title": "event-model v1.18.0",
+        "title": "event-model v1.19.0",
         "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
       },
@@ -128,7 +101,41 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
       }
     ],
-    "new_commits": 1
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-widgets",
+    "releases": [
+      {
+        "version": "v0.0.14",
+        "release_date": "2022-11-17T20:54:01",
+        "title": "Release v0.0.14",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.14"
+      },
+      {
+        "version": "v0.0.13",
+        "release_date": "2022-08-01T15:08:46",
+        "title": "Release v0.0.13",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.13"
+      },
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-04-05T21:44:44",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
+      },
+      {
+        "version": "v0.0.11",
+        "release_date": "2022-03-24T03:16:53",
+        "title": "Release v0.0.11",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
+      }
+    ],
+    "new_commits": 0
   },
   {
     "name": "bluesky-httpserver",
