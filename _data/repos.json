@@ -10,13 +10,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
       },
       {
-        "version": "v1.19.0",
-        "release_date": "2022-11-03T18:03:35",
-        "title": "event-model v1.19.0",
-        "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
-      },
-      {
         "version": "v1.18.0",
         "release_date": "2022-08-05T14:02:38",
         "title": "event-model v1.18.0",
