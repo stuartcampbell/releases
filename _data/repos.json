@@ -653,11 +653,25 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.4"
       },
       {
+        "version": "v1.6.3",
+        "release_date": "2021-10-11T19:21:30",
+        "title": "v1.6.3",
+        "body": "Changes\r\n-------\r\n\r\n* In case of a LimitError being raised by the ``mv()`` command, the error\r\n  message will now specify which setpoint PV triggered the limit condition.\r\n* Added tests which check Ophyd objects against the new Bluesky protocols.\r\n* The requirement for the ``inflection`` package has been removed from\r\n  general requirements and moved to ``requirements-dev.txt``.",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.3"
+      },
+      {
         "version": "v1.6.1",
         "release_date": "2021-02-26T19:33:50",
         "title": "v1.6.1",
         "body": "Fixes\r\n-----\r\n\r\n* Added a missing name argument to AreaDetector documentation.\r\n* Correctly propagate changes to the default ``connection_timeout`` setting\r\n  via ``set_defaults``, instead of always defaulting to 1 second.\r\n\r\nChanges\r\n-------\r\n\r\n* Expanded documentation for Fly-able Interface to include code examples and\r\n  updated MockFlyer sim.\r\n* Changed ``update_rate`` and ``auto_count_update_rate`` signals in\r\n  ``EpicsScalar`` to default to ``Kind.omitted`` instead of ``Kind.config``.\r\n",
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.1"
+      },
+      {
+        "version": "v1.6.0",
+        "release_date": "2020-12-16T21:58:42",
+        "title": "v1.6.0",
+        "body": "## Fixes\r\n\r\n* The write_timeout specified for an EpicsSignalBase is respected by its set() method unless overridden with set(..., timeout=TIMEOUT).\r\nArea Detector PVs related to array shape have been given an order compatible with the numpy array index ordering of the array itself.\r\n* Thread the keyword EpicsSignal.get(..., use_monitor=True) down to the control system. This setting was previously supported but support was removed (years ago). We now view its removal as a mistake.\r\n* When area detector takes a series of images and num_capture is set to 0, this is now interpreted to mean \u201chowever many images the detector is configured to acquire\u201d rather than \u201c0 images\u201d.\r\n* Fixed EigerDetectorCam\u2019s photon_energy component\u2019s PV suffix spelling.\r\n* Motor limits HLS and LLS used EpicsSignal when they should be using EpicsSignalRO.\r\n* EpicsSignal with string=True kwarg now correctly results in dtype='string' from .describe() method\r\n\r\n## Added\r\n* Support for Emergent Vision detectors.\r\n* The class-wide default for write_timeout is now configurable via EpicsSignalBase.set_defaults(). It was previously only configurable on a per-instance basis at initialization time, with the class-wide default hard-coded to None. The class-wide default is still None, unchanged from the previous release.\r\n* The class-wide default for auto_monitor is now configurable via EpicsSignalBase.set_defaults(). It was previously configurable on a per-instance basis at initialization time. The default value, False, has not changed.\r\n\r\n## Changes\r\n* The logging has been tweaked to be less noisy, particularly at import time. Some log messages have been moved from 'ophyd.object' to 'ophyd.control_layer', and the level of messages emitted to 'ophyd.control_layer' have been reduced from INFO to DEBUG. Some log messages have been removed entirely.\r\n* The method EpicsSignalBase.set_default_timeout() has been renamed to EpicsSignalBase.set_defaults() because it has been extended to include more than timeouts, as described above. The old name is still supported but issues a warning that it may be removed in the future.\r\n* Use auto-monitoring in more places in EpicsMotor. This should drastically speed up motor.read_configuration().\r\n* Update ophyd.sim.MockFlyer to use its name as its stream name.\r\n* Capture the create_directory signal on Area Detector FilePlugin as configuration.",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.0"
       },
       {
         "version": "v1.5.3",
