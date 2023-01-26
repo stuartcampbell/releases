@@ -515,6 +515,13 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.0"
       },
       {
+        "version": "v1.7.0",
+        "release_date": "2021-07-14T16:09:59",
+        "title": "bluesky v1.7.0",
+        "body": "# Fixed\r\n- Fixed missing log output for CLI ZMQ proxy.\r\n- Deprecated argument `logfile` of `bluesky.commandline.zmq_proxy.start_dispatcher`.\r\n- Better behavior when zmq RemoteDispatcher receives malformed messages.\r\n\r\n# Enhancements\r\n- Reorganized utils into subpackage, no API changes.\r\n- Added `bluesky.utils.jupyter.NotebookProgressBar`.\r\n- `bluesky.utils.PersistentDict` now inherits from `collections.abc.MutableMapping`.\r\n- New module `bluesky.protocols` designed for type checking devices. See PEP 544.\r\n",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
+      },
+      {
         "version": "v1.6.7",
         "release_date": "2020-11-04T19:18:52",
         "title": "bluesky v1.6.7",
@@ -541,6 +548,13 @@
         "title": "bluesky version 1.4.1",
         "body": "This release fixes a single regression introduced in v1.4.0. We recommend all users upgrade.\r\n\r\n## Bug Fixes\r\n\r\nFix a critical typo that made LiveGrid unusable.",
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.1"
+      },
+      {
+        "version": "v1.4.0",
+        "release_date": "2018-09-05T16:35:59",
+        "title": "bluesky version 1.4.0",
+        "body": "## Features\r\n\r\n* Added ability to control \u2018sense\u2019 of `LiveGrid` (ex \u201cpositive goes down and to the right\u201d) to match the coordinates in the hutch.\r\n* Learned how to specify the serializer / deserializer for the zmq publisher / client.\r\n* Promoted the inner function from `one_nd_step()` to a top-level plan `bluesky.plan_stubs.move_per_step()`.\r\n* Added flag to `ramp_plan()` to control if a data point is taken before the ramp starts.\r\n\r\n## Bug Fixes\r\n\r\n* Ensure order stability in `get_labeled_devices()` on all supported versions of Python.\r\n* Fixed typos, dev requirements, and build details.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.0"
       },
       {
         "version": "v1.3.3",
