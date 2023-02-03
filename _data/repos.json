@@ -867,13 +867,6 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.0"
       },
       {
-        "version": "v2020.07.1",
-        "release_date": "2020-07-30T23:52:22",
-        "title": "v2020.07.1",
-        "body": "Remove name field",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
-      },
-      {
         "version": "v2020.07.0",
         "release_date": "2020-07-30T23:08:47",
         "title": "v2020.07.0",
