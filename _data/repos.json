@@ -1,5 +1,116 @@
 [
   {
+    "name": "event-model",
+    "releases": [
+      {
+        "version": "v1.19.2",
+        "release_date": "2023-02-24T15:28:35",
+        "title": "v1.19.2",
+        "body": "Changed\r\n-------\r\n\r\n* Fix warnings about distutils being deprecated in Python>=3.10",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.2"
+      },
+      {
+        "version": "v1.19.1",
+        "release_date": "2022-12-09T16:17:36",
+        "title": "v1.19.1 (2022-12-09)",
+        "body": "v1.19.1 (2022-12-09)\r\n====================\r\n\r\nThis release fixes compatibility with Python 3.7, which was inadvertently\r\nbroken in the previous release, 1.19.0.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
+      },
+      {
+        "version": "v1.19.0",
+        "release_date": "2022-11-03T18:03:35",
+        "title": "event-model v1.19.0",
+        "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
+      },
+      {
+        "version": "v1.18.0",
+        "release_date": "2022-08-05T14:02:38",
+        "title": "event-model v1.18.0",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/event-model/pull/216\r\n* Fix for `databroker.v0` API by @mrakitin in https://github.com/bluesky/event-model/pull/218\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/event-model/pull/217\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.17.2...v1.18.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.18.0"
+      },
+      {
+        "version": "v1.17.2",
+        "release_date": "2021-06-21T18:56:03",
+        "title": "event-model v1.17.2",
+        "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
+      },
+      {
+        "version": "v1.17.1",
+        "release_date": "2021-01-29T21:13:47",
+        "title": "v1.17.1",
+        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2020-12-17T22:46:45",
+        "title": "v1.17.0",
+        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
+      },
+      {
+        "version": "v1.16.1",
+        "release_date": "2020-11-15T03:00:13",
+        "title": "v1.16.1",
+        "body": "* The \"projections\" schema in the Run Start document has been enhanced to accept \"configuration\" locations intended to link to fields that are in Event stream Configuration See :ref:`projections`. Additionally, validation of projections was enhanced.\r\n* The method https://github.com/bluesky/event-model/blob/b7a5fd8f54a9ee96c33a2171e8ecb243f0b08391/event_model/__init__.py#L1283 was enhanced to check for repeated runs with  colliding uids, raising an ValueError when this occurs.\r\n[event-model-1.16.1.tar.gz](https://github.com/bluesky/event-model/files/5550012/event-model-1.16.1.tar.gz)\r\n[event-model-1.16.1.zip](https://github.com/bluesky/event-model/files/5550013/event-model-1.16.1.zip)\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
+      },
+      {
+        "version": "v1.16.0",
+        "release_date": "2020-09-03T18:30:51",
+        "title": "v1.16.0",
+        "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
+      },
+      {
+        "version": "v1.15.2",
+        "release_date": "2020-06-12T19:28:01",
+        "title": "v1.15.2",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
+      },
+      {
+        "version": "v1.13.3",
+        "release_date": "2020-03-05T21:55:06",
+        "title": "v1.13.3",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.13.3"
+      },
+      {
+        "version": "v1.11.0",
+        "release_date": "2019-06-27T15:22:18",
+        "title": "Filler updates",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.11.0"
+      },
+      {
+        "version": "v1.6.0",
+        "release_date": "2018-08-29T22:41:47",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.6.0"
+      },
+      {
+        "version": "v1.5.0",
+        "release_date": "2018-05-15T15:42:21",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.5.0"
+      },
+      {
+        "version": "v1.4.0",
+        "release_date": "2017-11-01T16:14:32",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "databroker",
     "releases": [
       {
@@ -123,110 +234,6 @@
       }
     ],
     "new_commits": 0
-  },
-  {
-    "name": "event-model",
-    "releases": [
-      {
-        "version": "v1.19.1",
-        "release_date": "2022-12-09T16:17:36",
-        "title": "v1.19.1 (2022-12-09)",
-        "body": "v1.19.1 (2022-12-09)\r\n====================\r\n\r\nThis release fixes compatibility with Python 3.7, which was inadvertently\r\nbroken in the previous release, 1.19.0.\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
-      },
-      {
-        "version": "v1.19.0",
-        "release_date": "2022-11-03T18:03:35",
-        "title": "event-model v1.19.0",
-        "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
-      },
-      {
-        "version": "v1.18.0",
-        "release_date": "2022-08-05T14:02:38",
-        "title": "event-model v1.18.0",
-        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/event-model/pull/216\r\n* Fix for `databroker.v0` API by @mrakitin in https://github.com/bluesky/event-model/pull/218\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/event-model/pull/217\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.17.2...v1.18.0",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.18.0"
-      },
-      {
-        "version": "v1.17.2",
-        "release_date": "2021-06-21T18:56:03",
-        "title": "event-model v1.17.2",
-        "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
-      },
-      {
-        "version": "v1.17.1",
-        "release_date": "2021-01-29T21:13:47",
-        "title": "v1.17.1",
-        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
-      },
-      {
-        "version": "v1.17.0",
-        "release_date": "2020-12-17T22:46:45",
-        "title": "v1.17.0",
-        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
-      },
-      {
-        "version": "v1.16.1",
-        "release_date": "2020-11-15T03:00:13",
-        "title": "v1.16.1",
-        "body": "* The \"projections\" schema in the Run Start document has been enhanced to accept \"configuration\" locations intended to link to fields that are in Event stream Configuration See :ref:`projections`. Additionally, validation of projections was enhanced.\r\n* The method https://github.com/bluesky/event-model/blob/b7a5fd8f54a9ee96c33a2171e8ecb243f0b08391/event_model/__init__.py#L1283 was enhanced to check for repeated runs with  colliding uids, raising an ValueError when this occurs.\r\n[event-model-1.16.1.tar.gz](https://github.com/bluesky/event-model/files/5550012/event-model-1.16.1.tar.gz)\r\n[event-model-1.16.1.zip](https://github.com/bluesky/event-model/files/5550013/event-model-1.16.1.zip)\r\n\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
-      },
-      {
-        "version": "v1.16.0",
-        "release_date": "2020-09-03T18:30:51",
-        "title": "v1.16.0",
-        "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
-      },
-      {
-        "version": "v1.15.2",
-        "release_date": "2020-06-12T19:28:01",
-        "title": "v1.15.2",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
-      },
-      {
-        "version": "v1.13.3",
-        "release_date": "2020-03-05T21:55:06",
-        "title": "v1.13.3",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.13.3"
-      },
-      {
-        "version": "v1.11.0",
-        "release_date": "2019-06-27T15:22:18",
-        "title": "Filler updates",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.11.0"
-      },
-      {
-        "version": "v1.6.0",
-        "release_date": "2018-08-29T22:41:47",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.6.0"
-      },
-      {
-        "version": "v1.5.0",
-        "release_date": "2018-05-15T15:42:21",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.5.0"
-      },
-      {
-        "version": "v1.4.0",
-        "release_date": "2017-11-01T16:14:32",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
-      }
-    ],
-    "new_commits": 2
   },
   {
     "name": "bluesky-widgets",
@@ -492,13 +499,6 @@
         "title": "v1.9.0",
         "body": "## What's Changed\r\n* DOC: fix docstring on plan_stubs.close_run by @tacaswell in https://github.com/bluesky/bluesky/pull/1519\r\n* Future support by @tacaswell in https://github.com/bluesky/bluesky/pull/1512\r\n* MNT: clarify how suspenders get evaluated by @tacaswell in https://github.com/bluesky/bluesky/pull/1518\r\n* Fix language for sphinx 5.0 by @coretl in https://github.com/bluesky/bluesky/pull/1524\r\n* Add async capabilities to protocols by @coretl in https://github.com/bluesky/bluesky/pull/1522\r\n* Bad comparison created too many axes for plots by @maffettone in https://github.com/bluesky/bluesky/pull/1533\r\n* FIX: make trigger and read careful by @tacaswell in https://github.com/bluesky/bluesky/pull/1525\r\n* STY: fix whitespace around keywords by @tacaswell in https://github.com/bluesky/bluesky/pull/1537\r\n* DOC: Finish release notes for 1.9.0 by @tacaswell in https://github.com/bluesky/bluesky/pull/1538\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/bluesky/pull/1524\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.3...v1.9.0",
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.9.0"
-      },
-      {
-        "version": "v1.8.3",
-        "release_date": "2022-04-08T17:30:14",
-        "title": "bluesky v1.8.3",
-        "body": "## What's Changed\r\n* DOC: document pycertifspec as hardware interface by @untzag in https://github.com/bluesky/bluesky/pull/1498\r\n* ENH: add extra dependencies by @untzag in https://github.com/bluesky/bluesky/pull/1509\r\n* ENH: don't call stage unless stageable by @untzag in https://github.com/bluesky/bluesky/pull/1507\r\n* Many motor BestEffortCallback by @maffettone in https://github.com/bluesky/bluesky/pull/1511\r\n* v1.8.3 release notes by @gwbischof in https://github.com/bluesky/bluesky/pull/1514\r\n\r\n## New Contributors\r\n* @maffettone made their first contribution in https://github.com/bluesky/bluesky/pull/1511\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.2...v1.8.3",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
       },
       {
         "version": "v1.8.2",
