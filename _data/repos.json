@@ -1010,6 +1010,19 @@
     "new_commits": 1
   },
   {
+    "name": "suitcase-csv",
+    "releases": [
+      {
+        "version": "v0.3.0",
+        "release_date": "2021-10-12T20:51:04",
+        "title": "Release v0.3.0",
+        "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements\r\n- Updates to documentation",
+        "href": "https://github.com/bluesky/suitcase-csv/releases/tag/v0.3.0"
+      }
+    ],
+    "new_commits": 1
+  },
+  {
     "name": "suitcase-nxsas",
     "releases": [
       {
