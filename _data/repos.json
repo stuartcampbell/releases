@@ -764,6 +764,13 @@
         "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.2"
       },
       {
+        "version": "v1.0.1",
+        "release_date": "2021-09-20T15:30:15",
+        "title": "v1.0.1",
+        "body": "## v1.0.1\r\n\r\nMaintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.0\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.1) (wiki page) from version control history\r\n",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.1"
+      },
+      {
         "version": "v1.0.0",
         "release_date": "2021-09-13T14:55:36",
         "title": "v1.0.0",
