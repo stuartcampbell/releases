@@ -694,13 +694,6 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.7.0"
       },
       {
-        "version": "v1.6.4",
-        "release_date": "2022-04-08T19:29:26",
-        "title": "ophyd v1.6.4",
-        "body": "## What's Changed\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1019\r\n* report signal name on ValueError in Signal.describe() by @jklynch in https://github.com/bluesky/ophyd/pull/1020\r\n* Added timeout arguments to FakeEpicsSignal by @DominicOram in https://github.com/bluesky/ophyd/pull/1023\r\n* v1.6.4 release notes by @gwbischof in https://github.com/bluesky/ophyd/pull/1031\r\n\r\n## New Contributors\r\n* @DominicOram made their first contribution in https://github.com/bluesky/ophyd/pull/1023\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.3...v1.6.4",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.4"
-      },
-      {
         "version": "v1.6.3",
         "release_date": "2021-10-11T19:21:30",
         "title": "v1.6.3",
@@ -720,13 +713,6 @@
         "title": "v1.6.0",
         "body": "## Fixes\r\n\r\n* The write_timeout specified for an EpicsSignalBase is respected by its set() method unless overridden with set(..., timeout=TIMEOUT).\r\nArea Detector PVs related to array shape have been given an order compatible with the numpy array index ordering of the array itself.\r\n* Thread the keyword EpicsSignal.get(..., use_monitor=True) down to the control system. This setting was previously supported but support was removed (years ago). We now view its removal as a mistake.\r\n* When area detector takes a series of images and num_capture is set to 0, this is now interpreted to mean \u201chowever many images the detector is configured to acquire\u201d rather than \u201c0 images\u201d.\r\n* Fixed EigerDetectorCam\u2019s photon_energy component\u2019s PV suffix spelling.\r\n* Motor limits HLS and LLS used EpicsSignal when they should be using EpicsSignalRO.\r\n* EpicsSignal with string=True kwarg now correctly results in dtype='string' from .describe() method\r\n\r\n## Added\r\n* Support for Emergent Vision detectors.\r\n* The class-wide default for write_timeout is now configurable via EpicsSignalBase.set_defaults(). It was previously only configurable on a per-instance basis at initialization time, with the class-wide default hard-coded to None. The class-wide default is still None, unchanged from the previous release.\r\n* The class-wide default for auto_monitor is now configurable via EpicsSignalBase.set_defaults(). It was previously configurable on a per-instance basis at initialization time. The default value, False, has not changed.\r\n\r\n## Changes\r\n* The logging has been tweaked to be less noisy, particularly at import time. Some log messages have been moved from 'ophyd.object' to 'ophyd.control_layer', and the level of messages emitted to 'ophyd.control_layer' have been reduced from INFO to DEBUG. Some log messages have been removed entirely.\r\n* The method EpicsSignalBase.set_default_timeout() has been renamed to EpicsSignalBase.set_defaults() because it has been extended to include more than timeouts, as described above. The old name is still supported but issues a warning that it may be removed in the future.\r\n* Use auto-monitoring in more places in EpicsMotor. This should drastically speed up motor.read_configuration().\r\n* Update ophyd.sim.MockFlyer to use its name as its stream name.\r\n* Capture the create_directory signal on Area Detector FilePlugin as configuration.",
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.0"
-      },
-      {
-        "version": "v1.5.3",
-        "release_date": "2020-08-26T13:58:01",
-        "title": "ophyd v1.5.3",
-        "body": "ophyd 1.5.3 (2020-08-26)\r\n===================\r\n\r\nChanges\r\n-------\r\n\r\n* Add a default value for ``ScalerCH.select_channels`` such that calling it\r\n  without arguments selects all named channels.\r\n* Change a particularly verbose ophyd logger from INFO-level to DEBUG-level.\r\n\r\n\r\nFixes\r\n-----\r\n\r\n* Critical bug in EpicsMotor limits set low to high and high to low.\r\n* For area detector cameras, add ``num_images`` to the set of components\r\n  recorded as configuration by default.\r\n\r\nAdded\r\n-----\r\n\r\n* Support for Emergent Vision detectors",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.5.3"
       },
       {
         "version": "v1.3.0",
