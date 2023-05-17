@@ -770,13 +770,6 @@
     "name": "hklpy",
     "releases": [
       {
-        "version": "v1.0.3",
-        "release_date": "2022-06-22T16:44:29",
-        "title": "v1.0.3",
-        "body": "Maintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.2\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.3) (wiki page) from version control history\r\n\r\n## What's Changed\r\n* add workflow to publish to PyPI for new tags  by @prjemian in https://github.com/bluesky/hklpy/pull/224\r\n* Add install doc by @prjemian in https://github.com/bluesky/hklpy/pull/225\r\n* conda environment update by @prjemian in https://github.com/bluesky/hklpy/pull/227\r\n* pip install requirements by @prjemian in https://github.com/bluesky/hklpy/pull/228\r\n* Publish jupyter notebooks directly from documentation source dir by @prjemian in https://github.com/bluesky/hklpy/pull/229\r\n* Document changes for upcoming release v1.0.3 by @prjemian in https://github.com/bluesky/hklpy/pull/230\r\n* switch to micromamba, resolve documentation build problem by @prjemian in https://github.com/bluesky/hklpy/pull/234\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/hklpy/compare/v1.0.2...v1.0.3",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.3"
-      },
-      {
         "version": "v1.0.2",
         "release_date": "2022-06-15T00:23:18",
         "title": "v1.0.2",
