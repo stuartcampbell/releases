@@ -549,6 +549,13 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.2"
       },
       {
+        "version": "v1.8.1",
+        "release_date": "2021-10-11T16:27:48",
+        "title": "bluesky v1.8.1",
+        "body": "v1.8.1 (2021-10-11)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* More fixes for Python 3.10 to propagate the ``loop`` kwarg correctly.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added optional calculation of the derivative and its statistics (``min``,\r\n  ``max``, ``fwhm``, etc.) to ``PeakStats`` and ``BestEffortCallback``.\r\n\r\nAdded\r\n-----\r\n\r\n* Read-only property ``RunEngine.deferred_pause_requested`` which may be useful\r\n  for [bluesky-queueserver](https://github.com/bluesky/bluesky-queueserver).\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Unpin ``sphinx_rtd_theme``.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.1"
+      },
+      {
         "version": "v1.8.0",
         "release_date": "2021-09-15T16:26:55",
         "title": "bluesky v1.8.0",
