@@ -273,13 +273,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
       },
       {
-        "version": "v1.16.0",
-        "release_date": "2020-09-03T18:30:51",
-        "title": "v1.16.0",
-        "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
-      },
-      {
         "version": "v1.15.2",
         "release_date": "2020-06-12T19:28:01",
         "title": "v1.15.2",
