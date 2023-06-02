@@ -1,89 +1,14 @@
 [
   {
-    "name": "bluesky-adaptive",
-    "releases": [
-      {
-        "version": "v0.3.1",
-        "release_date": "2023-04-26T22:53:56",
-        "title": "bluesky-adaptive v0.3.1",
-        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
-      },
-      {
-        "version": "v0.3.0",
-        "release_date": "2023-04-26T18:25:39",
-        "title": "Add distributed agents, adjudicators, and server ",
-        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "bluesky-httpserver",
-    "releases": [
-      {
-        "version": "v0.0.9",
-        "release_date": "2023-03-24T21:30:52",
-        "title": "Release v0.0.9",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.9"
-      },
-      {
-        "version": "v0.0.8",
-        "release_date": "2022-10-31T20:00:33",
-        "title": "Release v0.0.8",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.8"
-      },
-      {
-        "version": "v0.0.7",
-        "release_date": "2022-10-02T23:40:46",
-        "title": "Release v0.0.7",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.7"
-      },
-      {
-        "version": "v0.0.6",
-        "release_date": "2022-07-30T16:00:32",
-        "title": "Release v0.0.6",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.6"
-      },
-      {
-        "version": "v0.0.5",
-        "release_date": "2022-06-24T16:04:31",
-        "title": "Release v0.0.5",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.5"
-      },
-      {
-        "version": "v0.0.4",
-        "release_date": "2022-04-05T21:38:05",
-        "title": "Release v0.0.4",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.4"
-      },
-      {
-        "version": "v0.0.3",
-        "release_date": "2022-03-09T03:41:04",
-        "title": "Release v0.0.3",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.3"
-      },
-      {
-        "version": "v0.0.2",
-        "release_date": "2021-10-07T02:44:04",
-        "title": "Release v0.0.2 (2021-10-06)",
-        "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
-        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "databroker",
     "releases": [
+      {
+        "version": "v2.0.0b23",
+        "release_date": "2023-06-02T20:21:32",
+        "title": "v2.0.0b23",
+        "body": "This adds support for [`distinct()`](https://blueskyproject.io/tiled/reference/generated/tiled.client.node.Node.distinct.html#tiled.client.node.Node.distinct) and adds a `.v2` accessor in more places.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b23"
+      },
       {
         "version": "v2.0.0b22",
         "release_date": "2023-03-22T19:12:42",
@@ -209,6 +134,88 @@
         "title": "v0.8.1",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-adaptive",
+    "releases": [
+      {
+        "version": "v0.3.1",
+        "release_date": "2023-04-26T22:53:56",
+        "title": "bluesky-adaptive v0.3.1",
+        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2023-04-26T18:25:39",
+        "title": "Add distributed agents, adjudicators, and server ",
+        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-httpserver",
+    "releases": [
+      {
+        "version": "v0.0.9",
+        "release_date": "2023-03-24T21:30:52",
+        "title": "Release v0.0.9",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.9"
+      },
+      {
+        "version": "v0.0.8",
+        "release_date": "2022-10-31T20:00:33",
+        "title": "Release v0.0.8",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.8"
+      },
+      {
+        "version": "v0.0.7",
+        "release_date": "2022-10-02T23:40:46",
+        "title": "Release v0.0.7",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.7"
+      },
+      {
+        "version": "v0.0.6",
+        "release_date": "2022-07-30T16:00:32",
+        "title": "Release v0.0.6",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.6"
+      },
+      {
+        "version": "v0.0.5",
+        "release_date": "2022-06-24T16:04:31",
+        "title": "Release v0.0.5",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.5"
+      },
+      {
+        "version": "v0.0.4",
+        "release_date": "2022-04-05T21:38:05",
+        "title": "Release v0.0.4",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.4"
+      },
+      {
+        "version": "v0.0.3",
+        "release_date": "2022-03-09T03:41:04",
+        "title": "Release v0.0.3",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.3"
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2021-10-07T02:44:04",
+        "title": "Release v0.0.2 (2021-10-06)",
+        "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
+        "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
