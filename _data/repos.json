@@ -974,6 +974,13 @@
         "title": "Release v0.9.1",
         "body": "## Changes\r\n\r\n- Fixed version mismatch in config",
         "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.1"
+      },
+      {
+        "version": "v0.9.0",
+        "release_date": "2021-10-13T21:02:03",
+        "title": "Release v0.9.0",
+        "body": "## Changes\r\n\r\n- Various updates and fixes to documentation\r\n- Documented usage with RunRouter\r\n- `requirements.txt` now included in `MANIFEST.in`\r\n- Added auto-publishing to `bluesky.github.io`\r\n- Added auto-publishing to PyPI",
+        "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.0"
       }
     ],
     "new_commits": 0
