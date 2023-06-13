@@ -571,25 +571,11 @@
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.13"
       },
       {
-        "version": "v0.0.12",
-        "release_date": "2022-03-09T03:37:52",
-        "title": "Release v0.0.12",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.12"
-      },
-      {
         "version": "v0.0.11",
         "release_date": "2022-02-27T22:45:56",
         "title": "Release v0.0.11",
         "body": "",
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.11"
-      },
-      {
-        "version": "v0.0.10",
-        "release_date": "2022-02-09T02:52:29",
-        "title": "Release v0.0.10",
-        "body": "Fixed\r\n-----\r\n\r\n- A bug that allowed classes defined in the global scope of the startup script and recognized as\r\n  ``bluesky.protocols.Movable``, ``Readable`` or ``Flyable`` (e.g. ``ophyd.Device``) to be\r\n  included in the list of existing devices. Only instantiated class objects are currently\r\n  included in the list.\r\n\r\n- A deficiency in the code that loads Python scripts (not startup scripts from the folder\r\n  as in IPython ``profile_collection``) into the environment that failed to load scripts containing\r\n  definitions of devices with components.\r\n\r\nAdded\r\n-----\r\n\r\n- Support for passing subdevice names as values of plan parameters.\r\n\r\n- Support for regular expressions in the lists of names defined in ``plans``\r\n  and ``devices`` sections of ``parameter_annotation_decorator``. Keywords ``__MOTOR__``,\r\n  ``__DETECTOR__``, ``__READABLE__`` or ``__FLYABLE__`` can be used in conjunction with\r\n  regular expression to select device of the respective types.\r\n\r\n- New boolean parameters of the plan parameter annotation (``convert_plan_names``\r\n  and ``convert_device_names``) for explicitly enabling/disabling conversion of names\r\n  of plans and/or devices passed as parameter values. Setting those parameters\r\n  overrides the default behavior and should be used with caution.\r\n\r\n- Support for subdevice names in **'user_group_permissions.yaml'**.\r\n\r\n\r\nChanged\r\n-------\r\n\r\n- The algorithm for processing of user group permissions has changed. The old\r\n  **'user_group_permissions.yaml'** may no longer work as expected. If the stock\r\n  **'user_group_permissions.yaml'** is used for the project, replace it with\r\n  the updated file from the repository. Otherwise update the existing file\r\n  using following guidelines:\r\n\r\n  - If the project uses custom **'user_group_permissions.yaml'**, then insert ``:``\r\n    before each regular expression in the lists (e.g. change ``\"^count\"`` to\r\n    ``\":^count\"``, ``\"^det\"`` to ``\":^det\"`` etc.).\r\n  - In previous versions, only the lists with regular expressions were supported.\r\n    Now the lists may include explicitly listed plan, device or subdevice names,\r\n    such as ``\"count\"``, ``\"det1\"``, ``\"det1.val\"`` (there is no need to use regular\r\n    expressions such as ``\":^count$\"`` to allow the plan ``count``).\r\n  - The supported patterns allow to control which subdevices are included. For example,\r\n    the pattern ``:^det`` includes all devices with names starting with ``det``,\r\n    but no subdevices. The pattern ``\":^det:?.*\"`` selects all subdevices with\r\n    unlimited depth. Patterns may include the parameter ``depth`` that limits\r\n    maximum depth for subdevices, for example ``\":^det:?.*:depth=2\"`` adds\r\n    subdevices and subdevices of subdevices. See\r\n    `Configuring User Group Permissions\r\n    <https://blueskyproject.io/bluesky-queueserver/features_and_config.html#configuring-user-group-permissions>`_\r\n    for more detailed instructions.\r\n\r\nRemoved\r\n-------\r\n\r\n- Built-in types ``AllDetectors``, ``AllMotors``, ``AllFlyers`` and ``AllPlans`` can no\r\n  longer be used in parameter annotations of defined in ``parameter_annotation_decorator``.\r\n  Use regular expressions in conjunction with keywords ``__MOTOR__``, ``__DETECTOR__``,\r\n  ``__READABLE__`` or ``__FLYABLE__`` to create lists of devices of respective types.\r\n  Use built-in types ``__PLAN__``, ``__DEVICE__``, ``__PLAN_OR_DEVICE__`` in parameter\r\n  annotations to selectively enable conversion of names for all plans and/or\r\n  devices without creating lists of names. Alternatively, use ``convert_plan_names``\r\n  or ``convert_device_names`` parameters of the annotation in order to explicitly\r\n  enable/disable conversion of all plan/device names.\r\n",
-        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.10"
       },
       {
         "version": "v0.0.9",
