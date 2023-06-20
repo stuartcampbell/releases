@@ -197,27 +197,6 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b23"
       },
       {
-        "version": "v2.0.0b22",
-        "release_date": "2023-03-22T19:12:42",
-        "title": "v2.0.0b22",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b22"
-      },
-      {
-        "version": "v2.0.0b17",
-        "release_date": "2023-02-21T19:16:33",
-        "title": "v2.0.0b17",
-        "body": "Fixes Broker.named('temp')",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b17"
-      },
-      {
-        "version": "v2.0.0b10",
-        "release_date": "2022-09-15T18:51:06",
-        "title": "v2.0.0b10",
-        "body": "## What's Changed\r\n* Added update_metadata() to write_ adapters by @jmaruland in https://github.com/bluesky/databroker/pull/716\r\n* Header.data() fix by @gwbischof in https://github.com/bluesky/databroker/pull/728\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b9...v2.0.0b10",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b10"
-      },
-      {
         "version": "v2.0.0b9",
         "release_date": "2022-09-13T20:59:16",
         "title": "v2.0.0b9",
@@ -237,13 +216,6 @@
         "title": "v1.2.5",
         "body": "## What's Changed\r\n* CI: add a workflow to publish to PyPI by @mrakitin in https://github.com/bluesky/databroker/pull/676\r\n* Get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/677\r\n* DOC: corrected the same typo a few times. by @clintonroy in https://github.com/bluesky/databroker/pull/682\r\n* DOC: just a typo fix. by @clintonroy in https://github.com/bluesky/databroker/pull/683\r\n* don't use intake v0.6.5, and get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/685\r\n* release notes v1.2.5 by @gwbischof in https://github.com/bluesky/databroker/pull/686\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.4...v1.2.5",
         "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
-      },
-      {
-        "version": "v1.2.4",
-        "release_date": "2021-10-07T18:15:42",
-        "title": "databroker v1.2.4",
-        "body": "### Fixed\r\n* tzlocal support",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
       },
       {
         "version": "v1.2.0",
