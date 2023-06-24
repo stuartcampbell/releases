@@ -145,166 +145,6 @@
     "new_commits": 0
   },
   {
-    "name": "bluesky",
-    "releases": [
-      {
-        "version": "v1.11.0",
-        "release_date": "2023-06-08T11:55:15",
-        "title": "v1.11.0",
-        "body": "## What's Changed\r\n* DOC: add bluesky base to readme by @untzag in https://github.com/bluesky/bluesky/pull/1545\r\n* FIX: LiveGrids placing x-axis tick labels on all columns by @maffettone in https://github.com/bluesky/bluesky/pull/1548\r\n* Add Locatable by @coretl in https://github.com/bluesky/bluesky/pull/1536\r\n* DOC miniscule typo, hardly worth a bother by @prjemian in https://github.com/bluesky/bluesky/pull/1556\r\n* ENH: add resume thresholds to suspender justification message by @tacaswell in https://github.com/bluesky/bluesky/pull/1554\r\n* DEP: remove deprecated get_event_loop() by @tizayi in https://github.com/bluesky/bluesky/pull/1564\r\n* Made protocol methods abstract by @evalott100 in https://github.com/bluesky/bluesky/pull/1562\r\n* DEP: remove loop param from AsyncInput in bluesky.utils by @hyperrealist in https://github.com/bluesky/bluesky/pull/1566\r\n* DOC: fix unit tests badge of readme by @untzag in https://github.com/bluesky/bluesky/pull/1565\r\n* DOC: minor typo fixed. by @clintonroy in https://github.com/bluesky/bluesky/pull/1568\r\n* ENH: make stage and unstage return status objects by @tizayi in https://github.com/bluesky/bluesky/pull/1563\r\n* Qt kicker 1494 by @RussBerg in https://github.com/bluesky/bluesky/pull/1495\r\n* FIX: Remove callable from plan signature for qserver by @maffettone in https://github.com/bluesky/bluesky/pull/1571\r\n* MNT: move fig_factory default resolution in BestEffortCallback by @tacaswell in https://github.com/bluesky/bluesky/pull/1569\r\n* Propagate exception through failed status by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1570\r\n* Add ability to pre-declare a stream by @tacaswell in https://github.com/bluesky/bluesky/pull/1542\r\n* Point at newly versioned event model docs by @coretl in https://github.com/bluesky/bluesky/pull/1574\r\n* pinned zict to <3.0.0 by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1578\r\n* removed with_traceback call by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1575\r\n* Update minimum Python version in tutorial by @callumforrester in https://github.com/bluesky/bluesky/pull/1576\r\n* Remove useless instructions about install_kicker by @graeme-winter in https://github.com/bluesky/bluesky/pull/1583\r\n* DOC: Tidy up tutorial around gridscans by @DominicOram in https://github.com/bluesky/bluesky/pull/1584\r\n* Use Python version check rather than import error check to import Protocol by @callumforrester in https://github.com/bluesky/bluesky/pull/1585\r\n* Add v1.11.0 release notes by @coretl in https://github.com/bluesky/bluesky/pull/1588\r\n\r\n## New Contributors\r\n* @tizayi made their first contribution in https://github.com/bluesky/bluesky/pull/1564\r\n* @evalott100 made their first contribution in https://github.com/bluesky/bluesky/pull/1562\r\n* @hyperrealist made their first contribution in https://github.com/bluesky/bluesky/pull/1566\r\n* @RussBerg made their first contribution in https://github.com/bluesky/bluesky/pull/1495\r\n* @RAYemelyanova made their first contribution in https://github.com/bluesky/bluesky/pull/1570\r\n* @graeme-winter made their first contribution in https://github.com/bluesky/bluesky/pull/1583\r\n* @DominicOram made their first contribution in https://github.com/bluesky/bluesky/pull/1584\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.10.0...v1.11.0",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.11.0"
-      },
-      {
-        "version": "v1.10.0",
-        "release_date": "2022-09-06T22:10:37",
-        "title": "v1.10.0",
-        "body": "## What's Changed\r\n* Removed support for Python < 3.8 by @maffettone in #1534\r\n* Properly register user-supplied event loops by @ZLLentz in #1539 \r\n* Removed status_tasks dequeue from RunEngine, fixing long-standing memory leak by @tacaswell in #1513\r\n* No-longer pre-compute all axes when not snaking, lowering memory footprint for large scans by @ksunden in #1543 \r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.9.0...v1.10.0",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.10.0"
-      },
-      {
-        "version": "v1.9.0",
-        "release_date": "2022-08-11T14:58:16",
-        "title": "v1.9.0",
-        "body": "## What's Changed\r\n* DOC: fix docstring on plan_stubs.close_run by @tacaswell in https://github.com/bluesky/bluesky/pull/1519\r\n* Future support by @tacaswell in https://github.com/bluesky/bluesky/pull/1512\r\n* MNT: clarify how suspenders get evaluated by @tacaswell in https://github.com/bluesky/bluesky/pull/1518\r\n* Fix language for sphinx 5.0 by @coretl in https://github.com/bluesky/bluesky/pull/1524\r\n* Add async capabilities to protocols by @coretl in https://github.com/bluesky/bluesky/pull/1522\r\n* Bad comparison created too many axes for plots by @maffettone in https://github.com/bluesky/bluesky/pull/1533\r\n* FIX: make trigger and read careful by @tacaswell in https://github.com/bluesky/bluesky/pull/1525\r\n* STY: fix whitespace around keywords by @tacaswell in https://github.com/bluesky/bluesky/pull/1537\r\n* DOC: Finish release notes for 1.9.0 by @tacaswell in https://github.com/bluesky/bluesky/pull/1538\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/bluesky/pull/1524\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.3...v1.9.0",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.9.0"
-      },
-      {
-        "version": "v1.8.3",
-        "release_date": "2022-04-08T17:30:14",
-        "title": "bluesky v1.8.3",
-        "body": "## What's Changed\r\n* DOC: document pycertifspec as hardware interface by @untzag in https://github.com/bluesky/bluesky/pull/1498\r\n* ENH: add extra dependencies by @untzag in https://github.com/bluesky/bluesky/pull/1509\r\n* ENH: don't call stage unless stageable by @untzag in https://github.com/bluesky/bluesky/pull/1507\r\n* Many motor BestEffortCallback by @maffettone in https://github.com/bluesky/bluesky/pull/1511\r\n* v1.8.3 release notes by @gwbischof in https://github.com/bluesky/bluesky/pull/1514\r\n\r\n## New Contributors\r\n* @maffettone made their first contribution in https://github.com/bluesky/bluesky/pull/1511\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.2...v1.8.3",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
-      },
-      {
-        "version": "v1.8.2",
-        "release_date": "2021-12-20T23:36:17",
-        "title": "bluesky v1.8.2",
-        "body": "v1.8.2 (2021-12-20)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* Changed from using ``SafeConfigParser`` to ``ConfigParser`` in\r\n  ``versioneer.py`` (fix to support Python 3.11).\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added public ``call_returns_result`` property.\r\n* Implemented human-readable printable representation for ``PeakStats``.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Updated ``RunEngine`` docstring with ``call_returns_result`` property.\r\n* Fixed a small mistake in ``bp.scan`` docstring.\r\n* Added documentation about intended behavior of fraction in the ``watch``\r\n  method of the status object.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.2"
-      },
-      {
-        "version": "v1.8.1",
-        "release_date": "2021-10-11T16:27:48",
-        "title": "bluesky v1.8.1",
-        "body": "v1.8.1 (2021-10-11)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* More fixes for Python 3.10 to propagate the ``loop`` kwarg correctly.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added optional calculation of the derivative and its statistics (``min``,\r\n  ``max``, ``fwhm``, etc.) to ``PeakStats`` and ``BestEffortCallback``.\r\n\r\nAdded\r\n-----\r\n\r\n* Read-only property ``RunEngine.deferred_pause_requested`` which may be useful\r\n  for [bluesky-queueserver](https://github.com/bluesky/bluesky-queueserver).\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Unpin ``sphinx_rtd_theme``.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.1"
-      },
-      {
-        "version": "v1.8.0",
-        "release_date": "2021-09-15T16:26:55",
-        "title": "bluesky v1.8.0",
-        "body": "Fixed\r\n-----\r\n\r\n* Updated the tests to use databroker.temp instead of sqlite databroker.\r\n* ``xfail`` test that uses removed API.\r\n* Fix ``list_grid_scan`` metadata for ``plan_pattern_args``.\r\n* Fix descriptors for flyers that do not implement ``read_configuration``.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Do not pass the ``loop`` kwarg to ``RunEngine`` and ``RunBundler`` if we do\r\n  not have to.\r\n* ``RunEngine``'s ``__call__`` now may return plan value, as toggled by new ``call_returns_result`` flag.\r\n  Default behavior has not changed, but may change in a future release.\r\n\r\nAdded\r\n-----\r\n\r\n* Enabled support of Python 3.9 and added it to the test matrix.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Update TOC links to blueskyproject.io.\r\n* Added release instructions.\r\n* Filled out ``README.md`` and added the ``description`` and\r\n  ``long_description`` fields to ``setup.py``.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.0"
-      },
-      {
-        "version": "v1.7.0",
-        "release_date": "2021-07-14T16:09:59",
-        "title": "bluesky v1.7.0",
-        "body": "# Fixed\r\n- Fixed missing log output for CLI ZMQ proxy.\r\n- Deprecated argument `logfile` of `bluesky.commandline.zmq_proxy.start_dispatcher`.\r\n- Better behavior when zmq RemoteDispatcher receives malformed messages.\r\n\r\n# Enhancements\r\n- Reorganized utils into subpackage, no API changes.\r\n- Added `bluesky.utils.jupyter.NotebookProgressBar`.\r\n- `bluesky.utils.PersistentDict` now inherits from `collections.abc.MutableMapping`.\r\n- New module `bluesky.protocols` designed for type checking devices. See PEP 544.\r\n",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
-      },
-      {
-        "version": "v1.6.7",
-        "release_date": "2020-11-04T19:18:52",
-        "title": "bluesky v1.6.7",
-        "body": "## Fixed\r\n*  Tweak layout of plots produced by the Best-Effort Callback when showing many LiveGrids.\r\n* The bluesky.simulators.check_limits() simulator now calls obj.check_value() instead of looking at obj.limits.\r\n* When a document is emitted from a RunEngine, a log message is always issued. Previously, Resource and Datum documents were missed.\r\n* Various docstrings were fixed to match the actual function signatures.\r\n* The utility bluesky.utils.is_movable() for checking with an object satifies the expected interfaced for a \u201cmovable\u201d object now correctly treats the stop method and position attribute as optional.\r\n* Documentation about the expected interface for \u201cmovable\u201d objects was incomplete and has been revised to match reality.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.7"
-      },
-      {
-        "version": "v1.6.6",
-        "release_date": "2020-08-26T16:18:55",
-        "title": "bluesky v1.6.6",
-        "body": "bluesky v1.6.6 (2020-08-26)\r\n---------------------\r\n\r\n## Fixed\r\n\r\n- `bluesky.utils.PersistentDict` has new methods `bluesky.utils.PersistentDict.reload()` and `bluesky.utils.PersistentDict.flush()` to syncing from and to disk. It flushes at garbage collection or system exit, which ensures that any values that have been mutated are updated on disk.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.6"
-      },
-      {
-        "version": "v1.6.4",
-        "release_date": "2020-07-08T16:19:43",
-        "title": "bluesky version 1.6.4",
-        "body": "## Fixed\r\n* Allow `:` to be used in keynames and still format LiveTable.\r\n* Address use of loop argument deprecated in Python 3.8.\r\n* Ensure that `bluesky.utils` is importable from a background thread. (Do not create an instance of *~bluesky.utils.DefaultDuringTask* at import time.)",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.4"
-      },
-      {
-        "version": "v1.4.1",
-        "release_date": "2018-09-24T17:30:39",
-        "title": "bluesky version 1.4.1",
-        "body": "This release fixes a single regression introduced in v1.4.0. We recommend all users upgrade.\r\n\r\n## Bug Fixes\r\n\r\nFix a critical typo that made LiveGrid unusable.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.1"
-      },
-      {
-        "version": "v1.4.0",
-        "release_date": "2018-09-05T16:35:59",
-        "title": "bluesky version 1.4.0",
-        "body": "## Features\r\n\r\n* Added ability to control \u2018sense\u2019 of `LiveGrid` (ex \u201cpositive goes down and to the right\u201d) to match the coordinates in the hutch.\r\n* Learned how to specify the serializer / deserializer for the zmq publisher / client.\r\n* Promoted the inner function from `one_nd_step()` to a top-level plan `bluesky.plan_stubs.move_per_step()`.\r\n* Added flag to `ramp_plan()` to control if a data point is taken before the ramp starts.\r\n\r\n## Bug Fixes\r\n\r\n* Ensure order stability in `get_labeled_devices()` on all supported versions of Python.\r\n* Fixed typos, dev requirements, and build details.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.0"
-      },
-      {
-        "version": "v1.3.3",
-        "release_date": "2018-06-06T12:07:14",
-        "title": "bluesky version 1.3.3",
-        "body": "## Bug Fixes\r\n* Fixed show-shopping RunEngine bug in flyer asset collection. (The impact of this bug is expected to be low, as there are no flyers with asset collection yet and the bug was discovered while writing the first one.)\r\n* Fixed packaging issue where certain important files (notably requirements.txt) were not included in the source tarball.\r\n* Made BestEffortCallback swallow errors related to matplotlib\u2019s \u201ctight layout\u201d if the occur \u2014 better to show a messy plot than error out.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.3"
-      },
-      {
-        "version": "v1.3.2",
-        "release_date": "2018-05-24T18:14:35",
-        "title": "bluesky version 1.3.2",
-        "body": "## Bug Fixes\r\n* Revised behavior of magics that integrate with ophyd\u2019s experimental \u201clabels\u201d feature. The most important difference is that the %wa magic now traverses the children of labeled devices to find any sub-devices that are positioners.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.2"
-      },
-      {
-        "version": "v1.3.1",
-        "release_date": "2018-05-20T00:09:52",
-        "title": "bluesky version 1.3.1",
-        "body": "## Bug Fixes\r\n* Fixed race condition where monitored signals could emit an Event document before the corresponding Event Descriptor document.\r\n* Addressed incompatibilities with upcoming release of Python, 3.7.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.1"
-      },
-      {
-        "version": "v1.3.0",
-        "release_date": "2018-05-15T16:49:43",
-        "title": "bluesky version 1.3",
-        "body": "## Features\r\n* When used with ophyd v1.2.0 or later, emit Resource and Datum documents through the RunEngine. Previously, ophyd would insert these documents directly into a database. This left other consumers with only partial information (for example, missing file paths to externally-stored data) and no guarantees around synchronization. Now, ophyd need not interact with a database directly. All information flows through the RunEngine and out to any subscribed consumers in a deterministic order.\r\n* New Msg commands, install_suspender and remove_suspender, allow plans to temporarily add and remove Suspenders.\r\n* The RunEngine\u2019s signal handling (i.e. Ctrl+C capturing) is now configurable. The RunEngine accepts a list of context_managers that it will enter and exit before and after running. By default, it has one context manager that handles Ctrl+C. To disable Ctrl+C handling, pass in an empty list instead. This can also be used to inject other custom behavior.\r\n* Add new plans: x2x_scan(), spiral_square_plan(), and rel_spiral_square_plan().\r\n* Add convenience methods for reviewing the available commands, commands() and print_command_registry().\r\n* Add a crossings attribute to PeakStats.\r\n\r\n## Bug Fixes\r\n* When resuming after a suspender, call resume() on all devices (if present).\r\n* Fixed BEC LiveGrid plot for a motor with one step.\r\n* A codepath in LiveFit that should have produced a warning produced an error instead.\r\n## Breaking Changes\r\n* User-defined callbacks subscribed to the RunEngine 'all' stream must accept documents with names 'resource', 'datum' and 'bulk_datum'. It does not necessarily have to heed their contents, but it must not fall over if it receives one.\r\n## Deprecations\r\n* The IPython \u201cmagics\u201d, always marked as experimental, have been reworked. Instead of relying on the singleton lists, BlueskyMagics.positioners and BlueskyMagics.detectors, the magics now scrape the user namespace for objects that implement the _ophyd_labels_ interface. See IPython \u2018Magics\u2019 [Experimental] for the new usage. The magics will revert to their old behavior if the singleton lists are non-empty, but they will produce a warning. The old behavior will be ",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.0"
-      },
-      {
-        "version": "v1.2.0",
-        "release_date": "2018-02-20T20:47:07",
-        "title": "bluesky version 1.2",
-        "body": "## Features\r\n* Refreshed documentation with a new Tutorial section.\r\n* Extend scan() and rel_scan() to handle multiple motors, rendering inner_product_scan() and relative_inner_product_scan() redundant.\r\n* A new plan stub, repeat(), repeats another plan N times with optional interleaved delays \u2014 a kind of customizable version of count().\r\n* Better validation of user-defined per_step functions and more informative error messages to match.\r\n\r\n## Bug Fixes\r\n* Fix axes orientation in LiveRaster.\r\n* Make BestEffortCallback display multi-motor scans properly.\r\n* Fix bug in ts_msg_hook() where it conflated month and minute. Also, include sub-second precision.\r\n* Avoid situation where plan without hints caused the BestEffortCallback to error instead of do its best to guess useful behavior.\r\n* Skip un-filled externally-stored data in LiveTable. This fixes a bug where it is expecting array data but gets UUID (datum_id) and errors out.\r\n## Deprecations\r\nThe caching_repeater() plan has been deprecated because it is incompatible with some preprocessors. It will be removed in a future release of bluesky. It was not documented in any previous releases and rarely if ever used, so the impact of this removal is expected to be low.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.2.0"
-      },
-      {
-        "version": "v1.1.0",
-        "release_date": "2017-12-19T22:53:55",
-        "title": "bluesky version 1.1",
-        "body": "This release fixes small bugs in v1.0.0 and introduces one new feature. The API changes or deprecations are not expected to affect many users.\r\n\r\n## Enhancements\r\n* Add a new command to the [RunEngine](http://nsls-ii.github.io/bluesky/run_engine_api.html#bluesky.run_engine.RunEngine), `'drop'`, which jettisons the currently active event bundle without saving. This is useful for workflows that generate many readings that can immediately be categorized as not useful by the plan and summarily discarded.\r\n* Add `install_kicker()`, which dispatches automatically to `install_qt_kicker()` or `install_nb_kicker()` depending on the current matplotlib backend.\r\n\r\n## Bug Fixes\r\n* Fix the hint for [inner_product_scan()](http://nsls-ii.github.io/bluesky/generated/bluesky.plans.inner_product_scan.html#bluesky.plans.inner_product_scan), which previously used a default hint that was incorrect.\r\n\r\n## API Changes\r\n* In [tune_centroid()](http://nsls-ii.github.io/bluesky/generated/bluesky.plans.tune_centroid.html#bluesky.plans.tune_centroid), change the meaning of the `step_factor` parameter to be the factor to reduce the range of each successive iteration. Enforce bounds on the motion, and determine the centroid from each pass separately.\r\n* The [SupplementalData](http://nsls-ii.github.io/bluesky/plans.html#bluesky.preprocessors.SupplementalData) preprocessor inserts its instructions in a more logical order: first baseline readings, then monitors, then flyers. Previously, the order was reversed.\r\n\r\n## Deprecations\r\n* The suspender `SuspendInBand` has been renamed to [SuspendWhenOutsideBand](http://nsls-ii.github.io/bluesky/generated/bluesky.suspenders.SuspendWhenOutsideBand.html#bluesky.suspenders.SuspendWhenOutsideBand) to make its meaning more clear. Its behavior has not changed: it suspends when a value exits a given range. The original, confusing name now issues a warning.\r\n* The suspender `SuspendOutBand`, which counter-intuitively suspends when a value enters a given range, has been deprecated. (If some application is found for this unusual scenario, the user can always implement a custom suspender to handle it.)",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.1.0"
-      },
-      {
-        "version": "v1.0.0",
-        "release_date": "2017-11-07T17:20:08",
-        "title": "bluesky version 1.0",
-        "body": "This tag marks an important release for bluesky, signifying the conclusion of the early development phase. From this point on, we intend that this project will be co-developed between multiple facilities. The 1.x series is planned to be a long-term-support release.\r\n\r\n## Bug Fixes\r\n* `mv()` and `mvr()` now works on pseudopositioners.\r\n* `reset_positions_wrapper()` now works on pseudopositioners.\r\n* Plans given an empty detectors list, such as `count([])`, no longer break the `BestEffortCallback`.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.0.0"
-      },
-      {
-        "version": "v0.11.0",
-        "release_date": "2017-11-01T16:10:59",
-        "title": "bluesky version 0.11.0",
-        "body": "\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-11-0)",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v0.11.0"
-      },
-      {
-        "version": "v0.10.0",
-        "release_date": "2017-09-06T21:17:00",
-        "title": "bluesky version 0.10.0",
-        "body": "We are proud to announce the 0.10.0 release of bluesky.\r\n\r\n* Automatic best-effort visualization and peak-fitting is available for all plans, including user-defined ones.\r\n* The \u201cSPEC-like\u201d API has been fully removed, and its most useful features have been applied to the library in a self-consistent way. See [here](https://nsls-ii.github.io/bluesky/api_changes.html#api-changes) for detailed instructions on migrating.\r\n* Improved tooling for streaming documents over a network for live processing and visualization in a different process or on a different machine.\r\n\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-10-0)",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "databroker",
     "releases": [
       {
@@ -717,6 +557,159 @@
       }
     ],
     "new_commits": 0
+  },
+  {
+    "name": "bluesky",
+    "releases": [
+      {
+        "version": "v1.10.0",
+        "release_date": "2022-09-06T22:10:37",
+        "title": "v1.10.0",
+        "body": "## What's Changed\r\n* Removed support for Python < 3.8 by @maffettone in #1534\r\n* Properly register user-supplied event loops by @ZLLentz in #1539 \r\n* Removed status_tasks dequeue from RunEngine, fixing long-standing memory leak by @tacaswell in #1513\r\n* No-longer pre-compute all axes when not snaking, lowering memory footprint for large scans by @ksunden in #1543 \r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.9.0...v1.10.0",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.10.0"
+      },
+      {
+        "version": "v1.9.0",
+        "release_date": "2022-08-11T14:58:16",
+        "title": "v1.9.0",
+        "body": "## What's Changed\r\n* DOC: fix docstring on plan_stubs.close_run by @tacaswell in https://github.com/bluesky/bluesky/pull/1519\r\n* Future support by @tacaswell in https://github.com/bluesky/bluesky/pull/1512\r\n* MNT: clarify how suspenders get evaluated by @tacaswell in https://github.com/bluesky/bluesky/pull/1518\r\n* Fix language for sphinx 5.0 by @coretl in https://github.com/bluesky/bluesky/pull/1524\r\n* Add async capabilities to protocols by @coretl in https://github.com/bluesky/bluesky/pull/1522\r\n* Bad comparison created too many axes for plots by @maffettone in https://github.com/bluesky/bluesky/pull/1533\r\n* FIX: make trigger and read careful by @tacaswell in https://github.com/bluesky/bluesky/pull/1525\r\n* STY: fix whitespace around keywords by @tacaswell in https://github.com/bluesky/bluesky/pull/1537\r\n* DOC: Finish release notes for 1.9.0 by @tacaswell in https://github.com/bluesky/bluesky/pull/1538\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/bluesky/pull/1524\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.3...v1.9.0",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.9.0"
+      },
+      {
+        "version": "v1.8.3",
+        "release_date": "2022-04-08T17:30:14",
+        "title": "bluesky v1.8.3",
+        "body": "## What's Changed\r\n* DOC: document pycertifspec as hardware interface by @untzag in https://github.com/bluesky/bluesky/pull/1498\r\n* ENH: add extra dependencies by @untzag in https://github.com/bluesky/bluesky/pull/1509\r\n* ENH: don't call stage unless stageable by @untzag in https://github.com/bluesky/bluesky/pull/1507\r\n* Many motor BestEffortCallback by @maffettone in https://github.com/bluesky/bluesky/pull/1511\r\n* v1.8.3 release notes by @gwbischof in https://github.com/bluesky/bluesky/pull/1514\r\n\r\n## New Contributors\r\n* @maffettone made their first contribution in https://github.com/bluesky/bluesky/pull/1511\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.8.2...v1.8.3",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.3"
+      },
+      {
+        "version": "v1.8.2",
+        "release_date": "2021-12-20T23:36:17",
+        "title": "bluesky v1.8.2",
+        "body": "v1.8.2 (2021-12-20)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* Changed from using ``SafeConfigParser`` to ``ConfigParser`` in\r\n  ``versioneer.py`` (fix to support Python 3.11).\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added public ``call_returns_result`` property.\r\n* Implemented human-readable printable representation for ``PeakStats``.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Updated ``RunEngine`` docstring with ``call_returns_result`` property.\r\n* Fixed a small mistake in ``bp.scan`` docstring.\r\n* Added documentation about intended behavior of fraction in the ``watch``\r\n  method of the status object.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.2"
+      },
+      {
+        "version": "v1.8.1",
+        "release_date": "2021-10-11T16:27:48",
+        "title": "bluesky v1.8.1",
+        "body": "v1.8.1 (2021-10-11)\r\n===================\r\n\r\nFixed\r\n-----\r\n\r\n* More fixes for Python 3.10 to propagate the ``loop`` kwarg correctly.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Added optional calculation of the derivative and its statistics (``min``,\r\n  ``max``, ``fwhm``, etc.) to ``PeakStats`` and ``BestEffortCallback``.\r\n\r\nAdded\r\n-----\r\n\r\n* Read-only property ``RunEngine.deferred_pause_requested`` which may be useful\r\n  for [bluesky-queueserver](https://github.com/bluesky/bluesky-queueserver).\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Unpin ``sphinx_rtd_theme``.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.1"
+      },
+      {
+        "version": "v1.8.0",
+        "release_date": "2021-09-15T16:26:55",
+        "title": "bluesky v1.8.0",
+        "body": "Fixed\r\n-----\r\n\r\n* Updated the tests to use databroker.temp instead of sqlite databroker.\r\n* ``xfail`` test that uses removed API.\r\n* Fix ``list_grid_scan`` metadata for ``plan_pattern_args``.\r\n* Fix descriptors for flyers that do not implement ``read_configuration``.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Do not pass the ``loop`` kwarg to ``RunEngine`` and ``RunBundler`` if we do\r\n  not have to.\r\n* ``RunEngine``'s ``__call__`` now may return plan value, as toggled by new ``call_returns_result`` flag.\r\n  Default behavior has not changed, but may change in a future release.\r\n\r\nAdded\r\n-----\r\n\r\n* Enabled support of Python 3.9 and added it to the test matrix.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Update TOC links to blueskyproject.io.\r\n* Added release instructions.\r\n* Filled out ``README.md`` and added the ``description`` and\r\n  ``long_description`` fields to ``setup.py``.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.0"
+      },
+      {
+        "version": "v1.7.0",
+        "release_date": "2021-07-14T16:09:59",
+        "title": "bluesky v1.7.0",
+        "body": "# Fixed\r\n- Fixed missing log output for CLI ZMQ proxy.\r\n- Deprecated argument `logfile` of `bluesky.commandline.zmq_proxy.start_dispatcher`.\r\n- Better behavior when zmq RemoteDispatcher receives malformed messages.\r\n\r\n# Enhancements\r\n- Reorganized utils into subpackage, no API changes.\r\n- Added `bluesky.utils.jupyter.NotebookProgressBar`.\r\n- `bluesky.utils.PersistentDict` now inherits from `collections.abc.MutableMapping`.\r\n- New module `bluesky.protocols` designed for type checking devices. See PEP 544.\r\n",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.7.0"
+      },
+      {
+        "version": "v1.6.7",
+        "release_date": "2020-11-04T19:18:52",
+        "title": "bluesky v1.6.7",
+        "body": "## Fixed\r\n*  Tweak layout of plots produced by the Best-Effort Callback when showing many LiveGrids.\r\n* The bluesky.simulators.check_limits() simulator now calls obj.check_value() instead of looking at obj.limits.\r\n* When a document is emitted from a RunEngine, a log message is always issued. Previously, Resource and Datum documents were missed.\r\n* Various docstrings were fixed to match the actual function signatures.\r\n* The utility bluesky.utils.is_movable() for checking with an object satifies the expected interfaced for a \u201cmovable\u201d object now correctly treats the stop method and position attribute as optional.\r\n* Documentation about the expected interface for \u201cmovable\u201d objects was incomplete and has been revised to match reality.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.7"
+      },
+      {
+        "version": "v1.6.6",
+        "release_date": "2020-08-26T16:18:55",
+        "title": "bluesky v1.6.6",
+        "body": "bluesky v1.6.6 (2020-08-26)\r\n---------------------\r\n\r\n## Fixed\r\n\r\n- `bluesky.utils.PersistentDict` has new methods `bluesky.utils.PersistentDict.reload()` and `bluesky.utils.PersistentDict.flush()` to syncing from and to disk. It flushes at garbage collection or system exit, which ensures that any values that have been mutated are updated on disk.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.6"
+      },
+      {
+        "version": "v1.6.4",
+        "release_date": "2020-07-08T16:19:43",
+        "title": "bluesky version 1.6.4",
+        "body": "## Fixed\r\n* Allow `:` to be used in keynames and still format LiveTable.\r\n* Address use of loop argument deprecated in Python 3.8.\r\n* Ensure that `bluesky.utils` is importable from a background thread. (Do not create an instance of *~bluesky.utils.DefaultDuringTask* at import time.)",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.6.4"
+      },
+      {
+        "version": "v1.4.1",
+        "release_date": "2018-09-24T17:30:39",
+        "title": "bluesky version 1.4.1",
+        "body": "This release fixes a single regression introduced in v1.4.0. We recommend all users upgrade.\r\n\r\n## Bug Fixes\r\n\r\nFix a critical typo that made LiveGrid unusable.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.1"
+      },
+      {
+        "version": "v1.4.0",
+        "release_date": "2018-09-05T16:35:59",
+        "title": "bluesky version 1.4.0",
+        "body": "## Features\r\n\r\n* Added ability to control \u2018sense\u2019 of `LiveGrid` (ex \u201cpositive goes down and to the right\u201d) to match the coordinates in the hutch.\r\n* Learned how to specify the serializer / deserializer for the zmq publisher / client.\r\n* Promoted the inner function from `one_nd_step()` to a top-level plan `bluesky.plan_stubs.move_per_step()`.\r\n* Added flag to `ramp_plan()` to control if a data point is taken before the ramp starts.\r\n\r\n## Bug Fixes\r\n\r\n* Ensure order stability in `get_labeled_devices()` on all supported versions of Python.\r\n* Fixed typos, dev requirements, and build details.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.4.0"
+      },
+      {
+        "version": "v1.3.3",
+        "release_date": "2018-06-06T12:07:14",
+        "title": "bluesky version 1.3.3",
+        "body": "## Bug Fixes\r\n* Fixed show-shopping RunEngine bug in flyer asset collection. (The impact of this bug is expected to be low, as there are no flyers with asset collection yet and the bug was discovered while writing the first one.)\r\n* Fixed packaging issue where certain important files (notably requirements.txt) were not included in the source tarball.\r\n* Made BestEffortCallback swallow errors related to matplotlib\u2019s \u201ctight layout\u201d if the occur \u2014 better to show a messy plot than error out.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.3"
+      },
+      {
+        "version": "v1.3.2",
+        "release_date": "2018-05-24T18:14:35",
+        "title": "bluesky version 1.3.2",
+        "body": "## Bug Fixes\r\n* Revised behavior of magics that integrate with ophyd\u2019s experimental \u201clabels\u201d feature. The most important difference is that the %wa magic now traverses the children of labeled devices to find any sub-devices that are positioners.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.2"
+      },
+      {
+        "version": "v1.3.1",
+        "release_date": "2018-05-20T00:09:52",
+        "title": "bluesky version 1.3.1",
+        "body": "## Bug Fixes\r\n* Fixed race condition where monitored signals could emit an Event document before the corresponding Event Descriptor document.\r\n* Addressed incompatibilities with upcoming release of Python, 3.7.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.1"
+      },
+      {
+        "version": "v1.3.0",
+        "release_date": "2018-05-15T16:49:43",
+        "title": "bluesky version 1.3",
+        "body": "## Features\r\n* When used with ophyd v1.2.0 or later, emit Resource and Datum documents through the RunEngine. Previously, ophyd would insert these documents directly into a database. This left other consumers with only partial information (for example, missing file paths to externally-stored data) and no guarantees around synchronization. Now, ophyd need not interact with a database directly. All information flows through the RunEngine and out to any subscribed consumers in a deterministic order.\r\n* New Msg commands, install_suspender and remove_suspender, allow plans to temporarily add and remove Suspenders.\r\n* The RunEngine\u2019s signal handling (i.e. Ctrl+C capturing) is now configurable. The RunEngine accepts a list of context_managers that it will enter and exit before and after running. By default, it has one context manager that handles Ctrl+C. To disable Ctrl+C handling, pass in an empty list instead. This can also be used to inject other custom behavior.\r\n* Add new plans: x2x_scan(), spiral_square_plan(), and rel_spiral_square_plan().\r\n* Add convenience methods for reviewing the available commands, commands() and print_command_registry().\r\n* Add a crossings attribute to PeakStats.\r\n\r\n## Bug Fixes\r\n* When resuming after a suspender, call resume() on all devices (if present).\r\n* Fixed BEC LiveGrid plot for a motor with one step.\r\n* A codepath in LiveFit that should have produced a warning produced an error instead.\r\n## Breaking Changes\r\n* User-defined callbacks subscribed to the RunEngine 'all' stream must accept documents with names 'resource', 'datum' and 'bulk_datum'. It does not necessarily have to heed their contents, but it must not fall over if it receives one.\r\n## Deprecations\r\n* The IPython \u201cmagics\u201d, always marked as experimental, have been reworked. Instead of relying on the singleton lists, BlueskyMagics.positioners and BlueskyMagics.detectors, the magics now scrape the user namespace for objects that implement the _ophyd_labels_ interface. See IPython \u2018Magics\u2019 [Experimental] for the new usage. The magics will revert to their old behavior if the singleton lists are non-empty, but they will produce a warning. The old behavior will be ",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.3.0"
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2018-02-20T20:47:07",
+        "title": "bluesky version 1.2",
+        "body": "## Features\r\n* Refreshed documentation with a new Tutorial section.\r\n* Extend scan() and rel_scan() to handle multiple motors, rendering inner_product_scan() and relative_inner_product_scan() redundant.\r\n* A new plan stub, repeat(), repeats another plan N times with optional interleaved delays \u2014 a kind of customizable version of count().\r\n* Better validation of user-defined per_step functions and more informative error messages to match.\r\n\r\n## Bug Fixes\r\n* Fix axes orientation in LiveRaster.\r\n* Make BestEffortCallback display multi-motor scans properly.\r\n* Fix bug in ts_msg_hook() where it conflated month and minute. Also, include sub-second precision.\r\n* Avoid situation where plan without hints caused the BestEffortCallback to error instead of do its best to guess useful behavior.\r\n* Skip un-filled externally-stored data in LiveTable. This fixes a bug where it is expecting array data but gets UUID (datum_id) and errors out.\r\n## Deprecations\r\nThe caching_repeater() plan has been deprecated because it is incompatible with some preprocessors. It will be removed in a future release of bluesky. It was not documented in any previous releases and rarely if ever used, so the impact of this removal is expected to be low.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.2.0"
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2017-12-19T22:53:55",
+        "title": "bluesky version 1.1",
+        "body": "This release fixes small bugs in v1.0.0 and introduces one new feature. The API changes or deprecations are not expected to affect many users.\r\n\r\n## Enhancements\r\n* Add a new command to the [RunEngine](http://nsls-ii.github.io/bluesky/run_engine_api.html#bluesky.run_engine.RunEngine), `'drop'`, which jettisons the currently active event bundle without saving. This is useful for workflows that generate many readings that can immediately be categorized as not useful by the plan and summarily discarded.\r\n* Add `install_kicker()`, which dispatches automatically to `install_qt_kicker()` or `install_nb_kicker()` depending on the current matplotlib backend.\r\n\r\n## Bug Fixes\r\n* Fix the hint for [inner_product_scan()](http://nsls-ii.github.io/bluesky/generated/bluesky.plans.inner_product_scan.html#bluesky.plans.inner_product_scan), which previously used a default hint that was incorrect.\r\n\r\n## API Changes\r\n* In [tune_centroid()](http://nsls-ii.github.io/bluesky/generated/bluesky.plans.tune_centroid.html#bluesky.plans.tune_centroid), change the meaning of the `step_factor` parameter to be the factor to reduce the range of each successive iteration. Enforce bounds on the motion, and determine the centroid from each pass separately.\r\n* The [SupplementalData](http://nsls-ii.github.io/bluesky/plans.html#bluesky.preprocessors.SupplementalData) preprocessor inserts its instructions in a more logical order: first baseline readings, then monitors, then flyers. Previously, the order was reversed.\r\n\r\n## Deprecations\r\n* The suspender `SuspendInBand` has been renamed to [SuspendWhenOutsideBand](http://nsls-ii.github.io/bluesky/generated/bluesky.suspenders.SuspendWhenOutsideBand.html#bluesky.suspenders.SuspendWhenOutsideBand) to make its meaning more clear. Its behavior has not changed: it suspends when a value exits a given range. The original, confusing name now issues a warning.\r\n* The suspender `SuspendOutBand`, which counter-intuitively suspends when a value enters a given range, has been deprecated. (If some application is found for this unusual scenario, the user can always implement a custom suspender to handle it.)",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.1.0"
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2017-11-07T17:20:08",
+        "title": "bluesky version 1.0",
+        "body": "This tag marks an important release for bluesky, signifying the conclusion of the early development phase. From this point on, we intend that this project will be co-developed between multiple facilities. The 1.x series is planned to be a long-term-support release.\r\n\r\n## Bug Fixes\r\n* `mv()` and `mvr()` now works on pseudopositioners.\r\n* `reset_positions_wrapper()` now works on pseudopositioners.\r\n* Plans given an empty detectors list, such as `count([])`, no longer break the `BestEffortCallback`.",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.0.0"
+      },
+      {
+        "version": "v0.11.0",
+        "release_date": "2017-11-01T16:10:59",
+        "title": "bluesky version 0.11.0",
+        "body": "\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-11-0)",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v0.11.0"
+      },
+      {
+        "version": "v0.10.0",
+        "release_date": "2017-09-06T21:17:00",
+        "title": "bluesky version 0.10.0",
+        "body": "We are proud to announce the 0.10.0 release of bluesky.\r\n\r\n* Automatic best-effort visualization and peak-fitting is available for all plans, including user-defined ones.\r\n* The \u201cSPEC-like\u201d API has been fully removed, and its most useful features have been applied to the library in a self-consistent way. See [here](https://nsls-ii.github.io/bluesky/api_changes.html#api-changes) for detailed instructions on migrating.\r\n* Improved tooling for streaming documents over a network for live processing and visualization in a different process or on a different machine.\r\n\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-10-0)",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
+      }
+    ],
+    "new_commits": 99
   },
   {
     "name": "area-detector-handlers",
