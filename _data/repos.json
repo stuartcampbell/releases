@@ -991,6 +991,13 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.9.0"
       },
       {
+        "version": "v2021.1.1",
+        "release_date": "2021-01-26T02:23:03",
+        "title": "v2021.1.1",
+        "body": "### Changed\r\n- overloaded happi default for item name requirements: now any valid python identifier works",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.1"
+      },
+      {
         "version": "v2021.1.0",
         "release_date": "2021-01-13T02:36:59",
         "title": "v2021.1.0",
