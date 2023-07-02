@@ -1,5 +1,18 @@
 [
   {
+    "name": "tiled",
+    "releases": [
+      {
+        "version": "v0.1.0a97",
+        "release_date": "2023-07-02T21:42:25",
+        "title": "v0.1.0a97",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "event-model",
     "releases": [
       {
