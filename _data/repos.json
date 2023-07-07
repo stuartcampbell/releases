@@ -1,5 +1,25 @@
 [
   {
+    "name": "tiled",
+    "releases": [
+      {
+        "version": "v0.1.0a98",
+        "release_date": "2023-07-07T20:28:31",
+        "title": "v0.1.0a98",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
+      },
+      {
+        "version": "v0.1.0a97",
+        "release_date": "2023-07-02T21:42:25",
+        "title": "v0.1.0a97",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "event-model",
     "releases": [
       {
@@ -141,19 +161,6 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "tiled",
-    "releases": [
-      {
-        "version": "v0.1.0a97",
-        "release_date": "2023-07-02T21:42:25",
-        "title": "v0.1.0a97",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
       }
     ],
     "new_commits": 0
