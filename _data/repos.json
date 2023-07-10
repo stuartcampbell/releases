@@ -1,5 +1,32 @@
 [
   {
+    "name": "tiled",
+    "releases": [
+      {
+        "version": "v0.1.0a99",
+        "release_date": "2023-07-10T13:19:42",
+        "title": "v0.1.0a99",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a99"
+      },
+      {
+        "version": "v0.1.0a98",
+        "release_date": "2023-07-07T20:28:31",
+        "title": "v0.1.0a98",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
+      },
+      {
+        "version": "v0.1.0a97",
+        "release_date": "2023-07-02T21:42:25",
+        "title": "v0.1.0a97",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "databroker",
     "releases": [
       {
@@ -141,26 +168,6 @@
         "title": "v0.8.1",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "tiled",
-    "releases": [
-      {
-        "version": "v0.1.0a98",
-        "release_date": "2023-07-07T20:28:31",
-        "title": "v0.1.0a98",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
-      },
-      {
-        "version": "v0.1.0a97",
-        "release_date": "2023-07-02T21:42:25",
-        "title": "v0.1.0a97",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
       }
     ],
     "new_commits": 0
