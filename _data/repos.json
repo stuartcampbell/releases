@@ -1,5 +1,60 @@
 [
   {
+    "name": "tiled",
+    "releases": [
+      {
+        "version": "v0.1.0a103",
+        "release_date": "2023-07-19T19:46:01",
+        "title": "v0.1.0a103",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a103"
+      },
+      {
+        "version": "v0.1.0a102",
+        "release_date": "2023-07-12T16:26:01",
+        "title": "v0.1.0a102",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a102"
+      },
+      {
+        "version": "v0.1.0a101",
+        "release_date": "2023-07-11T16:09:40",
+        "title": "v0.1.0a101",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a101"
+      },
+      {
+        "version": "v0.1.0a100",
+        "release_date": "2023-07-11T15:39:52",
+        "title": "v0.1.0a100",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a100"
+      },
+      {
+        "version": "v0.1.0a99",
+        "release_date": "2023-07-10T13:19:42",
+        "title": "v0.1.0a99",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a99"
+      },
+      {
+        "version": "v0.1.0a98",
+        "release_date": "2023-07-07T20:28:31",
+        "title": "v0.1.0a98",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
+      },
+      {
+        "version": "v0.1.0a97",
+        "release_date": "2023-07-02T21:42:25",
+        "title": "v0.1.0a97",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-httpserver",
     "releases": [
       {
@@ -71,54 +126,6 @@
         "title": "Release v0.0.2 (2021-10-06)",
         "body": "Added\r\n-----\r\n\r\n* New ``stream_console_output`` API for streaming console output captured by RE Manager.",
         "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "tiled",
-    "releases": [
-      {
-        "version": "v0.1.0a102",
-        "release_date": "2023-07-12T16:26:01",
-        "title": "v0.1.0a102",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a102"
-      },
-      {
-        "version": "v0.1.0a101",
-        "release_date": "2023-07-11T16:09:40",
-        "title": "v0.1.0a101",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a101"
-      },
-      {
-        "version": "v0.1.0a100",
-        "release_date": "2023-07-11T15:39:52",
-        "title": "v0.1.0a100",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a100"
-      },
-      {
-        "version": "v0.1.0a99",
-        "release_date": "2023-07-10T13:19:42",
-        "title": "v0.1.0a99",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a99"
-      },
-      {
-        "version": "v0.1.0a98",
-        "release_date": "2023-07-07T20:28:31",
-        "title": "v0.1.0a98",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
-      },
-      {
-        "version": "v0.1.0a97",
-        "release_date": "2023-07-02T21:42:25",
-        "title": "v0.1.0a97",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
       }
     ],
     "new_commits": 0
