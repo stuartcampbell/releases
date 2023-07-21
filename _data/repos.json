@@ -1060,6 +1060,13 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.0"
       },
       {
+        "version": "v2022.1.0",
+        "release_date": "2022-01-30T23:42:33",
+        "title": "2022.1.0",
+        "body": "## [2022.1.0]\r\n\r\n### Added\r\n- human readable repr for device\r\n- Handling of devices which provide dependent hardware\r\n",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.1.0"
+      },
+      {
         "version": "v2021.12.0",
         "release_date": "2021-12-22T15:56:14",
         "title": "v2021.12.0",
