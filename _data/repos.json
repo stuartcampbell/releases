@@ -253,11 +253,25 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
       },
       {
+        "version": "v0.10.0",
+        "release_date": "2018-02-20T13:46:03",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
+      },
+      {
         "version": "v0.9.4",
         "release_date": "2017-12-06T20:31:59",
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
+      },
+      {
+        "version": "v0.8.1",
+        "release_date": "2017-05-22T13:57:54",
+        "title": "v0.8.1",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
     "new_commits": 0
