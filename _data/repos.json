@@ -768,15 +768,28 @@
     "new_commits": 0
   },
   {
-    "name": "bluesky",
+    "name": "bluesky-adaptive",
     "releases": [
       {
-        "version": "v1.11.0",
-        "release_date": "2023-06-08T11:55:15",
-        "title": "v1.11.0",
-        "body": "## What's Changed\r\n* DOC: add bluesky base to readme by @untzag in https://github.com/bluesky/bluesky/pull/1545\r\n* FIX: LiveGrids placing x-axis tick labels on all columns by @maffettone in https://github.com/bluesky/bluesky/pull/1548\r\n* Add Locatable by @coretl in https://github.com/bluesky/bluesky/pull/1536\r\n* DOC miniscule typo, hardly worth a bother by @prjemian in https://github.com/bluesky/bluesky/pull/1556\r\n* ENH: add resume thresholds to suspender justification message by @tacaswell in https://github.com/bluesky/bluesky/pull/1554\r\n* DEP: remove deprecated get_event_loop() by @tizayi in https://github.com/bluesky/bluesky/pull/1564\r\n* Made protocol methods abstract by @evalott100 in https://github.com/bluesky/bluesky/pull/1562\r\n* DEP: remove loop param from AsyncInput in bluesky.utils by @hyperrealist in https://github.com/bluesky/bluesky/pull/1566\r\n* DOC: fix unit tests badge of readme by @untzag in https://github.com/bluesky/bluesky/pull/1565\r\n* DOC: minor typo fixed. by @clintonroy in https://github.com/bluesky/bluesky/pull/1568\r\n* ENH: make stage and unstage return status objects by @tizayi in https://github.com/bluesky/bluesky/pull/1563\r\n* Qt kicker 1494 by @RussBerg in https://github.com/bluesky/bluesky/pull/1495\r\n* FIX: Remove callable from plan signature for qserver by @maffettone in https://github.com/bluesky/bluesky/pull/1571\r\n* MNT: move fig_factory default resolution in BestEffortCallback by @tacaswell in https://github.com/bluesky/bluesky/pull/1569\r\n* Propagate exception through failed status by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1570\r\n* Add ability to pre-declare a stream by @tacaswell in https://github.com/bluesky/bluesky/pull/1542\r\n* Point at newly versioned event model docs by @coretl in https://github.com/bluesky/bluesky/pull/1574\r\n* pinned zict to <3.0.0 by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1578\r\n* removed with_traceback call by @RAYemelyanova in https://github.com/bluesky/bluesky/pull/1575\r\n* Update minimum Python version in tutorial by @callumforrester in https://github.com/bluesky/bluesky/pull/1576\r\n* Remove useless instructions about install_kicker by @graeme-winter in https://github.com/bluesky/bluesky/pull/1583\r\n* DOC: Tidy up tutorial around gridscans by @DominicOram in https://github.com/bluesky/bluesky/pull/1584\r\n* Use Python version check rather than import error check to import Protocol by @callumforrester in https://github.com/bluesky/bluesky/pull/1585\r\n* Add v1.11.0 release notes by @coretl in https://github.com/bluesky/bluesky/pull/1588\r\n\r\n## New Contributors\r\n* @tizayi made their first contribution in https://github.com/bluesky/bluesky/pull/1564\r\n* @evalott100 made their first contribution in https://github.com/bluesky/bluesky/pull/1562\r\n* @hyperrealist made their first contribution in https://github.com/bluesky/bluesky/pull/1566\r\n* @RussBerg made their first contribution in https://github.com/bluesky/bluesky/pull/1495\r\n* @RAYemelyanova made their first contribution in https://github.com/bluesky/bluesky/pull/1570\r\n* @graeme-winter made their first contribution in https://github.com/bluesky/bluesky/pull/1583\r\n* @DominicOram made their first contribution in https://github.com/bluesky/bluesky/pull/1584\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.10.0...v1.11.0",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.11.0"
+        "version": "v0.3.1",
+        "release_date": "2023-04-26T22:53:56",
+        "title": "bluesky-adaptive v0.3.1",
+        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
       },
+      {
+        "version": "v0.3.0",
+        "release_date": "2023-04-26T18:25:39",
+        "title": "Add distributed agents, adjudicators, and server ",
+        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky",
+    "releases": [
       {
         "version": "v1.10.0",
         "release_date": "2022-09-06T22:10:37",
@@ -925,27 +938,7 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
       }
     ],
-    "new_commits": 23
-  },
-  {
-    "name": "bluesky-adaptive",
-    "releases": [
-      {
-        "version": "v0.3.1",
-        "release_date": "2023-04-26T22:53:56",
-        "title": "bluesky-adaptive v0.3.1",
-        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
-      },
-      {
-        "version": "v0.3.0",
-        "release_date": "2023-04-26T18:25:39",
-        "title": "Add distributed agents, adjudicators, and server ",
-        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
-      }
-    ],
-    "new_commits": 0
+    "new_commits": 123
   },
   {
     "name": "area-detector-handlers",
