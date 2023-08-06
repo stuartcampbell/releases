@@ -101,13 +101,6 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
       },
       {
-        "version": "v0.13.3",
-        "release_date": "2019-08-22T21:29:32",
-        "title": "v0.13.3",
-        "body": "### Enhancements\r\n\r\n* Replaced deprecated unordered bulk write (requires ``pymongo >= 3.0``).\r\n\r\n### Documentation\r\n\r\n* Update the links in the sidebar to point to the Bluesky Project.\r\n\r\n### Packaging\r\n\r\n* Added missing files in the source distribution for PyPI.\r\n\r\nSee [the v0.13.3 GitHub milestone](https://github.com/bluesky/databroker/milestone/10?closed=1) for a full enumeration of the changes in this release.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.3"
-      },
-      {
         "version": "v0.13.1",
         "release_date": "2019-07-30T14:06:12",
         "title": "v0.13.1",
