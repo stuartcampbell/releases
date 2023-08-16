@@ -831,6 +831,33 @@
     "new_commits": 1
   },
   {
+    "name": "bluesky-darkframes",
+    "releases": [
+      {
+        "version": "v0.6.0",
+        "release_date": "2023-06-15T15:30:22",
+        "title": "bluesky-darkframes v0.6.0",
+        "body": "## What's Changed\r\n* Make test pickier just to be safe. by @danielballan in https://github.com/bluesky/bluesky-darkframes/pull/26\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/34\r\n* Rerender with new cookiecutter by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n* Clean up on `RE.abort()` by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/37\r\n* FIX: in current data broker this array can comeback read-only by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/30\r\n* DOC: release notes for v0.6.0 by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/39\r\n\r\n## New Contributors\r\n* @mrakitin made their first contribution in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky-darkframes/compare/v0.5.0...v0.6.0",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.6.0"
+      },
+      {
+        "version": "v0.5.0",
+        "release_date": "2021-10-08T16:41:35",
+        "title": "bluesky-darkframes v0.5.0",
+        "body": "v0.5.0 (2021-10-08)\r\n------------------\r\n\r\nFixed\r\n-------\r\n* support detectors not defining method ``collect_asset_docs``\r\n* resolve jupyter_sphinx deprecation warning\r\n\r\nChanged\r\n--------\r\n* add scikit-image to ``requirements-dev.txt`` to resolve a CI error",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.5.0"
+      },
+      {
+        "version": "v0.1.0",
+        "release_date": "2019-07-29T20:33:12",
+        "title": "v0.1.0 Initial release",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky",
     "releases": [
       {
@@ -1269,25 +1296,5 @@
       }
     ],
     "new_commits": 1
-  },
-  {
-    "name": "bluesky-darkframes",
-    "releases": [
-      {
-        "version": "v0.5.0",
-        "release_date": "2021-10-08T16:41:35",
-        "title": "bluesky-darkframes v0.5.0",
-        "body": "v0.5.0 (2021-10-08)\r\n------------------\r\n\r\nFixed\r\n-------\r\n* support detectors not defining method ``collect_asset_docs``\r\n* resolve jupyter_sphinx deprecation warning\r\n\r\nChanged\r\n--------\r\n* add scikit-image to ``requirements-dev.txt`` to resolve a CI error",
-        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.5.0"
-      },
-      {
-        "version": "v0.1.0",
-        "release_date": "2019-07-29T20:33:12",
-        "title": "v0.1.0 Initial release",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.1.0"
-      }
-    ],
-    "new_commits": 0
   }
 ]
