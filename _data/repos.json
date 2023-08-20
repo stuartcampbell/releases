@@ -772,6 +772,13 @@
         "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.3"
       },
       {
+        "version": "v1.6.1",
+        "release_date": "2021-02-26T19:33:50",
+        "title": "v1.6.1",
+        "body": "Fixes\r\n-----\r\n\r\n* Added a missing name argument to AreaDetector documentation.\r\n* Correctly propagate changes to the default ``connection_timeout`` setting\r\n  via ``set_defaults``, instead of always defaulting to 1 second.\r\n\r\nChanges\r\n-------\r\n\r\n* Expanded documentation for Fly-able Interface to include code examples and\r\n  updated MockFlyer sim.\r\n* Changed ``update_rate`` and ``auto_count_update_rate`` signals in\r\n  ``EpicsScalar`` to default to ``Kind.omitted`` instead of ``Kind.config``.\r\n",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.1"
+      },
+      {
         "version": "v1.6.0",
         "release_date": "2020-12-16T21:58:42",
         "title": "v1.6.0",
