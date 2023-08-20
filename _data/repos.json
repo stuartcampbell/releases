@@ -135,6 +135,20 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b10"
       },
       {
+        "version": "v2.0.0b9",
+        "release_date": "2022-09-13T20:59:16",
+        "title": "v2.0.0b9",
+        "body": "## What's Changed\r\n* FIX: the back-compat getattr shim in databroker by @tacaswell in https://github.com/bluesky/databroker/pull/713\r\n* Added delete() method for arrays and dataframes by @jmaruland in https://github.com/bluesky/databroker/pull/715\r\n* Support new queries types in mongo_normalized. by @danielballan in https://github.com/bluesky/databroker/pull/717\r\n* Expose 'specs'. by @danielballan in https://github.com/bluesky/databroker/pull/718\r\n* Update for xarray refactor in Tiled. by @danielballan in https://github.com/bluesky/databroker/pull/720\r\n* HOTFIX: ArrayAdapter usage with handlers that return dask. by @danielballan in https://github.com/bluesky/databroker/pull/721\r\n* Add ScanIDRange by @gwbischof in https://github.com/bluesky/databroker/pull/719\r\n* [Experimental backend] Support chunked upload and sparse arrays by @danielballan in https://github.com/bluesky/databroker/pull/722\r\n* Implement __len__. by @danielballan in https://github.com/bluesky/databroker/pull/723\r\n* Fix slicing into WritableDataFrameAdapter. by @danielballan in https://github.com/bluesky/databroker/pull/724\r\n* Fix temp. by @danielballan in https://github.com/bluesky/databroker/pull/726\r\n* Follow-up to #726: commit test by @danielballan in https://github.com/bluesky/databroker/pull/730\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b4...v2.0.0b9",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b9"
+      },
+      {
+        "version": "v2.0.0b4",
+        "release_date": "2022-06-29T19:50:35",
+        "title": "v2.0.0b4",
+        "body": "## What's Changed\r\n* Hacks to get databroker github actions working by @clintonroy in https://github.com/bluesky/databroker/pull/693\r\n* Doc: just fixing a few typos. by @clintonroy in https://github.com/bluesky/databroker/pull/692\r\n* Merge v2.0.0-dev into master branch by @danielballan in https://github.com/bluesky/databroker/pull/694\r\n* Support nesting raw data into /raw in backward-compatible way. by @danielballan in https://github.com/bluesky/databroker/pull/697\r\n* Deprecate RawMongo by @danielballan in https://github.com/bluesky/databroker/pull/705\r\n* Add new storage backend that supports writing via client by @jmaruland in https://github.com/bluesky/databroker/pull/696\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/databroker/pull/678\r\n* Fix missing f-string f. by @danielballan in https://github.com/bluesky/databroker/pull/709\r\n* add tiled dependancy by @gwbischof in https://github.com/bluesky/databroker/pull/710\r\n* Added NotEq, In and NotIn to MongoAdpater by @jmaruland in https://github.com/bluesky/databroker/pull/708\r\n\r\n## New Contributors\r\n* @jmaruland made their first contribution in https://github.com/bluesky/databroker/pull/696\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.5...v2.0.0b4",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b4"
+      },
+      {
         "version": "v1.2.5",
         "release_date": "2022-01-21T19:57:43",
         "title": "v1.2.5",
