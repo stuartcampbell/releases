@@ -433,6 +433,13 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.3"
       },
       {
+        "version": "v1.19.2",
+        "release_date": "2023-02-24T15:28:35",
+        "title": "v1.19.2",
+        "body": "Changed\r\n-------\r\n\r\n* Fix warnings about distutils being deprecated in Python>=3.10",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.2"
+      },
+      {
         "version": "v1.19.1",
         "release_date": "2022-12-09T16:17:36",
         "title": "v1.19.1 (2022-12-09)",
