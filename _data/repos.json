@@ -1184,13 +1184,6 @@
     "name": "suitcase-core",
     "releases": [
       {
-        "version": "v0.9.1",
-        "release_date": "2021-10-14T01:31:12",
-        "title": "Release v0.9.1",
-        "body": "## Changes\r\n\r\n- Fixed version mismatch in config",
-        "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.1"
-      },
-      {
         "version": "v0.9.0",
         "release_date": "2021-10-13T21:02:03",
         "title": "Release v0.9.0",
@@ -1198,7 +1191,7 @@
         "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 2
   },
   {
     "name": "suitcase-msgpack",
