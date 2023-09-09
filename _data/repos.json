@@ -589,6 +589,75 @@
     "new_commits": 0
   },
   {
+    "name": "bluesky-queueserver-api",
+    "releases": [
+      {
+        "version": "v0.0.10",
+        "release_date": "2023-06-28T23:44:22",
+        "title": "Release v0.0.10",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.10"
+      },
+      {
+        "version": "v0.0.9",
+        "release_date": "2022-10-02T23:39:11",
+        "title": "Release v0.0.9",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.9"
+      },
+      {
+        "version": "v0.0.8",
+        "release_date": "2022-08-11T16:37:54",
+        "title": "Release v0.0.8",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.8"
+      },
+      {
+        "version": "v0.0.7",
+        "release_date": "2022-07-30T14:55:11",
+        "title": "Release v0.0.7",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.7"
+      },
+      {
+        "version": "v0.0.6",
+        "release_date": "2022-06-30T16:39:41",
+        "title": "Release v0.0.6",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.6"
+      },
+      {
+        "version": "v0.0.5",
+        "release_date": "2022-04-09T20:12:10",
+        "title": "Release v0.0.5",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.5"
+      },
+      {
+        "version": "v0.0.4",
+        "release_date": "2022-04-05T20:46:32",
+        "title": "Release v0.0.4",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.4"
+      },
+      {
+        "version": "v0.0.3",
+        "release_date": "2022-03-09T04:11:05",
+        "title": "Release v0.0.3",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.3"
+      },
+      {
+        "version": "v0.0.2",
+        "release_date": "2022-03-03T20:33:30",
+        "title": "Release v0.0.2",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-queueserver",
     "releases": [
       {
@@ -985,68 +1054,6 @@
         "title": "Add distributed agents, adjudicators, and server ",
         "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
         "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "bluesky-queueserver-api",
-    "releases": [
-      {
-        "version": "v0.0.9",
-        "release_date": "2022-10-02T23:39:11",
-        "title": "Release v0.0.9",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.9"
-      },
-      {
-        "version": "v0.0.8",
-        "release_date": "2022-08-11T16:37:54",
-        "title": "Release v0.0.8",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.8"
-      },
-      {
-        "version": "v0.0.7",
-        "release_date": "2022-07-30T14:55:11",
-        "title": "Release v0.0.7",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.7"
-      },
-      {
-        "version": "v0.0.6",
-        "release_date": "2022-06-30T16:39:41",
-        "title": "Release v0.0.6",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.6"
-      },
-      {
-        "version": "v0.0.5",
-        "release_date": "2022-04-09T20:12:10",
-        "title": "Release v0.0.5",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.5"
-      },
-      {
-        "version": "v0.0.4",
-        "release_date": "2022-04-05T20:46:32",
-        "title": "Release v0.0.4",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.4"
-      },
-      {
-        "version": "v0.0.3",
-        "release_date": "2022-03-09T04:11:05",
-        "title": "Release v0.0.3",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.3"
-      },
-      {
-        "version": "v0.0.2",
-        "release_date": "2022-03-03T20:33:30",
-        "title": "Release v0.0.2",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver-api/releases/tag/v0.0.2"
       }
     ],
     "new_commits": 0
