@@ -446,13 +446,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.7"
       },
       {
-        "version": "v1.19.6",
-        "release_date": "2023-07-04T12:08:23",
-        "title": "v1.19.6",
-        "body": "## What's Changed\r\n* Specified pydantic <2 by @evalott100 in https://github.com/bluesky/event-model/pull/279\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.5...v1.19.6",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.6"
-      },
-      {
         "version": "v1.19.5",
         "release_date": "2023-06-30T10:38:30",
         "title": "v1.19.5",
