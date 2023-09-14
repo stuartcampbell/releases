@@ -509,6 +509,13 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
       },
       {
+        "version": "v1.17.1",
+        "release_date": "2021-01-29T21:13:47",
+        "title": "v1.17.1",
+        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
+      },
+      {
         "version": "v1.17.0",
         "release_date": "2020-12-17T22:46:45",
         "title": "v1.17.0",
