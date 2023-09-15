@@ -1,5 +1,102 @@
 [
   {
+    "name": "ophyd",
+    "releases": [
+      {
+        "version": "v1.9.0",
+        "release_date": "2023-09-15T12:25:20",
+        "title": "v1.9.0",
+        "body": "## What's Changed\r\n* Use classes for fallback epics signal backends by @tpoliaw in https://github.com/bluesky/ophyd/pull/1131\r\n* Add .1% threshold for codecov CI by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1150\r\n* ENH: Add __contains__ to AndStatus by @DominicOram in https://github.com/bluesky/ophyd/pull/1140\r\n* ENH: Add a StableSubscriptionStatus by @DominicOram in https://github.com/bluesky/ophyd/pull/1155\r\n* Add release notes for v1.9.0 by @danielballan in https://github.com/bluesky/ophyd/pull/1157\r\n\r\n## New Contributors\r\n* @tpoliaw made their first contribution in https://github.com/bluesky/ophyd/pull/1131\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.8.0...v1.9.0",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.9.0"
+      },
+      {
+        "version": "v1.8.0",
+        "release_date": "2023-06-26T18:52:27",
+        "title": "v1.8.0",
+        "body": "## What's Changed\r\n* add support for EPICS area detector pvaDriver cam by @prjemian in https://github.com/bluesky/ophyd/pull/1055\r\n* Adopt isort by @coretl in https://github.com/bluesky/ophyd/pull/1064\r\n* Make SynAxis produce an updating MoveStatus by @callumforrester in https://github.com/bluesky/ophyd/pull/1036\r\n* Fix capture signal was always triggered by @physwkim in https://github.com/bluesky/ophyd/pull/1066\r\n* Move settings to setup.cfg and use setuptools-scm by @coretl in https://github.com/bluesky/ophyd/pull/1065\r\n* Fix SynAxisNoPosition by @coretl in https://github.com/bluesky/ophyd/pull/1068\r\n* Add v2 dir by @coretl in https://github.com/bluesky/ophyd/pull/1067\r\n* Make CI run on external PRs by @coretl in https://github.com/bluesky/ophyd/pull/1071\r\n* Use pydata docs theme and make a space for v2 docs by @coretl in https://github.com/bluesky/ophyd/pull/1076\r\n* Deploy to the correct place by @coretl in https://github.com/bluesky/ophyd/pull/1077\r\n* DOC: fixed minor typo. by @clintonroy in https://github.com/bluesky/ophyd/pull/1079\r\n* DOC: minor typo fix. by @clintonroy in https://github.com/bluesky/ophyd/pull/1080\r\n* DOC: added a shutter example of a PVPositionerComparator by @clintonroy in https://github.com/bluesky/ophyd/pull/1081\r\n* Update LICENSE by @stuartcampbell in https://github.com/bluesky/ophyd/pull/1082\r\n* Ophyd v2 core by @coretl in https://github.com/bluesky/ophyd/pull/1078\r\n* Fix docs linking by @coretl in https://github.com/bluesky/ophyd/pull/1085\r\n* Change `make_dir_tree` default dir mode to `755` by @mrakitin in https://github.com/bluesky/ophyd/pull/1087\r\n* Add status repr to WaitTimeoutError message by @dperl-dls in https://github.com/bluesky/ophyd/pull/1088\r\n* DOC: fix install instructions in README by @mrakitin in https://github.com/bluesky/ophyd/pull/1089\r\n* BUG: Let channelsim work with enums by @tizayi in https://github.com/bluesky/ophyd/pull/1093\r\n* ENH: Add enum descriptor support to ChannelCa by @tizayi in https://github.com/bluesky/ophyd/pull/1097\r\n* BUG: isinstance calls property success before status object is done by @tizayi in https://github.com/bluesky/ophyd/pull/1099\r\n* v2: try to fix some constantly failing tests by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1105\r\n* Ophyd v2: add _exception to AsyncStatus to propagate errors through FailedStatus. by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1103\r\n* v2: Add dict support by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1104\r\n* propagate errors through wait_for_connection by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1109\r\n* Initial p4p channel implementation by @ajgdls in https://github.com/bluesky/ophyd/pull/1096\r\n* v2: Make sim signal source look like real source by @coretl in https://github.com/bluesky/ophyd/pull/1111\r\n* v2: make device class concrete by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1107\r\n* v2: Added bool support for 2 element CA/PVA enums by @coretl in https://github.com/bluesky/ophyd/pull/1112\r\n* V2 minor async status changes by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1110\r\n* v2 Fix traceback of a failed AsyncStatus object by @coretl in https://github.com/bluesky/ophyd/pull/1114\r\n* v2: remove monitor by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1125\r\n* v2: Make stage/unstage async by @coretl in https://github.com/bluesky/ophyd/pull/1123\r\n* v2: Add set_and_wait_for_value() by @coretl in https://github.com/bluesky/ophyd/pull/1124\r\n* Let SimSignalBackend accept npt.NDArray datatypes by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1118\r\n* Resolve typo introduced in PR #1055 by @prjemian in https://github.com/bluesky/ophyd/pull/1129\r\n* DOC: release notes for v1.8.0 by @mrakitin in https://github.com/bluesky/ophyd/pull/1127\r\n\r\n## New Contributors\r\n* @physwkim made their first contribution in https://github.com/bluesky/ophyd/pull/1066\r\n* @stuartcampbell made their first contribution in https://github.com/bluesky/ophyd/pull/1082\r\n* @dperl-dls made their first contribution in https://github.com/bluesky/ophyd/pull/1088\r\n* @tizayi made their first contribution in https://github.com/bluesky/ophyd/pull/1093\r\n* @RAYemelyanova made their first contribution in https://github.com/bluesky/ophyd/pull/1105\r\n* @ajgdls made their first contribution in https://github.com/bluesky/ophyd/pull/1096\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.7.0...v1.8.0",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.8.0"
+      },
+      {
+        "version": "v1.7.0",
+        "release_date": "2022-08-05T14:35:31",
+        "title": "ophyd v1.7.0",
+        "body": "## What's Changed\r\n* xml_file_name must be a string by @prjemian in https://github.com/bluesky/ophyd/pull/1035\r\n* Fix enum py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1030\r\n* API: deprecated use of set_and_wait function by @tacaswell in https://github.com/bluesky/ophyd/pull/1039\r\n* ENH: Added FakeEpicsPathSignal for testing by @DominicOram in https://github.com/bluesky/ophyd/pull/1042\r\n* Make DeviceStatus report a fraction 0 rather than 1 once complete by @callumforrester in https://github.com/bluesky/ophyd/pull/1022\r\n* ENH: Upstream InternalSignal, allow passing of put arguments through set by @ZLLentz in https://github.com/bluesky/ophyd/pull/1045\r\n* MNT: ensure the input to set in EpicsPathSignal converted to str by @tacaswell in https://github.com/bluesky/ophyd/pull/1040\r\n* Rename dispatch -> generate_datum by @tacaswell in https://github.com/bluesky/ophyd/pull/1033\r\n* MAINT: reduce log level of spammy self.log.info log messages to debug by @ZLLentz in https://github.com/bluesky/ophyd/pull/1047\r\n* MNT: Wait for NullStatus to mark itself as finished by @tangkong in https://github.com/bluesky/ophyd/pull/1048\r\n* ENH: Add EpicsSignalNoValidation by @tangkong in https://github.com/bluesky/ophyd/pull/1044\r\n* Fix tutorial typos by @anleslac in https://github.com/bluesky/ophyd/pull/1050\r\n* ENH: Upstream helpful PV Positioners, add wait_for_value util by @ZLLentz in https://github.com/bluesky/ophyd/pull/1046\r\n* Tweak stage_sigs DEBUG logging by @jklynch in https://github.com/bluesky/ophyd/pull/1051\r\n* PERF: set subscriptions only once per class by @klauer in https://github.com/bluesky/ophyd/pull/1052\r\n* ENH: Component[T] generic support for type hinting by @klauer in https://github.com/bluesky/ophyd/pull/1053\r\n* Do not assume TRACE is unused. by @danielballan in https://github.com/bluesky/ophyd/pull/1058\r\n* Quell some test warnings by @coretl in https://github.com/bluesky/ophyd/pull/1061\r\n* Adopt black by @coretl in https://github.com/bluesky/ophyd/pull/1060\r\n\r\n## New Contributors\r\n* @callumforrester made their first contribution in https://github.com/bluesky/ophyd/pull/1022\r\n* @tangkong made their first contribution in https://github.com/bluesky/ophyd/pull/1048\r\n* @anleslac made their first contribution in https://github.com/bluesky/ophyd/pull/1050\r\n* @coretl made their first contribution in https://github.com/bluesky/ophyd/pull/1061\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.4...v1.7.0",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.7.0"
+      },
+      {
+        "version": "v1.6.4",
+        "release_date": "2022-04-08T19:29:26",
+        "title": "ophyd v1.6.4",
+        "body": "## What's Changed\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1019\r\n* report signal name on ValueError in Signal.describe() by @jklynch in https://github.com/bluesky/ophyd/pull/1020\r\n* Added timeout arguments to FakeEpicsSignal by @DominicOram in https://github.com/bluesky/ophyd/pull/1023\r\n* v1.6.4 release notes by @gwbischof in https://github.com/bluesky/ophyd/pull/1031\r\n\r\n## New Contributors\r\n* @DominicOram made their first contribution in https://github.com/bluesky/ophyd/pull/1023\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.3...v1.6.4",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.4"
+      },
+      {
+        "version": "v1.6.3",
+        "release_date": "2021-10-11T19:21:30",
+        "title": "v1.6.3",
+        "body": "Changes\r\n-------\r\n\r\n* In case of a LimitError being raised by the ``mv()`` command, the error\r\n  message will now specify which setpoint PV triggered the limit condition.\r\n* Added tests which check Ophyd objects against the new Bluesky protocols.\r\n* The requirement for the ``inflection`` package has been removed from\r\n  general requirements and moved to ``requirements-dev.txt``.",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.3"
+      },
+      {
+        "version": "v1.6.1",
+        "release_date": "2021-02-26T19:33:50",
+        "title": "v1.6.1",
+        "body": "Fixes\r\n-----\r\n\r\n* Added a missing name argument to AreaDetector documentation.\r\n* Correctly propagate changes to the default ``connection_timeout`` setting\r\n  via ``set_defaults``, instead of always defaulting to 1 second.\r\n\r\nChanges\r\n-------\r\n\r\n* Expanded documentation for Fly-able Interface to include code examples and\r\n  updated MockFlyer sim.\r\n* Changed ``update_rate`` and ``auto_count_update_rate`` signals in\r\n  ``EpicsScalar`` to default to ``Kind.omitted`` instead of ``Kind.config``.\r\n",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.1"
+      },
+      {
+        "version": "v1.6.0",
+        "release_date": "2020-12-16T21:58:42",
+        "title": "v1.6.0",
+        "body": "## Fixes\r\n\r\n* The write_timeout specified for an EpicsSignalBase is respected by its set() method unless overridden with set(..., timeout=TIMEOUT).\r\nArea Detector PVs related to array shape have been given an order compatible with the numpy array index ordering of the array itself.\r\n* Thread the keyword EpicsSignal.get(..., use_monitor=True) down to the control system. This setting was previously supported but support was removed (years ago). We now view its removal as a mistake.\r\n* When area detector takes a series of images and num_capture is set to 0, this is now interpreted to mean \u201chowever many images the detector is configured to acquire\u201d rather than \u201c0 images\u201d.\r\n* Fixed EigerDetectorCam\u2019s photon_energy component\u2019s PV suffix spelling.\r\n* Motor limits HLS and LLS used EpicsSignal when they should be using EpicsSignalRO.\r\n* EpicsSignal with string=True kwarg now correctly results in dtype='string' from .describe() method\r\n\r\n## Added\r\n* Support for Emergent Vision detectors.\r\n* The class-wide default for write_timeout is now configurable via EpicsSignalBase.set_defaults(). It was previously only configurable on a per-instance basis at initialization time, with the class-wide default hard-coded to None. The class-wide default is still None, unchanged from the previous release.\r\n* The class-wide default for auto_monitor is now configurable via EpicsSignalBase.set_defaults(). It was previously configurable on a per-instance basis at initialization time. The default value, False, has not changed.\r\n\r\n## Changes\r\n* The logging has been tweaked to be less noisy, particularly at import time. Some log messages have been moved from 'ophyd.object' to 'ophyd.control_layer', and the level of messages emitted to 'ophyd.control_layer' have been reduced from INFO to DEBUG. Some log messages have been removed entirely.\r\n* The method EpicsSignalBase.set_default_timeout() has been renamed to EpicsSignalBase.set_defaults() because it has been extended to include more than timeouts, as described above. The old name is still supported but issues a warning that it may be removed in the future.\r\n* Use auto-monitoring in more places in EpicsMotor. This should drastically speed up motor.read_configuration().\r\n* Update ophyd.sim.MockFlyer to use its name as its stream name.\r\n* Capture the create_directory signal on Area Detector FilePlugin as configuration.",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.0"
+      },
+      {
+        "version": "v1.5.3",
+        "release_date": "2020-08-26T13:58:01",
+        "title": "ophyd v1.5.3",
+        "body": "ophyd 1.5.3 (2020-08-26)\r\n===================\r\n\r\nChanges\r\n-------\r\n\r\n* Add a default value for ``ScalerCH.select_channels`` such that calling it\r\n  without arguments selects all named channels.\r\n* Change a particularly verbose ophyd logger from INFO-level to DEBUG-level.\r\n\r\n\r\nFixes\r\n-----\r\n\r\n* Critical bug in EpicsMotor limits set low to high and high to low.\r\n* For area detector cameras, add ``num_images`` to the set of components\r\n  recorded as configuration by default.\r\n\r\nAdded\r\n-----\r\n\r\n* Support for Emergent Vision detectors",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.5.3"
+      },
+      {
+        "version": "v1.3.0",
+        "release_date": "2018-09-05T15:04:02",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.3.0"
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2018-06-06T12:14:30",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.2.0"
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2018-02-20T15:03:06",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.1.0"
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2017-11-07T18:21:01",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.0.0"
+      },
+      {
+        "version": "v0.8.0",
+        "release_date": "2017-11-01T04:15:37",
+        "title": "ophyd version 0.8",
+        "body": "Full release notes are on our [documentation website](https://nsls-ii.github.io/ophyd/release_notes.html#id1)",
+        "href": "https://github.com/bluesky/ophyd/releases/tag/v0.8.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "databroker",
     "releases": [
       {
@@ -794,96 +891,6 @@
       }
     ],
     "new_commits": 0
-  },
-  {
-    "name": "ophyd",
-    "releases": [
-      {
-        "version": "v1.8.0",
-        "release_date": "2023-06-26T18:52:27",
-        "title": "v1.8.0",
-        "body": "## What's Changed\r\n* add support for EPICS area detector pvaDriver cam by @prjemian in https://github.com/bluesky/ophyd/pull/1055\r\n* Adopt isort by @coretl in https://github.com/bluesky/ophyd/pull/1064\r\n* Make SynAxis produce an updating MoveStatus by @callumforrester in https://github.com/bluesky/ophyd/pull/1036\r\n* Fix capture signal was always triggered by @physwkim in https://github.com/bluesky/ophyd/pull/1066\r\n* Move settings to setup.cfg and use setuptools-scm by @coretl in https://github.com/bluesky/ophyd/pull/1065\r\n* Fix SynAxisNoPosition by @coretl in https://github.com/bluesky/ophyd/pull/1068\r\n* Add v2 dir by @coretl in https://github.com/bluesky/ophyd/pull/1067\r\n* Make CI run on external PRs by @coretl in https://github.com/bluesky/ophyd/pull/1071\r\n* Use pydata docs theme and make a space for v2 docs by @coretl in https://github.com/bluesky/ophyd/pull/1076\r\n* Deploy to the correct place by @coretl in https://github.com/bluesky/ophyd/pull/1077\r\n* DOC: fixed minor typo. by @clintonroy in https://github.com/bluesky/ophyd/pull/1079\r\n* DOC: minor typo fix. by @clintonroy in https://github.com/bluesky/ophyd/pull/1080\r\n* DOC: added a shutter example of a PVPositionerComparator by @clintonroy in https://github.com/bluesky/ophyd/pull/1081\r\n* Update LICENSE by @stuartcampbell in https://github.com/bluesky/ophyd/pull/1082\r\n* Ophyd v2 core by @coretl in https://github.com/bluesky/ophyd/pull/1078\r\n* Fix docs linking by @coretl in https://github.com/bluesky/ophyd/pull/1085\r\n* Change `make_dir_tree` default dir mode to `755` by @mrakitin in https://github.com/bluesky/ophyd/pull/1087\r\n* Add status repr to WaitTimeoutError message by @dperl-dls in https://github.com/bluesky/ophyd/pull/1088\r\n* DOC: fix install instructions in README by @mrakitin in https://github.com/bluesky/ophyd/pull/1089\r\n* BUG: Let channelsim work with enums by @tizayi in https://github.com/bluesky/ophyd/pull/1093\r\n* ENH: Add enum descriptor support to ChannelCa by @tizayi in https://github.com/bluesky/ophyd/pull/1097\r\n* BUG: isinstance calls property success before status object is done by @tizayi in https://github.com/bluesky/ophyd/pull/1099\r\n* v2: try to fix some constantly failing tests by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1105\r\n* Ophyd v2: add _exception to AsyncStatus to propagate errors through FailedStatus. by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1103\r\n* v2: Add dict support by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1104\r\n* propagate errors through wait_for_connection by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1109\r\n* Initial p4p channel implementation by @ajgdls in https://github.com/bluesky/ophyd/pull/1096\r\n* v2: Make sim signal source look like real source by @coretl in https://github.com/bluesky/ophyd/pull/1111\r\n* v2: make device class concrete by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1107\r\n* v2: Added bool support for 2 element CA/PVA enums by @coretl in https://github.com/bluesky/ophyd/pull/1112\r\n* V2 minor async status changes by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1110\r\n* v2 Fix traceback of a failed AsyncStatus object by @coretl in https://github.com/bluesky/ophyd/pull/1114\r\n* v2: remove monitor by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1125\r\n* v2: Make stage/unstage async by @coretl in https://github.com/bluesky/ophyd/pull/1123\r\n* v2: Add set_and_wait_for_value() by @coretl in https://github.com/bluesky/ophyd/pull/1124\r\n* Let SimSignalBackend accept npt.NDArray datatypes by @RAYemelyanova in https://github.com/bluesky/ophyd/pull/1118\r\n* Resolve typo introduced in PR #1055 by @prjemian in https://github.com/bluesky/ophyd/pull/1129\r\n* DOC: release notes for v1.8.0 by @mrakitin in https://github.com/bluesky/ophyd/pull/1127\r\n\r\n## New Contributors\r\n* @physwkim made their first contribution in https://github.com/bluesky/ophyd/pull/1066\r\n* @stuartcampbell made their first contribution in https://github.com/bluesky/ophyd/pull/1082\r\n* @dperl-dls made their first contribution in https://github.com/bluesky/ophyd/pull/1088\r\n* @tizayi made their first contribution in https://github.com/bluesky/ophyd/pull/1093\r\n* @RAYemelyanova made their first contribution in https://github.com/bluesky/ophyd/pull/1105\r\n* @ajgdls made their first contribution in https://github.com/bluesky/ophyd/pull/1096\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.7.0...v1.8.0",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.8.0"
-      },
-      {
-        "version": "v1.7.0",
-        "release_date": "2022-08-05T14:35:31",
-        "title": "ophyd v1.7.0",
-        "body": "## What's Changed\r\n* xml_file_name must be a string by @prjemian in https://github.com/bluesky/ophyd/pull/1035\r\n* Fix enum py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1030\r\n* API: deprecated use of set_and_wait function by @tacaswell in https://github.com/bluesky/ophyd/pull/1039\r\n* ENH: Added FakeEpicsPathSignal for testing by @DominicOram in https://github.com/bluesky/ophyd/pull/1042\r\n* Make DeviceStatus report a fraction 0 rather than 1 once complete by @callumforrester in https://github.com/bluesky/ophyd/pull/1022\r\n* ENH: Upstream InternalSignal, allow passing of put arguments through set by @ZLLentz in https://github.com/bluesky/ophyd/pull/1045\r\n* MNT: ensure the input to set in EpicsPathSignal converted to str by @tacaswell in https://github.com/bluesky/ophyd/pull/1040\r\n* Rename dispatch -> generate_datum by @tacaswell in https://github.com/bluesky/ophyd/pull/1033\r\n* MAINT: reduce log level of spammy self.log.info log messages to debug by @ZLLentz in https://github.com/bluesky/ophyd/pull/1047\r\n* MNT: Wait for NullStatus to mark itself as finished by @tangkong in https://github.com/bluesky/ophyd/pull/1048\r\n* ENH: Add EpicsSignalNoValidation by @tangkong in https://github.com/bluesky/ophyd/pull/1044\r\n* Fix tutorial typos by @anleslac in https://github.com/bluesky/ophyd/pull/1050\r\n* ENH: Upstream helpful PV Positioners, add wait_for_value util by @ZLLentz in https://github.com/bluesky/ophyd/pull/1046\r\n* Tweak stage_sigs DEBUG logging by @jklynch in https://github.com/bluesky/ophyd/pull/1051\r\n* PERF: set subscriptions only once per class by @klauer in https://github.com/bluesky/ophyd/pull/1052\r\n* ENH: Component[T] generic support for type hinting by @klauer in https://github.com/bluesky/ophyd/pull/1053\r\n* Do not assume TRACE is unused. by @danielballan in https://github.com/bluesky/ophyd/pull/1058\r\n* Quell some test warnings by @coretl in https://github.com/bluesky/ophyd/pull/1061\r\n* Adopt black by @coretl in https://github.com/bluesky/ophyd/pull/1060\r\n\r\n## New Contributors\r\n* @callumforrester made their first contribution in https://github.com/bluesky/ophyd/pull/1022\r\n* @tangkong made their first contribution in https://github.com/bluesky/ophyd/pull/1048\r\n* @anleslac made their first contribution in https://github.com/bluesky/ophyd/pull/1050\r\n* @coretl made their first contribution in https://github.com/bluesky/ophyd/pull/1061\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.4...v1.7.0",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.7.0"
-      },
-      {
-        "version": "v1.6.4",
-        "release_date": "2022-04-08T19:29:26",
-        "title": "ophyd v1.6.4",
-        "body": "## What's Changed\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/ophyd/pull/1019\r\n* report signal name on ValueError in Signal.describe() by @jklynch in https://github.com/bluesky/ophyd/pull/1020\r\n* Added timeout arguments to FakeEpicsSignal by @DominicOram in https://github.com/bluesky/ophyd/pull/1023\r\n* v1.6.4 release notes by @gwbischof in https://github.com/bluesky/ophyd/pull/1031\r\n\r\n## New Contributors\r\n* @DominicOram made their first contribution in https://github.com/bluesky/ophyd/pull/1023\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd/compare/v1.6.3...v1.6.4",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.4"
-      },
-      {
-        "version": "v1.6.3",
-        "release_date": "2021-10-11T19:21:30",
-        "title": "v1.6.3",
-        "body": "Changes\r\n-------\r\n\r\n* In case of a LimitError being raised by the ``mv()`` command, the error\r\n  message will now specify which setpoint PV triggered the limit condition.\r\n* Added tests which check Ophyd objects against the new Bluesky protocols.\r\n* The requirement for the ``inflection`` package has been removed from\r\n  general requirements and moved to ``requirements-dev.txt``.",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.3"
-      },
-      {
-        "version": "v1.6.1",
-        "release_date": "2021-02-26T19:33:50",
-        "title": "v1.6.1",
-        "body": "Fixes\r\n-----\r\n\r\n* Added a missing name argument to AreaDetector documentation.\r\n* Correctly propagate changes to the default ``connection_timeout`` setting\r\n  via ``set_defaults``, instead of always defaulting to 1 second.\r\n\r\nChanges\r\n-------\r\n\r\n* Expanded documentation for Fly-able Interface to include code examples and\r\n  updated MockFlyer sim.\r\n* Changed ``update_rate`` and ``auto_count_update_rate`` signals in\r\n  ``EpicsScalar`` to default to ``Kind.omitted`` instead of ``Kind.config``.\r\n",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.1"
-      },
-      {
-        "version": "v1.6.0",
-        "release_date": "2020-12-16T21:58:42",
-        "title": "v1.6.0",
-        "body": "## Fixes\r\n\r\n* The write_timeout specified for an EpicsSignalBase is respected by its set() method unless overridden with set(..., timeout=TIMEOUT).\r\nArea Detector PVs related to array shape have been given an order compatible with the numpy array index ordering of the array itself.\r\n* Thread the keyword EpicsSignal.get(..., use_monitor=True) down to the control system. This setting was previously supported but support was removed (years ago). We now view its removal as a mistake.\r\n* When area detector takes a series of images and num_capture is set to 0, this is now interpreted to mean \u201chowever many images the detector is configured to acquire\u201d rather than \u201c0 images\u201d.\r\n* Fixed EigerDetectorCam\u2019s photon_energy component\u2019s PV suffix spelling.\r\n* Motor limits HLS and LLS used EpicsSignal when they should be using EpicsSignalRO.\r\n* EpicsSignal with string=True kwarg now correctly results in dtype='string' from .describe() method\r\n\r\n## Added\r\n* Support for Emergent Vision detectors.\r\n* The class-wide default for write_timeout is now configurable via EpicsSignalBase.set_defaults(). It was previously only configurable on a per-instance basis at initialization time, with the class-wide default hard-coded to None. The class-wide default is still None, unchanged from the previous release.\r\n* The class-wide default for auto_monitor is now configurable via EpicsSignalBase.set_defaults(). It was previously configurable on a per-instance basis at initialization time. The default value, False, has not changed.\r\n\r\n## Changes\r\n* The logging has been tweaked to be less noisy, particularly at import time. Some log messages have been moved from 'ophyd.object' to 'ophyd.control_layer', and the level of messages emitted to 'ophyd.control_layer' have been reduced from INFO to DEBUG. Some log messages have been removed entirely.\r\n* The method EpicsSignalBase.set_default_timeout() has been renamed to EpicsSignalBase.set_defaults() because it has been extended to include more than timeouts, as described above. The old name is still supported but issues a warning that it may be removed in the future.\r\n* Use auto-monitoring in more places in EpicsMotor. This should drastically speed up motor.read_configuration().\r\n* Update ophyd.sim.MockFlyer to use its name as its stream name.\r\n* Capture the create_directory signal on Area Detector FilePlugin as configuration.",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.6.0"
-      },
-      {
-        "version": "v1.5.3",
-        "release_date": "2020-08-26T13:58:01",
-        "title": "ophyd v1.5.3",
-        "body": "ophyd 1.5.3 (2020-08-26)\r\n===================\r\n\r\nChanges\r\n-------\r\n\r\n* Add a default value for ``ScalerCH.select_channels`` such that calling it\r\n  without arguments selects all named channels.\r\n* Change a particularly verbose ophyd logger from INFO-level to DEBUG-level.\r\n\r\n\r\nFixes\r\n-----\r\n\r\n* Critical bug in EpicsMotor limits set low to high and high to low.\r\n* For area detector cameras, add ``num_images`` to the set of components\r\n  recorded as configuration by default.\r\n\r\nAdded\r\n-----\r\n\r\n* Support for Emergent Vision detectors",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.5.3"
-      },
-      {
-        "version": "v1.3.0",
-        "release_date": "2018-09-05T15:04:02",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.3.0"
-      },
-      {
-        "version": "v1.2.0",
-        "release_date": "2018-06-06T12:14:30",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.2.0"
-      },
-      {
-        "version": "v1.1.0",
-        "release_date": "2018-02-20T15:03:06",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.1.0"
-      },
-      {
-        "version": "v1.0.0",
-        "release_date": "2017-11-07T18:21:01",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v1.0.0"
-      },
-      {
-        "version": "v0.8.0",
-        "release_date": "2017-11-01T04:15:37",
-        "title": "ophyd version 0.8",
-        "body": "Full release notes are on our [documentation website](https://nsls-ii.github.io/ophyd/release_notes.html#id1)",
-        "href": "https://github.com/bluesky/ophyd/releases/tag/v0.8.0"
-      }
-    ],
-    "new_commits": 7
   },
   {
     "name": "bluesky-darkframes",
