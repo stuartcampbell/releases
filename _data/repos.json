@@ -142,6 +142,13 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b25"
       },
       {
+        "version": "v2.0.0b23",
+        "release_date": "2023-06-02T20:21:32",
+        "title": "v2.0.0b23",
+        "body": "This adds support for [`distinct()`](https://blueskyproject.io/tiled/reference/generated/tiled.client.node.Node.distinct.html#tiled.client.node.Node.distinct) and adds a `.v2` accessor in more places.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b23"
+      },
+      {
         "version": "v2.0.0b22",
         "release_date": "2023-03-22T19:12:42",
         "title": "v2.0.0b22",
