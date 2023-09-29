@@ -564,13 +564,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.6"
       },
       {
-        "version": "v1.19.5",
-        "release_date": "2023-06-30T10:38:30",
-        "title": "v1.19.5",
-        "body": "## What's Changed\r\n* Switch from partials to classes by @evalott100 in https://github.com/bluesky/event-model/pull/262\r\n* Added to the schema extra of event_descriptor to allow precision to be null by @evalott100 in https://github.com/bluesky/event-model/pull/277\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.4...v1.19.5",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.5"
-      },
-      {
         "version": "v1.19.4",
         "release_date": "2023-06-23T15:29:42",
         "title": "v1.19.4",
@@ -606,13 +599,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
       },
       {
-        "version": "v1.18.0",
-        "release_date": "2022-08-05T14:02:38",
-        "title": "event-model v1.18.0",
-        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/event-model/pull/216\r\n* Fix for `databroker.v0` API by @mrakitin in https://github.com/bluesky/event-model/pull/218\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/event-model/pull/217\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.17.2...v1.18.0",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.18.0"
-      },
-      {
         "version": "v1.17.2",
         "release_date": "2021-06-21T18:56:03",
         "title": "event-model v1.17.2",
@@ -632,13 +618,6 @@
         "title": "v1.17.0",
         "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
-      },
-      {
-        "version": "v1.16.1",
-        "release_date": "2020-11-15T03:00:13",
-        "title": "v1.16.1",
-        "body": "* The \"projections\" schema in the Run Start document has been enhanced to accept \"configuration\" locations intended to link to fields that are in Event stream Configuration See :ref:`projections`. Additionally, validation of projections was enhanced.\r\n* The method https://github.com/bluesky/event-model/blob/b7a5fd8f54a9ee96c33a2171e8ecb243f0b08391/event_model/__init__.py#L1283 was enhanced to check for repeated runs with  colliding uids, raising an ValueError when this occurs.\r\n[event-model-1.16.1.tar.gz](https://github.com/bluesky/event-model/files/5550012/event-model-1.16.1.tar.gz)\r\n[event-model-1.16.1.zip](https://github.com/bluesky/event-model/files/5550013/event-model-1.16.1.zip)\r\n\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
       },
       {
         "version": "v1.16.0",
