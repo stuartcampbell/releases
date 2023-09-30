@@ -992,13 +992,6 @@
         "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.1"
       },
       {
-        "version": "v1.8.0",
-        "release_date": "2021-09-15T16:26:55+00:00",
-        "title": "bluesky v1.8.0",
-        "body": "Fixed\r\n-----\r\n\r\n* Updated the tests to use databroker.temp instead of sqlite databroker.\r\n* ``xfail`` test that uses removed API.\r\n* Fix ``list_grid_scan`` metadata for ``plan_pattern_args``.\r\n* Fix descriptors for flyers that do not implement ``read_configuration``.\r\n\r\nEnhancements\r\n------------\r\n\r\n* Do not pass the ``loop`` kwarg to ``RunEngine`` and ``RunBundler`` if we do\r\n  not have to.\r\n* ``RunEngine``'s ``__call__`` now may return plan value, as toggled by new ``call_returns_result`` flag.\r\n  Default behavior has not changed, but may change in a future release.\r\n\r\nAdded\r\n-----\r\n\r\n* Enabled support of Python 3.9 and added it to the test matrix.\r\n\r\nDocumentation\r\n-------------\r\n\r\n* Update TOC links to blueskyproject.io.\r\n* Added release instructions.\r\n* Filled out ``README.md`` and added the ``description`` and\r\n  ``long_description`` fields to ``setup.py``.",
-        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.8.0"
-      },
-      {
         "version": "v1.7.0",
         "release_date": "2021-07-14T16:09:59+00:00",
         "title": "bluesky v1.7.0",
