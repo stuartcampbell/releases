@@ -3,6 +3,13 @@
     "name": "libhkl",
     "releases": [
       {
+        "version": "v1.1.0",
+        "release_date": "2023-10-02T18:06:54+00:00",
+        "title": "v1.1.0",
+        "body": "### libhkl-v5.0.0.3001-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `b0a79417855ab358a7f1c5e08074b3e7e014b5d2e10c325d6e1328f3442bf69d`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.1.0"
+      },
+      {
         "version": "v1.0.0",
         "release_date": "2023-10-02T14:52:02+00:00",
         "title": "v1.0.0",
