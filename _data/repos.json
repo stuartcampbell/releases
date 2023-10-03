@@ -1,5 +1,18 @@
 [
   {
+    "name": "ophyd-async",
+    "releases": [
+      {
+        "version": "v0.1.0",
+        "release_date": "2023-10-03T13:39:46+00:00",
+        "title": "v0.1.0",
+        "body": "## What's Changed\n* Restructure code base and ensure tests still pass by @rosesyrett in https://github.com/bluesky/ophyd-async/pull/5\n* Add ADR for procedural device definition by @coretl in https://github.com/bluesky/ophyd-async/pull/12\n* Add children() for Device and DeviceVector by @olliesilvester in https://github.com/bluesky/ophyd-async/pull/17\n* Support ntndarray by @Tom-Willemsen in https://github.com/bluesky/ophyd-async/pull/19\n\n## New Contributors\n* @rosesyrett made their first contribution in https://github.com/bluesky/ophyd-async/pull/5\n* @coretl made their first contribution in https://github.com/bluesky/ophyd-async/pull/12\n* @olliesilvester made their first contribution in https://github.com/bluesky/ophyd-async/pull/17\n* @Tom-Willemsen made their first contribution in https://github.com/bluesky/ophyd-async/pull/19\n\n**Full Changelog**: https://github.com/bluesky/ophyd-async/commits/v0.1.0",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "libhkl",
     "releases": [
       {
