@@ -680,6 +680,13 @@
     "name": "event-model",
     "releases": [
       {
+        "version": "v1.19.7",
+        "release_date": "2023-07-05T15:00:33+00:00",
+        "title": "v1.19.7",
+        "body": "## What's Changed\r\nPatch to prevent pydantic 2 causing errors on the document TypedDicts and schema generation\r\n\r\n* Fixed imports to avoid pydantic if the version is >=2 by @evalott100 in https://github.com/bluesky/event-model/pull/281\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.6...v1.19.7",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.7"
+      },
+      {
         "version": "v1.19.6",
         "release_date": "2023-07-04T12:08:23+00:00",
         "title": "v1.19.6",
@@ -699,6 +706,13 @@
         "title": "v1.19.4",
         "body": "## What's Changed\r\n### A slight fix to release [v1.19.3](https://github.com/bluesky/event-model/releases/tag/v1.19.3)\r\n* Allow descriptor units to be null by @coretl in https://github.com/bluesky/event-model/pull/275\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.3...v1.19.4",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.4"
+      },
+      {
+        "version": "v1.19.3",
+        "release_date": "2023-06-21T14:53:17+00:00",
+        "title": "v1.19.3",
+        "body": "## What's Changed\r\n* Adopted the [bluesky pip python skeleton](https://github.com/bluesky/python3-pip-skeleton) \r\n* Fixed validation errors in the schema in https://github.com/bluesky/event-model/pull/258\r\n* Added event_counters as an optional kwarg to compose_run in https://github.com/bluesky/event-model/pull/257\r\n* Introduced the skeleton method of versioning, removing _version.py in https://github.com/bluesky/event-model/pull/264\r\n* Added unit test to test dots aren't accepted in keys in https://github.com/bluesky/event-model/pull/269\r\n* Added typing support so mypy passes in https://github.com/bluesky/event-model/pull/247\r\n    * Documents can now be typed by their TypedDict, the jsonschema is the same but is generated from the TypedDicts.\r\n* Use importlib resources instead of pkg_resources in https://github.com/bluesky/event-model/pull/273\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/event-model/pull/253\r\n* @DiamondJoseph made their first contribution in https://github.com/bluesky/event-model/pull/258\r\n* @dependabot made their first contribution in https://github.com/bluesky/event-model/pull/248\r\n* @ksunden made their first contribution in https://github.com/bluesky/event-model/pull/273\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.2...v1.19.3",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.3"
       },
       {
         "version": "v1.19.2",
