@@ -153,96 +153,6 @@
     "new_commits": 0
   },
   {
-    "name": "hklpy",
-    "releases": [
-      {
-        "version": "v1.0.4",
-        "release_date": "2023-10-07T01:27:21+00:00",
-        "title": "v1.0.4",
-        "body": "Maintenance\r\n\r\n## What's Changed\r\n* update versioneer (includes compat with py312) by @prjemian in https://github.com/bluesky/hklpy/pull/236\r\n* BUG: run_orientation_info() failed when no primary stream exists by @prjemian in https://github.com/bluesky/hklpy/pull/238\r\n* use try..except in util.run orientation info() & progress bar list_orientation_runs by @prjemian in https://github.com/bluesky/hklpy/pull/240\r\n* identify if data is missing in util.restore_energy() by @prjemian in https://github.com/bluesky/hklpy/pull/241\r\n* expand to py310 & py311 by @prjemian in https://github.com/bluesky/hklpy/pull/261\r\n* Make it easier to find the SPEC command cross-reference table by @prjemian in https://github.com/bluesky/hklpy/pull/265\r\n* replace broken URL by @prjemian in https://github.com/bluesky/hklpy/pull/264\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/hklpy/compare/v1.0.3...v1.0.4",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.4"
-      },
-      {
-        "version": "v1.0.3",
-        "release_date": "2022-06-22T16:44:29+00:00",
-        "title": "v1.0.3",
-        "body": "Maintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.2\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.3) (wiki page) from version control history\r\n\r\n## What's Changed\r\n* add workflow to publish to PyPI for new tags  by @prjemian in https://github.com/bluesky/hklpy/pull/224\r\n* Add install doc by @prjemian in https://github.com/bluesky/hklpy/pull/225\r\n* conda environment update by @prjemian in https://github.com/bluesky/hklpy/pull/227\r\n* pip install requirements by @prjemian in https://github.com/bluesky/hklpy/pull/228\r\n* Publish jupyter notebooks directly from documentation source dir by @prjemian in https://github.com/bluesky/hklpy/pull/229\r\n* Document changes for upcoming release v1.0.3 by @prjemian in https://github.com/bluesky/hklpy/pull/230\r\n* switch to micromamba, resolve documentation build problem by @prjemian in https://github.com/bluesky/hklpy/pull/234\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/hklpy/compare/v1.0.2...v1.0.3",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.3"
-      },
-      {
-        "version": "v1.0.2",
-        "release_date": "2022-06-15T00:23:18+00:00",
-        "title": "v1.0.2",
-        "body": "## v1.0.2\r\n\r\nMaintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.1\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.2) (wiki page) from version control history\r\n",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.2"
-      },
-      {
-        "version": "v1.0.1",
-        "release_date": "2021-09-20T15:30:15+00:00",
-        "title": "v1.0.1",
-        "body": "## v1.0.1\r\n\r\nMaintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.0\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.1) (wiki page) from version control history\r\n",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.1"
-      },
-      {
-        "version": "v1.0.0",
-        "release_date": "2021-09-13T14:55:36+00:00",
-        "title": "v1.0.0",
-        "body": "## v1.0.0\r\n\r\nInitial production release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v0.3.16\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.0) from version control history",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.0"
-      },
-      {
-        "version": "v0.3.16",
-        "release_date": "2021-04-28T17:31:25+00:00",
-        "title": "v0.3.16",
-        "body": "* [Release Highlights](https://github.com/bluesky/hklpy/blob/main/RELEASE_NOTES.rst)\r\n* [Complete list of changes](https://github.com/bluesky/hklpy/wiki/release-notes-v0.3.16)\r\n* Breaking Change:  Diffractometer geometries have moved from `hkl.diffract` to (the new) `hkl.geometries`, such as `hkl.geometries.E4CV`.",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16"
-      },
-      {
-        "version": "v0.3.16rc1",
-        "release_date": "2021-04-28T02:30:17+00:00",
-        "title": "v0.3.16rc1",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16rc1"
-      },
-      {
-        "version": "v0.3.15",
-        "release_date": "2020-12-20T19:00:56+00:00",
-        "title": "v0.3.15",
-        "body": "bug fixes and documentation (including examples)\r\n\r\n* [Release Notes](https://github.com/bluesky/hklpy/blob/v0.3.15/docs/source/release_notes.rst)\r\n* [Auto-generated Table of Tags, PRs, Issues, Commits](https://github.com/bluesky/hklpy/wiki/release-notes-0.3.15)\r\n\r\nNote that **wavelength units have changed** from `nm` to `angstroms`.  See the release notes for further information.",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.15"
-      },
-      {
-        "version": "v0.3.14",
-        "release_date": "2020-06-25T08:00:52+00:00",
-        "title": "v0.3.14",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.14"
-      },
-      {
-        "version": "v0.3.13",
-        "release_date": "2018-11-26T15:35:26+00:00",
-        "title": "v0.3.13",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.13"
-      },
-      {
-        "version": "v0.3.12",
-        "release_date": "2018-05-01T22:55:59+00:00",
-        "title": "v0.3.12",
-        "body": "Fixed a bug involving limits\r\n\r\nThis release fixes a bug that occurred where limits were not being set.\r\nThis was fixed by #11 .",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.12"
-      },
-      {
-        "version": "v0.3.11",
-        "release_date": "2016-06-20T21:59:01+00:00",
-        "title": "v0.3.11",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.11"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "libhkl",
     "releases": [
       {
@@ -1262,6 +1172,89 @@
       }
     ],
     "new_commits": 4
+  },
+  {
+    "name": "hklpy",
+    "releases": [
+      {
+        "version": "v1.0.3",
+        "release_date": "2022-06-22T16:44:29+00:00",
+        "title": "v1.0.3",
+        "body": "Maintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.2\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.3) (wiki page) from version control history\r\n\r\n## What's Changed\r\n* add workflow to publish to PyPI for new tags  by @prjemian in https://github.com/bluesky/hklpy/pull/224\r\n* Add install doc by @prjemian in https://github.com/bluesky/hklpy/pull/225\r\n* conda environment update by @prjemian in https://github.com/bluesky/hklpy/pull/227\r\n* pip install requirements by @prjemian in https://github.com/bluesky/hklpy/pull/228\r\n* Publish jupyter notebooks directly from documentation source dir by @prjemian in https://github.com/bluesky/hklpy/pull/229\r\n* Document changes for upcoming release v1.0.3 by @prjemian in https://github.com/bluesky/hklpy/pull/230\r\n* switch to micromamba, resolve documentation build problem by @prjemian in https://github.com/bluesky/hklpy/pull/234\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/hklpy/compare/v1.0.2...v1.0.3",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.3"
+      },
+      {
+        "version": "v1.0.2",
+        "release_date": "2022-06-15T00:23:18+00:00",
+        "title": "v1.0.2",
+        "body": "## v1.0.2\r\n\r\nMaintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.1\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.2) (wiki page) from version control history\r\n",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.2"
+      },
+      {
+        "version": "v1.0.1",
+        "release_date": "2021-09-20T15:30:15+00:00",
+        "title": "v1.0.1",
+        "body": "## v1.0.1\r\n\r\nMaintenance release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v1.0.0\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.1) (wiki page) from version control history\r\n",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.1"
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2021-09-13T14:55:36+00:00",
+        "title": "v1.0.0",
+        "body": "## v1.0.0\r\n\r\nInitial production release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v0.3.16\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.0) from version control history",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.0"
+      },
+      {
+        "version": "v0.3.16",
+        "release_date": "2021-04-28T17:31:25+00:00",
+        "title": "v0.3.16",
+        "body": "* [Release Highlights](https://github.com/bluesky/hklpy/blob/main/RELEASE_NOTES.rst)\r\n* [Complete list of changes](https://github.com/bluesky/hklpy/wiki/release-notes-v0.3.16)\r\n* Breaking Change:  Diffractometer geometries have moved from `hkl.diffract` to (the new) `hkl.geometries`, such as `hkl.geometries.E4CV`.",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16"
+      },
+      {
+        "version": "v0.3.16rc1",
+        "release_date": "2021-04-28T02:30:17+00:00",
+        "title": "v0.3.16rc1",
+        "body": "",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16rc1"
+      },
+      {
+        "version": "v0.3.15",
+        "release_date": "2020-12-20T19:00:56+00:00",
+        "title": "v0.3.15",
+        "body": "bug fixes and documentation (including examples)\r\n\r\n* [Release Notes](https://github.com/bluesky/hklpy/blob/v0.3.15/docs/source/release_notes.rst)\r\n* [Auto-generated Table of Tags, PRs, Issues, Commits](https://github.com/bluesky/hklpy/wiki/release-notes-0.3.15)\r\n\r\nNote that **wavelength units have changed** from `nm` to `angstroms`.  See the release notes for further information.",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.15"
+      },
+      {
+        "version": "v0.3.14",
+        "release_date": "2020-06-25T08:00:52+00:00",
+        "title": "v0.3.14",
+        "body": "",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.14"
+      },
+      {
+        "version": "v0.3.13",
+        "release_date": "2018-11-26T15:35:26+00:00",
+        "title": "v0.3.13",
+        "body": "",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.13"
+      },
+      {
+        "version": "v0.3.12",
+        "release_date": "2018-05-01T22:55:59+00:00",
+        "title": "v0.3.12",
+        "body": "Fixed a bug involving limits\r\n\r\nThis release fixes a bug that occurred where limits were not being set.\r\nThis was fixed by #11 .",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.12"
+      },
+      {
+        "version": "v0.3.11",
+        "release_date": "2016-06-20T21:59:01+00:00",
+        "title": "v0.3.11",
+        "body": "",
+        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.11"
+      }
+    ],
+    "new_commits": 0
   },
   {
     "name": "suitcase-tiff",
