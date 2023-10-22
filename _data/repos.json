@@ -678,82 +678,6 @@
     "new_commits": 0
   },
   {
-    "name": "yaqc-bluesky",
-    "releases": [
-      {
-        "version": "v2023.8.0",
-        "release_date": "2023-08-14T22:26:41+00:00",
-        "title": "v2023.8.0",
-        "body": "Added\r\n- daemons supporting is-discrete now can be set according to their identifiers\r\n\r\nChanged\r\n- properties now appear as sub-devices\r\n\r\nFixed\r\n- sensors no-longer force a measure at connect-time (this requires sensors to actually be traits compliant)",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2023.8.0"
-      },
-      {
-        "version": "v2022.4.1",
-        "release_date": "2022-04-26T16:53:38+00:00",
-        "title": "2022.4.1",
-        "body": "### Fixed\r\n- More error tolerant wait until still method which properly sets the exception of the status object",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.1"
-      },
-      {
-        "version": "v2022.4.0",
-        "release_date": "2022-04-19T15:49:26+00:00",
-        "title": "2022.4.0",
-        "body": "### Fixed\r\n- namespace dependent hardware to avoid name collisions\r\n- Invalid splatting of has mapping values into an append call, which only takes one argument\r\n\r\n### Added\r\n- \"independent\" flag to mapping added fields marking them as independent variables that should not be treated as \"channels\"",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.0"
-      },
-      {
-        "version": "v2022.1.0",
-        "release_date": "2022-01-30T23:42:33+00:00",
-        "title": "2022.1.0",
-        "body": "## [2022.1.0]\r\n\r\n### Added\r\n- human readable repr for device\r\n- Handling of devices which provide dependent hardware\r\n",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.1.0"
-      },
-      {
-        "version": "v2021.12.0",
-        "release_date": "2021-12-22T15:56:14+00:00",
-        "title": "v2021.12.0",
-        "body": "### Changed\r\n- Use yaq properties to fill out read/configuration\r\n- No longer use {name}_readback and {name}_setpoint (replaced by {name} and {name}_destination)\r\n",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.12.0"
-      },
-      {
-        "version": "v2021.9.0",
-        "release_date": "2021-09-08T03:29:01+00:00",
-        "title": "v2021.9.0",
-        "body": "### Changed\r\n- state of busy no longer returned when devices are read\r\n- happi name field no longer overloaded, upstream now allows short names\r\n- happi now pinned to >= 1.9.0\r\n- Default for units and shape if not provided for the daemon\r\n- Sensor shapes properly applied in describe\r\n- Use \"array\" dtype for sensor channels with a shape\r\n\r\n### Added\r\n- clients to has-position daemons now implement @property position, a common convention in bluesky\r\n- handling of has-mapping trait to provide correlated dimensions between mapping and arrays\r\n\r\n### Removed\r\n- no longer implement \"set\" for hardware without position (had raised NotImplementedError)",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.9.0"
-      },
-      {
-        "version": "v2021.1.1",
-        "release_date": "2021-01-26T02:23:03+00:00",
-        "title": "v2021.1.1",
-        "body": "### Changed\r\n- overloaded happi default for item name requirements: now any valid python identifier works",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.1"
-      },
-      {
-        "version": "v2021.1.0",
-        "release_date": "2021-01-13T02:36:59+00:00",
-        "title": "v2021.1.0",
-        "body": "### Added\r\n- happi support\r\n- happi is now a dependency\r\n\r\n### Changed\r\n- removed base attribute stop (None) that only existed to pass bluesky ducktype checks\r\n- added bluesky as explicit dependency, pinned to newer than 1.6.6",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.0"
-      },
-      {
-        "version": "v2020.07.1",
-        "release_date": "2020-07-30T23:52:22+00:00",
-        "title": "v2020.07.1",
-        "body": "Remove name field",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
-      },
-      {
-        "version": "v2020.07.0",
-        "release_date": "2020-07-30T23:08:47+00:00",
-        "title": "v2020.07.0",
-        "body": "initial release",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "bluesky-httpserver",
     "releases": [
       {
@@ -1275,6 +1199,68 @@
       }
     ],
     "new_commits": 0
+  },
+  {
+    "name": "yaqc-bluesky",
+    "releases": [
+      {
+        "version": "v2022.4.0",
+        "release_date": "2022-04-19T15:49:26+00:00",
+        "title": "2022.4.0",
+        "body": "### Fixed\r\n- namespace dependent hardware to avoid name collisions\r\n- Invalid splatting of has mapping values into an append call, which only takes one argument\r\n\r\n### Added\r\n- \"independent\" flag to mapping added fields marking them as independent variables that should not be treated as \"channels\"",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.0"
+      },
+      {
+        "version": "v2022.1.0",
+        "release_date": "2022-01-30T23:42:33+00:00",
+        "title": "2022.1.0",
+        "body": "## [2022.1.0]\r\n\r\n### Added\r\n- human readable repr for device\r\n- Handling of devices which provide dependent hardware\r\n",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.1.0"
+      },
+      {
+        "version": "v2021.12.0",
+        "release_date": "2021-12-22T15:56:14+00:00",
+        "title": "v2021.12.0",
+        "body": "### Changed\r\n- Use yaq properties to fill out read/configuration\r\n- No longer use {name}_readback and {name}_setpoint (replaced by {name} and {name}_destination)\r\n",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.12.0"
+      },
+      {
+        "version": "v2021.9.0",
+        "release_date": "2021-09-08T03:29:01+00:00",
+        "title": "v2021.9.0",
+        "body": "### Changed\r\n- state of busy no longer returned when devices are read\r\n- happi name field no longer overloaded, upstream now allows short names\r\n- happi now pinned to >= 1.9.0\r\n- Default for units and shape if not provided for the daemon\r\n- Sensor shapes properly applied in describe\r\n- Use \"array\" dtype for sensor channels with a shape\r\n\r\n### Added\r\n- clients to has-position daemons now implement @property position, a common convention in bluesky\r\n- handling of has-mapping trait to provide correlated dimensions between mapping and arrays\r\n\r\n### Removed\r\n- no longer implement \"set\" for hardware without position (had raised NotImplementedError)",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.9.0"
+      },
+      {
+        "version": "v2021.1.1",
+        "release_date": "2021-01-26T02:23:03+00:00",
+        "title": "v2021.1.1",
+        "body": "### Changed\r\n- overloaded happi default for item name requirements: now any valid python identifier works",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.1"
+      },
+      {
+        "version": "v2021.1.0",
+        "release_date": "2021-01-13T02:36:59+00:00",
+        "title": "v2021.1.0",
+        "body": "### Added\r\n- happi support\r\n- happi is now a dependency\r\n\r\n### Changed\r\n- removed base attribute stop (None) that only existed to pass bluesky ducktype checks\r\n- added bluesky as explicit dependency, pinned to newer than 1.6.6",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2021.1.0"
+      },
+      {
+        "version": "v2020.07.1",
+        "release_date": "2020-07-30T23:52:22+00:00",
+        "title": "v2020.07.1",
+        "body": "Remove name field",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.1"
+      },
+      {
+        "version": "v2020.07.0",
+        "release_date": "2020-07-30T23:08:47+00:00",
+        "title": "v2020.07.0",
+        "body": "initial release",
+        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2020.07.0"
+      }
+    ],
+    "new_commits": 13
   },
   {
     "name": "suitcase-specfile",
