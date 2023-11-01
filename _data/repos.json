@@ -1,5 +1,25 @@
 [
   {
+    "name": "ophyd-async",
+    "releases": [
+      {
+        "version": "v0.1.1",
+        "release_date": "2023-11-01T15:03:15+00:00",
+        "title": "v0.1.1",
+        "body": "Minor fix to trigger deadtime logic, to allow flyscans with varying detector deadtimes to work.",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.1.1"
+      },
+      {
+        "version": "v0.1.0",
+        "release_date": "2023-10-03T13:39:46+00:00",
+        "title": "v0.1.0",
+        "body": "## What's Changed\n* Restructure code base and ensure tests still pass by @rosesyrett in https://github.com/bluesky/ophyd-async/pull/5\n* Add ADR for procedural device definition by @coretl in https://github.com/bluesky/ophyd-async/pull/12\n* Add children() for Device and DeviceVector by @olliesilvester in https://github.com/bluesky/ophyd-async/pull/17\n* Support ntndarray by @Tom-Willemsen in https://github.com/bluesky/ophyd-async/pull/19\n\n## New Contributors\n* @rosesyrett made their first contribution in https://github.com/bluesky/ophyd-async/pull/5\n* @coretl made their first contribution in https://github.com/bluesky/ophyd-async/pull/12\n* @olliesilvester made their first contribution in https://github.com/bluesky/ophyd-async/pull/17\n* @Tom-Willemsen made their first contribution in https://github.com/bluesky/ophyd-async/pull/19\n\n**Full Changelog**: https://github.com/bluesky/ophyd-async/commits/v0.1.0",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "tiled",
     "releases": [
       {
@@ -362,19 +382,6 @@
         "title": "v1.0.0",
         "body": "This release matches existing version.  Compatibility only.\r\n\r\n### libhkl-v5.0.0.2173-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `0d36ee67057239f6a439b3f4fecac20df5102627c81bae90f1bc1e3c94e56a90`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
         "href": "https://github.com/bluesky/libhkl/releases/tag/v1.0.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "ophyd-async",
-    "releases": [
-      {
-        "version": "v0.1.0",
-        "release_date": "2023-10-03T13:39:46+00:00",
-        "title": "v0.1.0",
-        "body": "## What's Changed\n* Restructure code base and ensure tests still pass by @rosesyrett in https://github.com/bluesky/ophyd-async/pull/5\n* Add ADR for procedural device definition by @coretl in https://github.com/bluesky/ophyd-async/pull/12\n* Add children() for Device and DeviceVector by @olliesilvester in https://github.com/bluesky/ophyd-async/pull/17\n* Support ntndarray by @Tom-Willemsen in https://github.com/bluesky/ophyd-async/pull/19\n\n## New Contributors\n* @rosesyrett made their first contribution in https://github.com/bluesky/ophyd-async/pull/5\n* @coretl made their first contribution in https://github.com/bluesky/ophyd-async/pull/12\n* @olliesilvester made their first contribution in https://github.com/bluesky/ophyd-async/pull/17\n* @Tom-Willemsen made their first contribution in https://github.com/bluesky/ophyd-async/pull/19\n\n**Full Changelog**: https://github.com/bluesky/ophyd-async/commits/v0.1.0",
-        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.1.0"
       }
     ],
     "new_commits": 0
