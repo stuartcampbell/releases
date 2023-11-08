@@ -288,13 +288,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.6"
       },
       {
-        "version": "v1.19.5",
-        "release_date": "2023-06-30T10:38:30+00:00",
-        "title": "v1.19.5",
-        "body": "## What's Changed\r\n* Switch from partials to classes by @evalott100 in https://github.com/bluesky/event-model/pull/262\r\n* Added to the schema extra of event_descriptor to allow precision to be null by @evalott100 in https://github.com/bluesky/event-model/pull/277\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.4...v1.19.5",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.5"
-      },
-      {
         "version": "v1.19.4",
         "release_date": "2023-06-23T15:29:42+00:00",
         "title": "v1.19.4",
