@@ -1285,19 +1285,6 @@
     "new_commits": 4
   },
   {
-    "name": "suitcase-tiff",
-    "releases": [
-      {
-        "version": "v0.4.0",
-        "release_date": "2022-05-10T17:15:31+00:00",
-        "title": "suitcase-tiff v0.4.0",
-        "body": "## v0.4.0 (2022-05-10)\r\n\r\n- Fix to deal with descriptors that lie about the shape.\r\n- Add zero-padding to the frame number in the exported files.\r\n- CI updates to use GitHub Actions for checking style, testing, and publishing to PyPI.\r\n- Fix versioneer compatibility with Python 3.11.",
-        "href": "https://github.com/bluesky/suitcase-tiff/releases/tag/v0.4.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "suitcase-specfile",
     "releases": [
       {
