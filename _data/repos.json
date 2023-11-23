@@ -10,13 +10,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.9"
       },
       {
-        "version": "v1.19.8",
-        "release_date": "2023-10-11T09:05:05+00:00",
-        "title": "v1.19.8",
-        "body": "## What's Changed\r\n* Find schema files relative to source code, this allows tests to be ru\u2026 by @clintonroy in https://github.com/bluesky/event-model/pull/282\r\n* Rethinking external assets 2 by @evalott100 in https://github.com/bluesky/event-model/pull/272\r\n\r\n## New Contributors\r\n* @clintonroy made their first contribution in https://github.com/bluesky/event-model/pull/282\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.7...v1.19.8",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.8"
-      },
-      {
         "version": "v1.19.7",
         "release_date": "2023-07-05T15:00:33+00:00",
         "title": "v1.19.7",
@@ -87,13 +80,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
       },
       {
-        "version": "v1.17.1",
-        "release_date": "2021-01-29T21:13:47+00:00",
-        "title": "v1.17.1",
-        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
-      },
-      {
         "version": "v1.17.0",
         "release_date": "2020-12-17T22:46:45+00:00",
         "title": "v1.17.0",
@@ -120,13 +106,6 @@
         "title": "v1.15.2",
         "body": "",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
-      },
-      {
-        "version": "v1.13.3",
-        "release_date": "2020-03-05T21:55:06+00:00",
-        "title": "v1.13.3",
-        "body": "",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.13.3"
       },
       {
         "version": "v1.11.0",
