@@ -1,5 +1,18 @@
 [
   {
+    "name": "tiled-example-database",
+    "releases": [
+      {
+        "version": "0.0.7",
+        "release_date": "2023-11-29T20:23:12+00:00",
+        "title": "refs/tags/0.0.7",
+        "body": "refs/tags/0.0.7 : We don't use v in our versions\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.7"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "event-model",
     "releases": [
       {
