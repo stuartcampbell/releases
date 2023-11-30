@@ -3,6 +3,13 @@
     "name": "tiled-example-database",
     "releases": [
       {
+        "version": "0.0.8",
+        "release_date": "2023-11-30T05:19:30+00:00",
+        "title": "refs/tags/0.0.8",
+        "body": "refs/tags/0.0.8 : Put publish controls back, reduce notifications \ud83d\udcf4\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.8"
+      },
+      {
         "version": "0.0.7",
         "release_date": "2023-11-29T20:23:12+00:00",
         "title": "refs/tags/0.0.7",
