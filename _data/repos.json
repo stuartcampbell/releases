@@ -3,6 +3,13 @@
     "name": "tiled-example-database",
     "releases": [
       {
+        "version": "0.0.16",
+        "release_date": "2023-12-13T20:33:28+00:00",
+        "title": "0.0.16",
+        "body": "0.0.16 : Try outcome instead of conclusion \ud834\udf50\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.16"
+      },
+      {
         "version": "0.0.15",
         "release_date": "2023-12-13T20:21:10+00:00",
         "title": "0.0.15",
