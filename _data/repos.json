@@ -1,55 +1,14 @@
 [
   {
-    "name": "tiled-example-database",
-    "releases": [
-      {
-        "version": "0.0.16",
-        "release_date": "2023-12-13T20:33:28+00:00",
-        "title": "0.0.16",
-        "body": "0.0.16 : Try outcome instead of conclusion \ud834\udf50\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.16"
-      },
-      {
-        "version": "0.0.15",
-        "release_date": "2023-12-13T20:21:10+00:00",
-        "title": "0.0.15",
-        "body": "0.0.15 : CI was not being executed sequentially \u2611\u2192\u2611\u2934\ud83c\udd47\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.15"
-      },
-      {
-        "version": "0.0.14",
-        "release_date": "2023-11-30T20:46:45+00:00",
-        "title": "0.0.14",
-        "body": "0.0.14 : More consise, better looking \u2734\ufe0f\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.14"
-      },
-      {
-        "version": "0.0.13",
-        "release_date": "2023-11-30T18:46:36+00:00",
-        "title": "refs/tags/0.0.13",
-        "body": "refs/tags/0.0.13 : Write .zarr files to disk to finish up \ud83e\uddf9\u2728\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.13"
-      },
-      {
-        "version": "0.0.8",
-        "release_date": "2023-11-30T05:19:30+00:00",
-        "title": "refs/tags/0.0.8",
-        "body": "refs/tags/0.0.8 : Put publish controls back, reduce notifications \ud83d\udcf4\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.8"
-      },
-      {
-        "version": "0.0.7",
-        "release_date": "2023-11-29T20:23:12+00:00",
-        "title": "refs/tags/0.0.7",
-        "body": "refs/tags/0.0.7 : We don't use v in our versions\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.7"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "databroker",
     "releases": [
+      {
+        "version": "v2.0.0b33",
+        "release_date": "2023-12-14T21:40:08+00:00",
+        "title": "v2.0.0b33",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b33"
+      },
       {
         "version": "v2.0.0b32",
         "release_date": "2023-12-13T14:22:53+00:00",
@@ -238,6 +197,54 @@
         "title": "v0.8.1",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "tiled-example-database",
+    "releases": [
+      {
+        "version": "0.0.16",
+        "release_date": "2023-12-13T20:33:28+00:00",
+        "title": "0.0.16",
+        "body": "0.0.16 : Try outcome instead of conclusion \ud834\udf50\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.16"
+      },
+      {
+        "version": "0.0.15",
+        "release_date": "2023-12-13T20:21:10+00:00",
+        "title": "0.0.15",
+        "body": "0.0.15 : CI was not being executed sequentially \u2611\u2192\u2611\u2934\ud83c\udd47\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.15"
+      },
+      {
+        "version": "0.0.14",
+        "release_date": "2023-11-30T20:46:45+00:00",
+        "title": "0.0.14",
+        "body": "0.0.14 : More consise, better looking \u2734\ufe0f\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.14"
+      },
+      {
+        "version": "0.0.13",
+        "release_date": "2023-11-30T18:46:36+00:00",
+        "title": "refs/tags/0.0.13",
+        "body": "refs/tags/0.0.13 : Write .zarr files to disk to finish up \ud83e\uddf9\u2728\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.13"
+      },
+      {
+        "version": "0.0.8",
+        "release_date": "2023-11-30T05:19:30+00:00",
+        "title": "refs/tags/0.0.8",
+        "body": "refs/tags/0.0.8 : Put publish controls back, reduce notifications \ud83d\udcf4\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.8"
+      },
+      {
+        "version": "0.0.7",
+        "release_date": "2023-11-29T20:23:12+00:00",
+        "title": "refs/tags/0.0.7",
+        "body": "refs/tags/0.0.7 : We don't use v in our versions\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.7"
       }
     ],
     "new_commits": 0
