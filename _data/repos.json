@@ -732,25 +732,11 @@
         "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.1"
       },
       {
-        "version": "v1.0.0",
-        "release_date": "2021-09-13T14:55:36+00:00",
-        "title": "v1.0.0",
-        "body": "## v1.0.0\r\n\r\nInitial production release\r\n\r\n- See the [Release notes](/RELEASE_NOTES.rst) for a summary of the changes since v0.3.16\r\n- [Release details](https://github.com/bluesky/hklpy/wiki/release-notes-v1.0.0) from version control history",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.0"
-      },
-      {
         "version": "v0.3.16",
         "release_date": "2021-04-28T17:31:25+00:00",
         "title": "v0.3.16",
         "body": "* [Release Highlights](https://github.com/bluesky/hklpy/blob/main/RELEASE_NOTES.rst)\r\n* [Complete list of changes](https://github.com/bluesky/hklpy/wiki/release-notes-v0.3.16)\r\n* Breaking Change:  Diffractometer geometries have moved from `hkl.diffract` to (the new) `hkl.geometries`, such as `hkl.geometries.E4CV`.",
         "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16"
-      },
-      {
-        "version": "v0.3.16rc1",
-        "release_date": "2021-04-28T02:30:17+00:00",
-        "title": "v0.3.16rc1",
-        "body": "",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v0.3.16rc1"
       },
       {
         "version": "v0.3.15",
