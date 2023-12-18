@@ -3,6 +3,13 @@
     "name": "tiled-example-database",
     "releases": [
       {
+        "version": "0.0.24",
+        "release_date": "2023-12-18T22:43:49+00:00",
+        "title": "0.0.24",
+        "body": "0.0.24 : Specify dbName in `pg_dump` \ud83c\udff7\ufe0f\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.24"
+      },
+      {
         "version": "0.0.23",
         "release_date": "2023-12-18T22:22:11+00:00",
         "title": "0.0.23",
