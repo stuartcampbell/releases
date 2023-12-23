@@ -10,13 +10,6 @@
         "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.24"
       },
       {
-        "version": "0.0.23",
-        "release_date": "2023-12-18T22:22:11+00:00",
-        "title": "0.0.23",
-        "body": "0.0.23 : catch22: the db has to exist to create the db \ud83d\udd03\n",
-        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.23"
-      },
-      {
         "version": "0.0.21",
         "release_date": "2023-12-18T20:26:58+00:00",
         "title": "0.0.21",
