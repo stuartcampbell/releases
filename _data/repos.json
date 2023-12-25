@@ -266,6 +266,13 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
+      },
+      {
+        "version": "v0.8.1",
+        "release_date": "2017-05-22T13:57:54+00:00",
+        "title": "v0.8.1",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
     "new_commits": 0
