@@ -114,6 +114,13 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b29"
       },
       {
+        "version": "v2.0.0b28",
+        "release_date": "2023-08-06T03:01:25+00:00",
+        "title": "v2.0.0b28",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b28"
+      },
+      {
         "version": "v2.0.0b27",
         "release_date": "2023-08-01T21:11:52+00:00",
         "title": "v2.0.0b27",
@@ -198,6 +205,13 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
       },
       {
+        "version": "v1.1.0",
+        "release_date": "2020-09-04T16:51:57+00:00",
+        "title": "databroker v1.1.0",
+        "body": "v1.1.0 (2020-09-03)\r\n-------------------\r\n\r\n## Added\r\n\r\n* Experimental ``databroker.projector`` module\r\n* A ``stats`` method on the ``BlueskyMongoCatalog`` to access MongoDB storage\r\n  info.\r\n\r\n## Fixed\r\n\r\n* Do more to try to recover from inaccurate ``shape`` metadata.\r\n* Tolerate old Resource documents that rely on MongoDB ``_id`` and are missing\r\n  ``uid``.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
+      },
+      {
         "version": "v0.13.3",
         "release_date": "2019-08-22T21:29:32+00:00",
         "title": "v0.13.3",
@@ -224,6 +238,13 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
+      },
+      {
+        "version": "v0.11.1",
+        "release_date": "2018-05-19T23:49:39+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.1"
       },
       {
         "version": "v0.11.0",
