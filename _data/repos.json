@@ -24,6 +24,13 @@
         "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.21"
       },
       {
+        "version": "0.0.20",
+        "release_date": "2023-12-18T20:11:46+00:00",
+        "title": "0.0.20",
+        "body": "0.0.20 : Fix published files from being empty \ud83d\udcc2\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.20"
+      },
+      {
         "version": "0.0.16",
         "release_date": "2023-12-13T20:33:28+00:00",
         "title": "0.0.16",
