@@ -1246,15 +1246,55 @@
     "new_commits": 0
   },
   {
-    "name": "bluesky-queueserver",
+    "name": "bluesky-darkframes",
     "releases": [
       {
-        "version": "v0.0.19",
-        "release_date": "2023-06-28T23:25:14+00:00",
-        "title": "Release v0.0.19",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.19"
+        "version": "v0.6.0",
+        "release_date": "2023-06-15T15:30:22+00:00",
+        "title": "bluesky-darkframes v0.6.0",
+        "body": "## What's Changed\r\n* Make test pickier just to be safe. by @danielballan in https://github.com/bluesky/bluesky-darkframes/pull/26\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/34\r\n* Rerender with new cookiecutter by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n* Clean up on `RE.abort()` by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/37\r\n* FIX: in current data broker this array can comeback read-only by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/30\r\n* DOC: release notes for v0.6.0 by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/39\r\n\r\n## New Contributors\r\n* @mrakitin made their first contribution in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky-darkframes/compare/v0.5.0...v0.6.0",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.6.0"
       },
+      {
+        "version": "v0.5.0",
+        "release_date": "2021-10-08T16:41:35+00:00",
+        "title": "bluesky-darkframes v0.5.0",
+        "body": "v0.5.0 (2021-10-08)\r\n------------------\r\n\r\nFixed\r\n-------\r\n* support detectors not defining method ``collect_asset_docs``\r\n* resolve jupyter_sphinx deprecation warning\r\n\r\nChanged\r\n--------\r\n* add scikit-image to ``requirements-dev.txt`` to resolve a CI error",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.5.0"
+      },
+      {
+        "version": "v0.1.0",
+        "release_date": "2019-07-29T20:33:12+00:00",
+        "title": "v0.1.0 Initial release",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-adaptive",
+    "releases": [
+      {
+        "version": "v0.3.1",
+        "release_date": "2023-04-26T22:53:56+00:00",
+        "title": "bluesky-adaptive v0.3.1",
+        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
+      },
+      {
+        "version": "v0.3.0",
+        "release_date": "2023-04-26T18:25:39+00:00",
+        "title": "Add distributed agents, adjudicators, and server ",
+        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
+        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-queueserver",
+    "releases": [
       {
         "version": "v0.0.18",
         "release_date": "2022-10-31T19:59:34+00:00",
@@ -1345,53 +1385,6 @@
         "title": "Bluesky Queue Server v0.0.6",
         "body": "Added\r\n-----\r\n\r\n* New API: ``ReceiveConsoleOutputAsync`` (async version of ``ReceiveConsoleOutput``)\r\n  for receiving console output from RE Manager in `asyncio`-based applications (e.g. HTTP Server).\r\n\r\nChanged\r\n-------\r\n\r\n* Renamed parameters of `start-re-manager`:\r\n  - ``--zmq-publish`` is renamed to ``--zmq-publish-console``\r\n  - ``--zmq-publish-addr`` is renamed to ``--zmq-publish-console-addr``\r\n* Parameters ``default``, ``min``, ``max`` and ``step`` of ``parameter_annotation_decorator`` now must be\r\n  python expressions of supported types (``default``) or `int` or `float` numbers (``min``, ``max``\r\n  and ``step``). In previous versions the parameter values had to be converted to strings in user code.\r\n",
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.6"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "bluesky-darkframes",
-    "releases": [
-      {
-        "version": "v0.6.0",
-        "release_date": "2023-06-15T15:30:22+00:00",
-        "title": "bluesky-darkframes v0.6.0",
-        "body": "## What's Changed\r\n* Make test pickier just to be safe. by @danielballan in https://github.com/bluesky/bluesky-darkframes/pull/26\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/34\r\n* Rerender with new cookiecutter by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n* Clean up on `RE.abort()` by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/37\r\n* FIX: in current data broker this array can comeback read-only by @tacaswell in https://github.com/bluesky/bluesky-darkframes/pull/30\r\n* DOC: release notes for v0.6.0 by @mrakitin in https://github.com/bluesky/bluesky-darkframes/pull/39\r\n\r\n## New Contributors\r\n* @mrakitin made their first contribution in https://github.com/bluesky/bluesky-darkframes/pull/36\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky-darkframes/compare/v0.5.0...v0.6.0",
-        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.6.0"
-      },
-      {
-        "version": "v0.5.0",
-        "release_date": "2021-10-08T16:41:35+00:00",
-        "title": "bluesky-darkframes v0.5.0",
-        "body": "v0.5.0 (2021-10-08)\r\n------------------\r\n\r\nFixed\r\n-------\r\n* support detectors not defining method ``collect_asset_docs``\r\n* resolve jupyter_sphinx deprecation warning\r\n\r\nChanged\r\n--------\r\n* add scikit-image to ``requirements-dev.txt`` to resolve a CI error",
-        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.5.0"
-      },
-      {
-        "version": "v0.1.0",
-        "release_date": "2019-07-29T20:33:12+00:00",
-        "title": "v0.1.0 Initial release",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-darkframes/releases/tag/v0.1.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "bluesky-adaptive",
-    "releases": [
-      {
-        "version": "v0.3.1",
-        "release_date": "2023-04-26T22:53:56+00:00",
-        "title": "bluesky-adaptive v0.3.1",
-        "body": "v0.3.1 (2023-04-26)\r\n-------------------\r\n+ MANIFEST updates for packaging and documentation",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.1"
-      },
-      {
-        "version": "v0.3.0",
-        "release_date": "2023-04-26T18:25:39+00:00",
-        "title": "Add distributed agents, adjudicators, and server ",
-        "body": "+ Add distributed agents: base classes, simple, sklearn, and gpytorch agents\r\n+ First implementation of a server and FAST API\r\n+ Add adjudicators (meta-agents)\r\n+ Updates to development workflow in-line with scientific cookiecutter",
-        "href": "https://github.com/bluesky/bluesky-adaptive/releases/tag/v0.3.0"
       }
     ],
     "new_commits": 0
