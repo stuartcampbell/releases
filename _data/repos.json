@@ -100,6 +100,13 @@
     "name": "tiled",
     "releases": [
       {
+        "version": "v0.1.0a113",
+        "release_date": "2024-01-03T21:52:45+00:00",
+        "title": "v0.1.0a113",
+        "body": "v0.1.0a113",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a113"
+      },
+      {
         "version": "v0.1.0a112",
         "release_date": "2024-01-02T21:27:45+00:00",
         "title": "v0.1.0a112",
