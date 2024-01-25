@@ -503,13 +503,6 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.9"
       },
       {
-        "version": "v1.19.8",
-        "release_date": "2023-10-11T09:05:05+00:00",
-        "title": "v1.19.8",
-        "body": "## What's Changed\r\n* Find schema files relative to source code, this allows tests to be ru\u2026 by @clintonroy in https://github.com/bluesky/event-model/pull/282\r\n* Rethinking external assets 2 by @evalott100 in https://github.com/bluesky/event-model/pull/272\r\n\r\n## New Contributors\r\n* @clintonroy made their first contribution in https://github.com/bluesky/event-model/pull/282\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.7...v1.19.8",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.8"
-      },
-      {
         "version": "v1.19.7",
         "release_date": "2023-07-05T15:00:33+00:00",
         "title": "v1.19.7",
@@ -578,13 +571,6 @@
         "title": "event-model v1.17.2",
         "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
-      },
-      {
-        "version": "v1.17.1",
-        "release_date": "2021-01-29T21:13:47+00:00",
-        "title": "v1.17.1",
-        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
-        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
       },
       {
         "version": "v1.17.0",
