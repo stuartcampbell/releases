@@ -3,13 +3,6 @@
     "name": "databroker",
     "releases": [
       {
-        "version": "v2.0.0b36",
-        "release_date": "2024-02-06T18:48:33+00:00",
-        "title": "v2.0.0b36",
-        "body": "- Bump minimum version of suitcase-mongo to support updating `descriptor` and `stop` documents from Tiled client",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b36"
-      },
-      {
         "version": "v2.0.0b35",
         "release_date": "2024-02-05T22:55:45+00:00",
         "title": "v2.0.0b35",
