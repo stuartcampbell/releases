@@ -1168,7 +1168,7 @@
         "href": "https://github.com/bluesky/bluesky-httpserver/releases/tag/v0.0.2"
       }
     ],
-    "new_commits": 13
+    "new_commits": 17
   },
   {
     "name": "bluesky-widgets",
@@ -1545,6 +1545,19 @@
         "title": "Release v0.2.1",
         "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements",
         "href": "https://github.com/bluesky/suitcase-json-metadata/releases/tag/v0.2.1"
+      }
+    ],
+    "new_commits": 1
+  },
+  {
+    "name": "suitcase-csv",
+    "releases": [
+      {
+        "version": "v0.3.0",
+        "release_date": "2021-10-12T20:51:04+00:00",
+        "title": "Release v0.3.0",
+        "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements\r\n- Updates to documentation",
+        "href": "https://github.com/bluesky/suitcase-csv/releases/tag/v0.3.0"
       }
     ],
     "new_commits": 1
