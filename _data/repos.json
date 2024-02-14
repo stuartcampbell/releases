@@ -559,6 +559,13 @@
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.5"
       },
       {
+        "version": "v1.19.4",
+        "release_date": "2023-06-23T15:29:42+00:00",
+        "title": "v1.19.4",
+        "body": "## What's Changed\r\n### A slight fix to release [v1.19.3](https://github.com/bluesky/event-model/releases/tag/v1.19.3)\r\n* Allow descriptor units to be null by @coretl in https://github.com/bluesky/event-model/pull/275\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.3...v1.19.4",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.4"
+      },
+      {
         "version": "v1.19.3",
         "release_date": "2023-06-21T14:53:17+00:00",
         "title": "v1.19.3",
