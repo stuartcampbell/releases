@@ -129,13 +129,6 @@
         "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b4"
       },
       {
-        "version": "v1.2.5",
-        "release_date": "2022-01-21T19:57:43+00:00",
-        "title": "v1.2.5",
-        "body": "## What's Changed\r\n* CI: add a workflow to publish to PyPI by @mrakitin in https://github.com/bluesky/databroker/pull/676\r\n* Get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/677\r\n* DOC: corrected the same typo a few times. by @clintonroy in https://github.com/bluesky/databroker/pull/682\r\n* DOC: just a typo fix. by @clintonroy in https://github.com/bluesky/databroker/pull/683\r\n* don't use intake v0.6.5, and get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/685\r\n* release notes v1.2.5 by @gwbischof in https://github.com/bluesky/databroker/pull/686\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.4...v1.2.5",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
-      },
-      {
         "version": "v1.2.4",
         "release_date": "2021-10-07T18:15:42+00:00",
         "title": "databroker v1.2.4",
@@ -176,13 +169,6 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
-      },
-      {
-        "version": "v0.11.2rc1",
-        "release_date": "2018-06-25T16:02:41+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
       },
       {
         "version": "v0.11.1",
