@@ -448,6 +448,13 @@
     "name": "tiled-example-database",
     "releases": [
       {
+        "version": "0.0.24",
+        "release_date": "2023-12-18T22:43:49+00:00",
+        "title": "0.0.24",
+        "body": "0.0.24 : Specify dbName in `pg_dump` \ud83c\udff7\ufe0f\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.24"
+      },
+      {
         "version": "0.0.23",
         "release_date": "2023-12-18T22:22:11+00:00",
         "title": "0.0.23",
@@ -488,6 +495,13 @@
         "title": "0.0.14",
         "body": "0.0.14 : More consise, better looking \u2734\ufe0f\n",
         "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.14"
+      },
+      {
+        "version": "0.0.13",
+        "release_date": "2023-11-30T18:46:36+00:00",
+        "title": "refs/tags/0.0.13",
+        "body": "refs/tags/0.0.13 : Write .zarr files to disk to finish up \ud83e\uddf9\u2728\n",
+        "href": "https://github.com/bluesky/tiled-example-database/releases/tag/0.0.13"
       },
       {
         "version": "0.0.8",
