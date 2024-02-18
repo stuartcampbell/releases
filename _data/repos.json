@@ -1036,13 +1036,6 @@
         "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.1"
       },
       {
-        "version": "v2022.4.0",
-        "release_date": "2022-04-19T15:49:26+00:00",
-        "title": "2022.4.0",
-        "body": "### Fixed\r\n- namespace dependent hardware to avoid name collisions\r\n- Invalid splatting of has mapping values into an append call, which only takes one argument\r\n\r\n### Added\r\n- \"independent\" flag to mapping added fields marking them as independent variables that should not be treated as \"channels\"",
-        "href": "https://github.com/bluesky/yaqc-bluesky/releases/tag/v2022.4.0"
-      },
-      {
         "version": "v2022.1.0",
         "release_date": "2022-01-30T23:42:33+00:00",
         "title": "2022.1.0",
