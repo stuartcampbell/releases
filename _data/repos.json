@@ -358,13 +358,6 @@
         "href": "https://github.com/bluesky/hklpy/releases/tag/v1.1.0"
       },
       {
-        "version": "v1.0.4",
-        "release_date": "2023-10-07T01:27:21+00:00",
-        "title": "v1.0.4",
-        "body": "Maintenance\r\n\r\n## What's Changed\r\n* update versioneer (includes compat with py312) by @prjemian in https://github.com/bluesky/hklpy/pull/236\r\n* BUG: run_orientation_info() failed when no primary stream exists by @prjemian in https://github.com/bluesky/hklpy/pull/238\r\n* use try..except in util.run orientation info() & progress bar list_orientation_runs by @prjemian in https://github.com/bluesky/hklpy/pull/240\r\n* identify if data is missing in util.restore_energy() by @prjemian in https://github.com/bluesky/hklpy/pull/241\r\n* expand to py310 & py311 by @prjemian in https://github.com/bluesky/hklpy/pull/261\r\n* Make it easier to find the SPEC command cross-reference table by @prjemian in https://github.com/bluesky/hklpy/pull/265\r\n* replace broken URL by @prjemian in https://github.com/bluesky/hklpy/pull/264\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/hklpy/compare/v1.0.3...v1.0.4",
-        "href": "https://github.com/bluesky/hklpy/releases/tag/v1.0.4"
-      },
-      {
         "version": "v1.0.3",
         "release_date": "2022-06-22T16:44:29+00:00",
         "title": "v1.0.3",
