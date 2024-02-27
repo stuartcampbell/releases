@@ -1312,6 +1312,13 @@
         "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.16"
       },
       {
+        "version": "v0.0.15",
+        "release_date": "2022-06-23T16:58:45+00:00",
+        "title": "Release v0.0.15",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.15"
+      },
+      {
         "version": "v0.0.14",
         "release_date": "2022-04-09T02:27:16+00:00",
         "title": "Release v0.0.14",
