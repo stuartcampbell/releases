@@ -1524,6 +1524,19 @@
     "new_commits": 1
   },
   {
+    "name": "databroker-pack",
+    "releases": [
+      {
+        "version": "v0.3.1",
+        "release_date": "2021-10-12T21:13:08+00:00",
+        "title": "v0.3.1",
+        "body": "### Added\r\n\r\n-  tqdm progress bar units.\r\n-  print reminder to escape dollar sign character.\r\n\r\n### Fixed\r\n\r\n- `export_uids` doc string return value.",
+        "href": "https://github.com/bluesky/databroker-pack/releases/tag/v0.3.1"
+      }
+    ],
+    "new_commits": 1
+  },
+  {
     "name": "suitcase-json-metadata",
     "releases": [
       {
