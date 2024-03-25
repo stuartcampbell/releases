@@ -1,55 +1,14 @@
 [
   {
-    "name": "bluesky-widgets",
-    "releases": [
-      {
-        "version": "v0.0.16",
-        "release_date": "2024-03-22T02:03:21+00:00",
-        "title": "Release v0.0.16",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.16"
-      },
-      {
-        "version": "v0.0.15",
-        "release_date": "2023-06-28T23:46:56+00:00",
-        "title": "Release v0.0.15",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.15"
-      },
-      {
-        "version": "v0.0.14",
-        "release_date": "2022-11-17T20:54:01+00:00",
-        "title": "Release v0.0.14",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.14"
-      },
-      {
-        "version": "v0.0.13",
-        "release_date": "2022-08-01T15:08:46+00:00",
-        "title": "Release v0.0.13",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.13"
-      },
-      {
-        "version": "v0.0.12",
-        "release_date": "2022-04-05T21:44:44+00:00",
-        "title": "Release v0.0.12",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
-      },
-      {
-        "version": "v0.0.11",
-        "release_date": "2022-03-24T03:16:53+00:00",
-        "title": "Release v0.0.11",
-        "body": "",
-        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "bluesky",
     "releases": [
+      {
+        "version": "v1.13.0a3",
+        "release_date": "2024-03-25T15:14:24+00:00",
+        "title": "v1.13.0a3",
+        "body": "## What's Changed\r\n* BLD: typing_extensions needs NotRequired (new 4.0.0) by @maffettone in https://github.com/bluesky/bluesky/pull/1635\r\n* Add prepare command to RunEngine and bundler, as well as protocol by @rosesyrett in https://github.com/bluesky/bluesky/pull/1639\r\n* DOC: Fixed examples in debugging docs by @DominicOram in https://github.com/bluesky/bluesky/pull/1500\r\n* Add delay to plan_args of count plan by @DiamondJoseph in https://github.com/bluesky/bluesky/pull/1655\r\n* Remove empty complete method from RunBundler by @rosesyrett in https://github.com/bluesky/bluesky/pull/1644\r\n* FIX: handle case of rewinding to before the beginning of a stream by @tacaswell in https://github.com/bluesky/bluesky/pull/1648\r\n* Added release notes for v1.13.0a1 by @coretl in https://github.com/bluesky/bluesky/pull/1657\r\n* Pass `md_validator` a deep copy that it can normalize by @jmaruland in https://github.com/bluesky/bluesky/pull/1661\r\n* Release notes for 1.13.0a2 by @danielballan in https://github.com/bluesky/bluesky/pull/1669\r\n* Fix Test Cases for \"Enable collect for multiple detectors\" (1651) by @abbiemery in https://github.com/bluesky/bluesky/pull/1668\r\n* Enable collect for multiple detectors by @abbiemery in https://github.com/bluesky/bluesky/pull/1651\r\n* v1.13.0a3 Release notes by @callumforrester in https://github.com/bluesky/bluesky/pull/1671\r\n\r\n## New Contributors\r\n* @DiamondJoseph made their first contribution in https://github.com/bluesky/bluesky/pull/1655\r\n* @jmaruland made their first contribution in https://github.com/bluesky/bluesky/pull/1661\r\n* @abbiemery made their first contribution in https://github.com/bluesky/bluesky/pull/1668\r\n\r\n**Full Changelog**: https://github.com/bluesky/bluesky/compare/v1.12.0...v1.13.0a3",
+        "href": "https://github.com/bluesky/bluesky/releases/tag/v1.13.0a3"
+      },
       {
         "version": "v1.13.0a2",
         "release_date": "2024-03-20T14:22:22+00:00",
@@ -224,6 +183,54 @@
         "title": "bluesky version 0.10.0",
         "body": "We are proud to announce the 0.10.0 release of bluesky.\r\n\r\n* Automatic best-effort visualization and peak-fitting is available for all plans, including user-defined ones.\r\n* The \u201cSPEC-like\u201d API has been fully removed, and its most useful features have been applied to the library in a self-consistent way. See [here](https://nsls-ii.github.io/bluesky/api_changes.html#api-changes) for detailed instructions on migrating.\r\n* Improved tooling for streaming documents over a network for live processing and visualization in a different process or on a different machine.\r\n\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-10-0)",
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "bluesky-widgets",
+    "releases": [
+      {
+        "version": "v0.0.16",
+        "release_date": "2024-03-22T02:03:21+00:00",
+        "title": "Release v0.0.16",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.16"
+      },
+      {
+        "version": "v0.0.15",
+        "release_date": "2023-06-28T23:46:56+00:00",
+        "title": "Release v0.0.15",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.15"
+      },
+      {
+        "version": "v0.0.14",
+        "release_date": "2022-11-17T20:54:01+00:00",
+        "title": "Release v0.0.14",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.14"
+      },
+      {
+        "version": "v0.0.13",
+        "release_date": "2022-08-01T15:08:46+00:00",
+        "title": "Release v0.0.13",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.13"
+      },
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-04-05T21:44:44+00:00",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.12"
+      },
+      {
+        "version": "v0.0.11",
+        "release_date": "2022-03-24T03:16:53+00:00",
+        "title": "Release v0.0.11",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-widgets/releases/tag/v0.0.11"
       }
     ],
     "new_commits": 0
