@@ -1,5 +1,39 @@
 [
   {
+    "name": "suitcase-mongo",
+    "releases": [
+      {
+        "version": "v0.6.0",
+        "release_date": "2024-04-01T14:20:55+00:00",
+        "title": "v0.6.0",
+        "body": "Make index creation manual:\r\n\r\n```py\r\nserializer = Serializer(mds_db, assets_db)\r\nserializer.create_indexes()\r\n```",
+        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.6.0"
+      },
+      {
+        "version": "v0.4.0",
+        "release_date": "2023-09-11T16:36:50+00:00",
+        "title": "v0.4.0",
+        "body": "Adds indexes supporting paginated lookups",
+        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.4.0"
+      },
+      {
+        "version": "v0.3.1",
+        "release_date": "2021-10-12T21:19:29+00:00",
+        "title": "Release v0.3.1",
+        "body": "## Changes\r\n\r\n- Fix bug in the duplicate-handling path for Datum.",
+        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.3.1"
+      },
+      {
+        "version": "v0.1.0b5",
+        "release_date": "2019-04-02T21:43:19+00:00",
+        "title": "mongo_embedded",
+        "body": "mongo_layout1 and mongo_layout2 are renamed to mongo_normalized, and mongo_embedded.\r\nmongo_embedded is working with DocBuffer.",
+        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.1.0b5"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "event-model",
     "releases": [
       {
@@ -1115,33 +1149,6 @@
       }
     ],
     "new_commits": 27
-  },
-  {
-    "name": "suitcase-mongo",
-    "releases": [
-      {
-        "version": "v0.4.0",
-        "release_date": "2023-09-11T16:36:50+00:00",
-        "title": "v0.4.0",
-        "body": "Adds indexes supporting paginated lookups",
-        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.4.0"
-      },
-      {
-        "version": "v0.3.1",
-        "release_date": "2021-10-12T21:19:29+00:00",
-        "title": "Release v0.3.1",
-        "body": "## Changes\r\n\r\n- Fix bug in the duplicate-handling path for Datum.",
-        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.3.1"
-      },
-      {
-        "version": "v0.1.0b5",
-        "release_date": "2019-04-02T21:43:19+00:00",
-        "title": "mongo_embedded",
-        "body": "mongo_layout1 and mongo_layout2 are renamed to mongo_normalized, and mongo_embedded.\r\nmongo_embedded is working with DocBuffer.",
-        "href": "https://github.com/bluesky/suitcase-mongo/releases/tag/v0.1.0b5"
-      }
-    ],
-    "new_commits": 33
   },
   {
     "name": "yaqc-bluesky",
