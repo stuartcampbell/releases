@@ -1,5 +1,158 @@
 [
   {
+    "name": "tiled",
+    "releases": [
+      {
+        "version": "v0.1.0a118",
+        "release_date": "2024-04-23T16:25:34+00:00",
+        "title": "v0.1.0a118",
+        "body": "### Added\r\n\r\n- Python 3.12 support\r\n- Added `tiled.adapters.resource_cache` for caching file handles between\r\n  requests.\r\n\r\n### Removed\r\n\r\n- Removed object cache from the codebase. If `object_cache` is included in\r\n  the server configuration file, a warning is raised that this configuration\r\n  has no effected.\r\n\r\n### Fixed\r\n\r\n- The configuration setting `tiled_admins` did not work in practice. If a user\r\n  in the list was already an admin (such as, after a server restart) an error\r\n  was raised on startup.\r\n- The table creation statements for PostgreSQL were not committed. (This may\r\n  have been a regression due to a change in SQLAlchemy defaults.)\r\n- Tolerate HTTP responses that are missing a `x-tiled-request-id` header, such\r\n  as when a proxy server responds with an error.\r\n- Use `httpx` status code sentinels (instead of `starlette` ones) for typing\r\n  client-side status codes.\r\n\r\n### Changed\r\n\r\n- Removed upper bound version pin on `dask`.\r\n- Switched from `blosc` to `blosc2`.\r\n- Made client objects dask-serializable\r\n- Added support for registering multiple Assets with a DataSource in an update\r\n\r\n\r\n### Other\r\n\r\n- Usage of deprecated Pydantic 2.x APIs was updated.\r\n- Specify a `fallback-version`, `0.0.0`, to be used when the version-detection\r\n  code cannot run.\r\n",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a118"
+      },
+      {
+        "version": "v0.1.0a117",
+        "release_date": "2024-03-28T19:52:16+00:00",
+        "title": "v0.1.0a117",
+        "body": "### Added\r\n\r\n- Support for specifying the format that uploaded data will be stored in.\r\n- Support for storing uploaded tabular data in CSV format.\r\n- A new HTTP endpoint, `PATCH /api/v1/table/partition/{path}`\r\n  supporting appending rows to a tabular dataset.\r\n- A new method `DataFrameClient.append_partition`.\r\n- Support for registering Groups and Datasets _within_ an HDF5 file\r\n- Tiled version is logged by server at startup.\r\n\r\n### Fixed\r\n\r\n- Critical regression that broke `tiled serve directory ...` CLI.\r\n\r\n### Other\r\n\r\n - Updated the pydantic version in the pyproject.toml. Now the allowed versions are >2.0.0 - <3.0.0 .\r\n - Changes to prepare for upcoming numpy 2.0 release\r\n - Changes to address deprecations in FastAPI\r\n",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a117"
+      },
+      {
+        "version": "v0.1.0a116",
+        "release_date": "2024-02-29T12:04:50+00:00",
+        "title": "v0.1.0a116",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a116"
+      },
+      {
+        "version": "v0.1.0a115",
+        "release_date": "2024-02-28T18:09:00+00:00",
+        "title": "v0.1.0a115",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a115"
+      },
+      {
+        "version": "v0.1.0a114",
+        "release_date": "2024-02-05T22:11:02+00:00",
+        "title": "v0.1.0a114",
+        "body": "- Added support for FulLText search queries against PostgreSQL-backed Catalog\r\n- Normalize `structure` into its own table\r\n- Fix missing required client dependency (`orjson`)\r\n- Fix human-readable bytesize in log messages, which was off by 10^3.",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a114"
+      },
+      {
+        "version": "v0.1.0a113",
+        "release_date": "2024-01-03T21:52:45+00:00",
+        "title": "v0.1.0a113",
+        "body": "v0.1.0a113",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a113"
+      },
+      {
+        "version": "v0.1.0a112",
+        "release_date": "2024-01-02T21:27:45+00:00",
+        "title": "v0.1.0a112",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a112"
+      },
+      {
+        "version": "v0.1.0a110",
+        "release_date": "2023-12-13T12:03:30+00:00",
+        "title": "v0.1.0a110",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a110"
+      },
+      {
+        "version": "v0.1.0a109",
+        "release_date": "2023-10-27T18:12:53+00:00",
+        "title": "v0.1.0a109",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a109"
+      },
+      {
+        "version": "v0.1.0a108",
+        "release_date": "2023-10-18T11:34:24+00:00",
+        "title": "v0.1.0a108",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a108"
+      },
+      {
+        "version": "v0.1.0a107",
+        "release_date": "2023-09-28T19:50:12+00:00",
+        "title": "v0.1.0a107",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a107"
+      },
+      {
+        "version": "v0.1.0a106",
+        "release_date": "2023-09-06T00:43:46+00:00",
+        "title": "v0.1.0a106",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a106"
+      },
+      {
+        "version": "v0.1.0a105",
+        "release_date": "2023-08-25T00:20:20+00:00",
+        "title": "v0.1.0a105",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a105"
+      },
+      {
+        "version": "v0.1.0a104",
+        "release_date": "2023-08-06T02:45:10+00:00",
+        "title": "v0.1.0a104",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a104"
+      },
+      {
+        "version": "v0.1.0a103",
+        "release_date": "2023-07-19T19:46:01+00:00",
+        "title": "v0.1.0a103",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a103"
+      },
+      {
+        "version": "v0.1.0a102",
+        "release_date": "2023-07-12T16:26:01+00:00",
+        "title": "v0.1.0a102",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a102"
+      },
+      {
+        "version": "v0.1.0a101",
+        "release_date": "2023-07-11T16:09:40+00:00",
+        "title": "v0.1.0a101",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a101"
+      },
+      {
+        "version": "v0.1.0a100",
+        "release_date": "2023-07-11T15:39:52+00:00",
+        "title": "v0.1.0a100",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a100"
+      },
+      {
+        "version": "v0.1.0a99",
+        "release_date": "2023-07-10T13:19:42+00:00",
+        "title": "v0.1.0a99",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a99"
+      },
+      {
+        "version": "v0.1.0a98",
+        "release_date": "2023-07-07T20:28:31+00:00",
+        "title": "v0.1.0a98",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
+      },
+      {
+        "version": "v0.1.0a97",
+        "release_date": "2023-07-02T21:42:25+00:00",
+        "title": "v0.1.0a97",
+        "body": "",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "ophyd-async",
     "releases": [
       {
@@ -237,152 +390,6 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "tiled",
-    "releases": [
-      {
-        "version": "v0.1.0a117",
-        "release_date": "2024-03-28T19:52:16+00:00",
-        "title": "v0.1.0a117",
-        "body": "### Added\r\n\r\n- Support for specifying the format that uploaded data will be stored in.\r\n- Support for storing uploaded tabular data in CSV format.\r\n- A new HTTP endpoint, `PATCH /api/v1/table/partition/{path}`\r\n  supporting appending rows to a tabular dataset.\r\n- A new method `DataFrameClient.append_partition`.\r\n- Support for registering Groups and Datasets _within_ an HDF5 file\r\n- Tiled version is logged by server at startup.\r\n\r\n### Fixed\r\n\r\n- Critical regression that broke `tiled serve directory ...` CLI.\r\n\r\n### Other\r\n\r\n - Updated the pydantic version in the pyproject.toml. Now the allowed versions are >2.0.0 - <3.0.0 .\r\n - Changes to prepare for upcoming numpy 2.0 release\r\n - Changes to address deprecations in FastAPI\r\n",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a117"
-      },
-      {
-        "version": "v0.1.0a116",
-        "release_date": "2024-02-29T12:04:50+00:00",
-        "title": "v0.1.0a116",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a116"
-      },
-      {
-        "version": "v0.1.0a115",
-        "release_date": "2024-02-28T18:09:00+00:00",
-        "title": "v0.1.0a115",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a115"
-      },
-      {
-        "version": "v0.1.0a114",
-        "release_date": "2024-02-05T22:11:02+00:00",
-        "title": "v0.1.0a114",
-        "body": "- Added support for FulLText search queries against PostgreSQL-backed Catalog\r\n- Normalize `structure` into its own table\r\n- Fix missing required client dependency (`orjson`)\r\n- Fix human-readable bytesize in log messages, which was off by 10^3.",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a114"
-      },
-      {
-        "version": "v0.1.0a113",
-        "release_date": "2024-01-03T21:52:45+00:00",
-        "title": "v0.1.0a113",
-        "body": "v0.1.0a113",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a113"
-      },
-      {
-        "version": "v0.1.0a112",
-        "release_date": "2024-01-02T21:27:45+00:00",
-        "title": "v0.1.0a112",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a112"
-      },
-      {
-        "version": "v0.1.0a110",
-        "release_date": "2023-12-13T12:03:30+00:00",
-        "title": "v0.1.0a110",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a110"
-      },
-      {
-        "version": "v0.1.0a109",
-        "release_date": "2023-10-27T18:12:53+00:00",
-        "title": "v0.1.0a109",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a109"
-      },
-      {
-        "version": "v0.1.0a108",
-        "release_date": "2023-10-18T11:34:24+00:00",
-        "title": "v0.1.0a108",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a108"
-      },
-      {
-        "version": "v0.1.0a107",
-        "release_date": "2023-09-28T19:50:12+00:00",
-        "title": "v0.1.0a107",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a107"
-      },
-      {
-        "version": "v0.1.0a106",
-        "release_date": "2023-09-06T00:43:46+00:00",
-        "title": "v0.1.0a106",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a106"
-      },
-      {
-        "version": "v0.1.0a105",
-        "release_date": "2023-08-25T00:20:20+00:00",
-        "title": "v0.1.0a105",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a105"
-      },
-      {
-        "version": "v0.1.0a104",
-        "release_date": "2023-08-06T02:45:10+00:00",
-        "title": "v0.1.0a104",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a104"
-      },
-      {
-        "version": "v0.1.0a103",
-        "release_date": "2023-07-19T19:46:01+00:00",
-        "title": "v0.1.0a103",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a103"
-      },
-      {
-        "version": "v0.1.0a102",
-        "release_date": "2023-07-12T16:26:01+00:00",
-        "title": "v0.1.0a102",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a102"
-      },
-      {
-        "version": "v0.1.0a101",
-        "release_date": "2023-07-11T16:09:40+00:00",
-        "title": "v0.1.0a101",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a101"
-      },
-      {
-        "version": "v0.1.0a100",
-        "release_date": "2023-07-11T15:39:52+00:00",
-        "title": "v0.1.0a100",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a100"
-      },
-      {
-        "version": "v0.1.0a99",
-        "release_date": "2023-07-10T13:19:42+00:00",
-        "title": "v0.1.0a99",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a99"
-      },
-      {
-        "version": "v0.1.0a98",
-        "release_date": "2023-07-07T20:28:31+00:00",
-        "title": "v0.1.0a98",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a98"
-      },
-      {
-        "version": "v0.1.0a97",
-        "release_date": "2023-07-02T21:42:25+00:00",
-        "title": "v0.1.0a97",
-        "body": "",
-        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a97"
       }
     ],
     "new_commits": 0
