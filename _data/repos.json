@@ -3,6 +3,13 @@
     "name": "tiled",
     "releases": [
       {
+        "version": "v0.1.0a119",
+        "release_date": "2024-04-24T20:53:30+00:00",
+        "title": "v0.1.0a119",
+        "body": "### Fixed\r\n\r\n- Metric-reporting had an error when `compress` timing was recorded but\r\n  `content-encoding` header was unset.\r\n\r\n",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a119"
+      },
+      {
         "version": "v0.1.0a118",
         "release_date": "2024-04-23T16:25:34+00:00",
         "title": "v0.1.0a118",
