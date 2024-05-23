@@ -3,6 +3,13 @@
     "name": "tiled",
     "releases": [
       {
+        "version": "v0.1.0a122",
+        "release_date": "2024-05-23T15:46:51+00:00",
+        "title": "v0.1.0a122",
+        "body": "### Fixed\r\n\r\n- A dependency on `fastapi` was introduced in `tiled.adapters`. This has been\r\n  removed.\r\n",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0a122"
+      },
+      {
         "version": "v0.1.0a121",
         "release_date": "2024-05-21T22:09:29+00:00",
         "title": "v0.1.0a121",
