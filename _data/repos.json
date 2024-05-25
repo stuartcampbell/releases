@@ -3,6 +3,13 @@
     "name": "tiled",
     "releases": [
       {
+        "version": "v0.1.0b1",
+        "release_date": "2024-05-25T11:24:28+00:00",
+        "title": "v0.1.0b1",
+        "body": "### Added\r\n\r\n- Support for `FullText` search on SQLite-backed catalogs\r\n\r\n### Fixed\r\n\r\n- Updated `BaseClient.formats` to use the `dict` structure for specs.\r\n- The `tiled serve directory --watch` function was not compatible with recent `anyio`\r\n\r\n",
+        "href": "https://github.com/bluesky/tiled/releases/tag/v0.1.0b1"
+      },
+      {
         "version": "v0.1.0a122",
         "release_date": "2024-05-23T15:46:51+00:00",
         "title": "v0.1.0a122",
