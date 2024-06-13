@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "v0.3.1",
+        "release_date": "2024-06-13T15:24:03+00:00",
+        "title": "v0.3.1",
+        "body": "## What's Changed\r\n* Make pilatus wait for armed PV by @callumforrester in https://github.com/bluesky/ophyd-async/pull/345\r\n* Add more detail to error message when a mock value sequence isn't consumed by @callumforrester in https://github.com/bluesky/ophyd-async/pull/350\r\n* 354 fix pilatus arming logic by @callumforrester in https://github.com/bluesky/ophyd-async/pull/358\r\n* Add frame_timeout to trigger info by @abbiemery in https://github.com/bluesky/ophyd-async/pull/348\r\n* Make pilatus deadtime overridable and add tests by @callumforrester in https://github.com/bluesky/ophyd-async/pull/359\r\n* add no fields if no signal name by @stan-dot in https://github.com/bluesky/ophyd-async/pull/366\r\n* Fix error message on wrong reading/configuration by @callumforrester in https://github.com/bluesky/ophyd-async/pull/372\r\n* Allow PVI devices to be initialized before connection  by @noemifrisina in https://github.com/bluesky/ophyd-async/pull/241\r\n* 361 type conversions for python builtins by @rtuck99 in https://github.com/bluesky/ophyd-async/pull/364\r\n* Units signal metadata by @abbiemery in https://github.com/bluesky/ophyd-async/pull/367\r\n\r\n## New Contributors\r\n* @noemifrisina made their first contribution in https://github.com/bluesky/ophyd-async/pull/241\r\n* @rtuck99 made their first contribution in https://github.com/bluesky/ophyd-async/pull/364\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/v0.3.0...v0.3.1",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.3.1"
+      },
+      {
         "version": "v0.3.1a1",
         "release_date": "2024-06-05T13:02:56+00:00",
         "title": "v0.3.1a1",
