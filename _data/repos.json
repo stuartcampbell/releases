@@ -3,6 +3,13 @@
     "name": "databroker",
     "releases": [
       {
+        "version": "v2.0.0b45",
+        "release_date": "2024-06-20T19:04:59+00:00",
+        "title": "v2.0.0b45",
+        "body": "Bug fix for numpy 2.0",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b45"
+      },
+      {
         "version": "v2.0.0b44",
         "release_date": "2024-06-18T16:10:24+00:00",
         "title": "v2.0.0b44",
