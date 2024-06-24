@@ -3,6 +3,13 @@
     "name": "databroker",
     "releases": [
       {
+        "version": "v2.0.0b46",
+        "release_date": "2024-06-24T12:20:05+00:00",
+        "title": "Add mongoquery as a server dependency",
+        "body": "This addresses a bug caught in production, where the databroker container image is missing this dependency. It comes up in situations when a ScanID is mixed with other query types.\r\n\r\n## What's Changed\r\n* Add mongoquery as a server dep. by @danielballan in https://github.com/bluesky/databroker/pull/816\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b45...v2.0.0b46",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b46"
+      },
+      {
         "version": "v2.0.0b45",
         "release_date": "2024-06-20T19:04:59+00:00",
         "title": "v2.0.0b45",
