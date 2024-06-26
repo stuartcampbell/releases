@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "v0.3.4",
+        "release_date": "2024-06-26T14:42:13+00:00",
+        "title": "v0.3.4",
+        "body": "## What's Changed\n* Use enum on aravis driver by @callumforrester in https://github.com/bluesky/ophyd-async/pull/412\n* fixed incorrect formatting of enum values on soft signal set by @evalott100 in https://github.com/bluesky/ophyd-async/pull/417\n\n\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/v0.3.3...v0.3.4",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.3.4"
+      },
+      {
         "version": "v0.3.4a1",
         "release_date": "2024-06-26T06:34:47+00:00",
         "title": "v0.3.4a1",
