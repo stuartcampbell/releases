@@ -1112,6 +1112,110 @@
     "new_commits": 0
   },
   {
+    "name": "scanspec",
+    "releases": [
+      {
+        "version": "0.6.6",
+        "release_date": "2024-02-14T15:31:17+00:00",
+        "title": "0.6.6",
+        "body": "## What's Changed\r\n* Adopt copier by @coretl in https://github.com/dls-controls/scanspec/pull/102\r\n* Update to copier 1.2.0 by @coretl in https://github.com/dls-controls/scanspec/pull/106\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.6.5...0.6.6",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.6"
+      },
+      {
+        "version": "0.6.5",
+        "release_date": "2024-01-09T11:16:07+00:00",
+        "title": "0.6.5",
+        "body": "## What's Changed\r\n* Md conversion of docs by @coretl in https://github.com/dls-controls/scanspec/pull/92\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/dls-controls/scanspec/pull/92\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.6.4...0.6.5",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.5"
+      },
+      {
+        "version": "0.6.4",
+        "release_date": "2023-12-18T11:17:49+00:00",
+        "title": "0.6.4",
+        "body": "- Fix tests\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.6.3...0.6.4",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.4"
+      },
+      {
+        "version": "0.6.3",
+        "release_date": "2023-07-10T10:44:01+00:00",
+        "title": "0.6.3: Pin Click to 8.1.3",
+        "body": "- Pins Click to 8.1.3 to prevent failing to lint with mypy (see: https://github.com/pallets/click/issues/2558)\r\n- Pins FastAPI to 0.99 to support OpenAPI 3.1 while staying with Pydantic 1.0",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.3"
+      },
+      {
+        "version": "0.6.2",
+        "release_date": "2023-07-06T08:30:19+00:00",
+        "title": "0.6.2: Pin Pydantic version to <2",
+        "body": "",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.2"
+      },
+      {
+        "version": "0.6.1",
+        "release_date": "2023-02-07T14:54:14+00:00",
+        "title": "0.6.1 Shape Method",
+        "body": "## What's Changed\r\n* Add shape utility method to Spec to get a scan's simplified shape by @callumforrester in https://github.com/dls-controls/scanspec/pull/81\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.6.0...0.6.1",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.1"
+      },
+      {
+        "version": "0.6.0",
+        "release_date": "2023-01-24T09:41:46+00:00",
+        "title": "Pydantic and REST API",
+        "body": "## What's Changed\r\n* Fix badges in README by @callumforrester in https://github.com/dls-controls/scanspec/pull/70\r\n* updated optional types by @tizayi in https://github.com/dls-controls/scanspec/pull/71\r\n* Matplotlib update by @tizayi in https://github.com/dls-controls/scanspec/pull/74\r\n* Convert Service to REST using FastAPI and Make ScanSpecs Pydantic Models by @callumforrester in https://github.com/dls-controls/scanspec/pull/56\r\n* Switch from using apischema to pydantic\r\n* All specs and regions are now pydantic dataclaasses\r\n* There is now a REST API replacing the GraphQL service\r\n\r\n## New Contributors\r\n* @tizayi made their first contribution in https://github.com/dls-controls/scanspec/pull/71\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5.5...0.6.0",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.6.0"
+      },
+      {
+        "version": "0.5.5",
+        "release_date": "2022-12-20T12:09:39+00:00",
+        "title": "Python 3.11 support",
+        "body": "## What's Changed\r\n* Dependencies upgraded to support Python 3.11\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5.4...0.5.5",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5.5"
+      },
+      {
+        "version": "0.5.4",
+        "release_date": "2022-05-04T13:17:00+00:00",
+        "title": "0.5.4",
+        "body": "## What's Changed\n* Remove project name ref by @thomascobb in https://github.com/dls-controls/scanspec/pull/40\n* Fix/matplotlib 3.5.0 by @BenBradnick in https://github.com/dls-controls/scanspec/pull/43\n* Remove duplicate draw logic by @thomascobb in https://github.com/dls-controls/scanspec/pull/45\n* Adopt skeleton by @thomascobb in https://github.com/dls-controls/scanspec/pull/46\n* Update versions by @thomascobb in https://github.com/dls-controls/scanspec/pull/47\n* Update from skeleton by @GDYendell in https://github.com/dls-controls/scanspec/pull/49\n* Remove restrictions on axis order for concatenation by @callumforrester in https://github.com/dls-controls/scanspec/pull/48\n\n## New Contributors\n* @GDYendell made their first contribution in https://github.com/dls-controls/scanspec/pull/49\n\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5.3...0.5.4",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5.4"
+      },
+      {
+        "version": "0.5.3",
+        "release_date": "2021-10-26T14:16:53+00:00",
+        "title": "0.5.3",
+        "body": "## What's Changed\r\n* Don't duplicate CI runs on push and PR by @thomascobb in https://github.com/dls-controls/scanspec/pull/39\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5.2...0.5.3",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5.3"
+      },
+      {
+        "version": "0.5.2",
+        "release_date": "2021-10-26T08:24:49+00:00",
+        "title": "0.5.2",
+        "body": "## What's Changed\r\n* Move to using a src directory by @thomascobb in https://github.com/dls-controls/scanspec/pull/38\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5.1...0.5.2",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5.2"
+      },
+      {
+        "version": "0.5.1",
+        "release_date": "2021-10-11T15:18:30+00:00",
+        "title": "0.5.1",
+        "body": "## What's Changed\r\n* Stop trying to generate lockfiles on all pythons by @thomascobb in https://github.com/dls-controls/scanspec/pull/37\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.5...0.5.1",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5.1"
+      },
+      {
+        "version": "0.5",
+        "release_date": "2021-10-08T09:50:38+00:00",
+        "title": "0.5",
+        "body": "## What's Changed\r\n* Add Dimension.gap by @thomascobb in https://github.com/dls-controls/scanspec/pull/33\r\n* Make Spec, Frames and AxesPoints generic by @callumforrester in https://github.com/dls-controls/scanspec/pull/34\r\n* Frames by @thomascobb in https://github.com/dls-controls/scanspec/pull/35\r\n* Gql things by @thomascobb in https://github.com/dls-controls/scanspec/pull/36\r\n\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.4...0.5",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.5"
+      },
+      {
+        "version": "0.4",
+        "release_date": "2021-08-13T13:17:45+00:00",
+        "title": "0.4",
+        "body": "## What's Changed\r\n* Wyfo bump apischema by @thomascobb in https://github.com/dls-controls/scanspec/pull/22\r\n* Bump apischema version by @wyfo in https://github.com/dls-controls/scanspec/pull/21\r\n* Max frames by @MichaelStubbings in https://github.com/dls-controls/scanspec/pull/23\r\n* Regions dev by @MichaelStubbings in https://github.com/dls-controls/scanspec/pull/19\r\n* Smallest step by @MichaelStubbings in https://github.com/dls-controls/scanspec/pull/20\r\n* Add helper factory method to Static spec to create a scan with no motion, rename TIME dimension to DURATION by @callumforrester in https://github.com/dls-controls/scanspec/pull/24\r\n* Update docs and CI by @thomascobb in https://github.com/dls-controls/scanspec/pull/25\r\n* Use Annotated instead of dataclass fields by @thomascobb in https://github.com/dls-controls/scanspec/pull/27\r\n* Fix some docs diagrams by @thomascobb in https://github.com/dls-controls/scanspec/pull/28\r\n* Concat now behaves correctly on stacked dimensions by @thomascobb in https://github.com/dls-controls/scanspec/pull/29\r\n* Remove sphinx graphiql module and import equivalent code from sphinx-graphql library by @callumforrester in https://github.com/dls-controls/scanspec/pull/30\r\n* Update sphinx-graphql version and correct outdated config by @callumforrester in https://github.com/dls-controls/scanspec/pull/31\r\n* Docs by @thomascobb in https://github.com/dls-controls/scanspec/pull/32\r\n\r\n## New Contributors\r\n* @wyfo made their first contribution in https://github.com/dls-controls/scanspec/pull/21\r\n\r\n**Full Changelog**: https://github.com/dls-controls/scanspec/compare/0.3...0.4",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.4"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "hklpy",
     "releases": [
       {
