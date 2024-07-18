@@ -836,6 +836,180 @@
     "new_commits": 0
   },
   {
+    "name": "event-model",
+    "releases": [
+      {
+        "version": "v1.21.0",
+        "release_date": "2024-05-21T21:07:28+00:00",
+        "title": "v1.21.0",
+        "body": "## What's Changed:\r\n* Update schemas for StreamResource and StreamDatum by @genematx in https://github.com/bluesky/event-model/pull/301. Introduced `uri`, `parameters`, and `mimetype` fields; removed `path_semantics` and `resource_kwargs`. More detail: https://github.com/bluesky/event-model/issues/296\r\n* Bump peaceiris/actions-gh-pages from 3.9.3 to 4.0.0 by @dependabot in https://github.com/bluesky/event-model/pull/303\r\n* DOC: Fix the switcher URL by @AlexanderWells-diamond in https://github.com/bluesky/event-model/pull/305\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.20.0...v1.21.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.21.0"
+      },
+      {
+        "version": "v1.20.0",
+        "release_date": "2024-03-28T20:06:48+00:00",
+        "title": "v1.20.0",
+        "body": "Changed\r\n-------\r\n\r\n- Bumped from `pydantic 1.*` to `pydantic 2.*`\r\n\r\nFixed\r\n-----\r\n\r\n- Bug in `rechunk_event_pages` affecting Events with an empty `filled` key\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.20.0"
+      },
+      {
+        "version": "v1.19.9",
+        "release_date": "2023-11-22T19:13:25+00:00",
+        "title": "v1.19.9",
+        "body": "## Changed\r\n\r\nDropped support for jsonschema 2.*.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.9"
+      },
+      {
+        "version": "v1.19.8",
+        "release_date": "2023-10-11T09:05:05+00:00",
+        "title": "v1.19.8",
+        "body": "## What's Changed\r\n* Find schema files relative to source code, this allows tests to be ru\u2026 by @clintonroy in https://github.com/bluesky/event-model/pull/282\r\n* Rethinking external assets 2 by @evalott100 in https://github.com/bluesky/event-model/pull/272\r\n\r\n## New Contributors\r\n* @clintonroy made their first contribution in https://github.com/bluesky/event-model/pull/282\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.7...v1.19.8",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.8"
+      },
+      {
+        "version": "v1.19.7",
+        "release_date": "2023-07-05T15:00:33+00:00",
+        "title": "v1.19.7",
+        "body": "## What's Changed\r\nPatch to prevent pydantic 2 causing errors on the document TypedDicts and schema generation\r\n\r\n* Fixed imports to avoid pydantic if the version is >=2 by @evalott100 in https://github.com/bluesky/event-model/pull/281\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.6...v1.19.7",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.7"
+      },
+      {
+        "version": "v1.19.6",
+        "release_date": "2023-07-04T12:08:23+00:00",
+        "title": "v1.19.6",
+        "body": "## What's Changed\r\n* Specified pydantic <2 by @evalott100 in https://github.com/bluesky/event-model/pull/279\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.5...v1.19.6",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.6"
+      },
+      {
+        "version": "v1.19.5",
+        "release_date": "2023-06-30T10:38:30+00:00",
+        "title": "v1.19.5",
+        "body": "## What's Changed\r\n* Switch from partials to classes by @evalott100 in https://github.com/bluesky/event-model/pull/262\r\n* Added to the schema extra of event_descriptor to allow precision to be null by @evalott100 in https://github.com/bluesky/event-model/pull/277\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.4...v1.19.5",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.5"
+      },
+      {
+        "version": "v1.19.4",
+        "release_date": "2023-06-23T15:29:42+00:00",
+        "title": "v1.19.4",
+        "body": "## What's Changed\r\n### A slight fix to release [v1.19.3](https://github.com/bluesky/event-model/releases/tag/v1.19.3)\r\n* Allow descriptor units to be null by @coretl in https://github.com/bluesky/event-model/pull/275\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.3...v1.19.4",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.4"
+      },
+      {
+        "version": "v1.19.3",
+        "release_date": "2023-06-21T14:53:17+00:00",
+        "title": "v1.19.3",
+        "body": "## What's Changed\r\n* Adopted the [bluesky pip python skeleton](https://github.com/bluesky/python3-pip-skeleton) \r\n* Fixed validation errors in the schema in https://github.com/bluesky/event-model/pull/258\r\n* Added event_counters as an optional kwarg to compose_run in https://github.com/bluesky/event-model/pull/257\r\n* Introduced the skeleton method of versioning, removing _version.py in https://github.com/bluesky/event-model/pull/264\r\n* Added unit test to test dots aren't accepted in keys in https://github.com/bluesky/event-model/pull/269\r\n* Added typing support so mypy passes in https://github.com/bluesky/event-model/pull/247\r\n    * Documents can now be typed by their TypedDict, the jsonschema is the same but is generated from the TypedDicts.\r\n* Use importlib resources instead of pkg_resources in https://github.com/bluesky/event-model/pull/273\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/event-model/pull/253\r\n* @DiamondJoseph made their first contribution in https://github.com/bluesky/event-model/pull/258\r\n* @dependabot made their first contribution in https://github.com/bluesky/event-model/pull/248\r\n* @ksunden made their first contribution in https://github.com/bluesky/event-model/pull/273\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.2...v1.19.3",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.3"
+      },
+      {
+        "version": "v1.19.2",
+        "release_date": "2023-02-24T15:28:35+00:00",
+        "title": "v1.19.2",
+        "body": "Changed\r\n-------\r\n\r\n* Fix warnings about distutils being deprecated in Python>=3.10",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.2"
+      },
+      {
+        "version": "v1.19.1",
+        "release_date": "2022-12-09T16:17:36+00:00",
+        "title": "v1.19.1 (2022-12-09)",
+        "body": "v1.19.1 (2022-12-09)\r\n====================\r\n\r\nThis release fixes compatibility with Python 3.7, which was inadvertently\r\nbroken in the previous release, 1.19.0.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
+      },
+      {
+        "version": "v1.19.0",
+        "release_date": "2022-11-03T18:03:35+00:00",
+        "title": "event-model v1.19.0",
+        "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
+      },
+      {
+        "version": "v1.18.0",
+        "release_date": "2022-08-05T14:02:38+00:00",
+        "title": "event-model v1.18.0",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/event-model/pull/216\r\n* Fix for `databroker.v0` API by @mrakitin in https://github.com/bluesky/event-model/pull/218\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/event-model/pull/217\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.17.2...v1.18.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.18.0"
+      },
+      {
+        "version": "v1.17.2",
+        "release_date": "2021-06-21T18:56:03+00:00",
+        "title": "event-model v1.17.2",
+        "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
+      },
+      {
+        "version": "v1.17.1",
+        "release_date": "2021-01-29T21:13:47+00:00",
+        "title": "v1.17.1",
+        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2020-12-17T22:46:45+00:00",
+        "title": "v1.17.0",
+        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
+      },
+      {
+        "version": "v1.16.1",
+        "release_date": "2020-11-15T03:00:13+00:00",
+        "title": "v1.16.1",
+        "body": "* The \"projections\" schema in the Run Start document has been enhanced to accept \"configuration\" locations intended to link to fields that are in Event stream Configuration See :ref:`projections`. Additionally, validation of projections was enhanced.\r\n* The method https://github.com/bluesky/event-model/blob/b7a5fd8f54a9ee96c33a2171e8ecb243f0b08391/event_model/__init__.py#L1283 was enhanced to check for repeated runs with  colliding uids, raising an ValueError when this occurs.\r\n[event-model-1.16.1.tar.gz](https://github.com/bluesky/event-model/files/5550012/event-model-1.16.1.tar.gz)\r\n[event-model-1.16.1.zip](https://github.com/bluesky/event-model/files/5550013/event-model-1.16.1.zip)\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
+      },
+      {
+        "version": "v1.16.0",
+        "release_date": "2020-09-03T18:30:51+00:00",
+        "title": "v1.16.0",
+        "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
+      },
+      {
+        "version": "v1.15.2",
+        "release_date": "2020-06-12T19:28:01+00:00",
+        "title": "v1.15.2",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
+      },
+      {
+        "version": "v1.13.3",
+        "release_date": "2020-03-05T21:55:06+00:00",
+        "title": "v1.13.3",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.13.3"
+      },
+      {
+        "version": "v1.11.0",
+        "release_date": "2019-06-27T15:22:18+00:00",
+        "title": "Filler updates",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.11.0"
+      },
+      {
+        "version": "v1.6.0",
+        "release_date": "2018-08-29T22:41:47+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.6.0"
+      },
+      {
+        "version": "v1.5.0",
+        "release_date": "2018-05-15T15:42:21+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.5.0"
+      },
+      {
+        "version": "v1.4.0",
+        "release_date": "2017-11-01T16:14:32+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "libhkl",
     "releases": [
       {
@@ -1547,6 +1721,110 @@
     "new_commits": 0
   },
   {
+    "name": "bluesky-queueserver",
+    "releases": [
+      {
+        "version": "v0.0.19",
+        "release_date": "2023-06-28T23:25:14+00:00",
+        "title": "Release v0.0.19",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.19"
+      },
+      {
+        "version": "v0.0.18",
+        "release_date": "2022-10-31T19:59:34+00:00",
+        "title": "Release v0.0.18",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.18"
+      },
+      {
+        "version": "v0.0.17",
+        "release_date": "2022-10-02T23:37:13+00:00",
+        "title": "Release v0.0.17",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.17"
+      },
+      {
+        "version": "v0.0.16",
+        "release_date": "2022-07-30T14:53:00+00:00",
+        "title": "Release v0.0.16",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.16"
+      },
+      {
+        "version": "v0.0.15",
+        "release_date": "2022-06-23T16:58:45+00:00",
+        "title": "Release v0.0.15",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.15"
+      },
+      {
+        "version": "v0.0.14",
+        "release_date": "2022-04-09T02:27:16+00:00",
+        "title": "Release v0.0.14",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.14"
+      },
+      {
+        "version": "v0.0.13",
+        "release_date": "2022-04-05T19:25:42+00:00",
+        "title": "Release v0.0.13",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.13"
+      },
+      {
+        "version": "v0.0.12",
+        "release_date": "2022-03-09T03:37:52+00:00",
+        "title": "Release v0.0.12",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.12"
+      },
+      {
+        "version": "v0.0.11",
+        "release_date": "2022-02-27T22:45:56+00:00",
+        "title": "Release v0.0.11",
+        "body": "",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.11"
+      },
+      {
+        "version": "v0.0.10",
+        "release_date": "2022-02-09T02:52:29+00:00",
+        "title": "Release v0.0.10",
+        "body": "Fixed\r\n-----\r\n\r\n- A bug that allowed classes defined in the global scope of the startup script and recognized as\r\n  ``bluesky.protocols.Movable``, ``Readable`` or ``Flyable`` (e.g. ``ophyd.Device``) to be\r\n  included in the list of existing devices. Only instantiated class objects are currently\r\n  included in the list.\r\n\r\n- A deficiency in the code that loads Python scripts (not startup scripts from the folder\r\n  as in IPython ``profile_collection``) into the environment that failed to load scripts containing\r\n  definitions of devices with components.\r\n\r\nAdded\r\n-----\r\n\r\n- Support for passing subdevice names as values of plan parameters.\r\n\r\n- Support for regular expressions in the lists of names defined in ``plans``\r\n  and ``devices`` sections of ``parameter_annotation_decorator``. Keywords ``__MOTOR__``,\r\n  ``__DETECTOR__``, ``__READABLE__`` or ``__FLYABLE__`` can be used in conjunction with\r\n  regular expression to select device of the respective types.\r\n\r\n- New boolean parameters of the plan parameter annotation (``convert_plan_names``\r\n  and ``convert_device_names``) for explicitly enabling/disabling conversion of names\r\n  of plans and/or devices passed as parameter values. Setting those parameters\r\n  overrides the default behavior and should be used with caution.\r\n\r\n- Support for subdevice names in **'user_group_permissions.yaml'**.\r\n\r\n\r\nChanged\r\n-------\r\n\r\n- The algorithm for processing of user group permissions has changed. The old\r\n  **'user_group_permissions.yaml'** may no longer work as expected. If the stock\r\n  **'user_group_permissions.yaml'** is used for the project, replace it with\r\n  the updated file from the repository. Otherwise update the existing file\r\n  using following guidelines:\r\n\r\n  - If the project uses custom **'user_group_permissions.yaml'**, then insert ``:``\r\n    before each regular expression in the lists (e.g. change ``\"^count\"`` to\r\n    ``\":^count\"``, ``\"^det\"`` to ``\":^det\"`` etc.).\r\n  - In previous versions, only the lists with regular expressions were supported.\r\n    Now the lists may include explicitly listed plan, device or subdevice names,\r\n    such as ``\"count\"``, ``\"det1\"``, ``\"det1.val\"`` (there is no need to use regular\r\n    expressions such as ``\":^count$\"`` to allow the plan ``count``).\r\n  - The supported patterns allow to control which subdevices are included. For example,\r\n    the pattern ``:^det`` includes all devices with names starting with ``det``,\r\n    but no subdevices. The pattern ``\":^det:?.*\"`` selects all subdevices with\r\n    unlimited depth. Patterns may include the parameter ``depth`` that limits\r\n    maximum depth for subdevices, for example ``\":^det:?.*:depth=2\"`` adds\r\n    subdevices and subdevices of subdevices. See\r\n    `Configuring User Group Permissions\r\n    <https://blueskyproject.io/bluesky-queueserver/features_and_config.html#configuring-user-group-permissions>`_\r\n    for more detailed instructions.\r\n\r\nRemoved\r\n-------\r\n\r\n- Built-in types ``AllDetectors``, ``AllMotors``, ``AllFlyers`` and ``AllPlans`` can no\r\n  longer be used in parameter annotations of defined in ``parameter_annotation_decorator``.\r\n  Use regular expressions in conjunction with keywords ``__MOTOR__``, ``__DETECTOR__``,\r\n  ``__READABLE__`` or ``__FLYABLE__`` to create lists of devices of respective types.\r\n  Use built-in types ``__PLAN__``, ``__DEVICE__``, ``__PLAN_OR_DEVICE__`` in parameter\r\n  annotations to selectively enable conversion of names for all plans and/or\r\n  devices without creating lists of names. Alternatively, use ``convert_plan_names``\r\n  or ``convert_device_names`` parameters of the annotation in order to explicitly\r\n  enable/disable conversion of all plan/device names.\r\n",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.10"
+      },
+      {
+        "version": "v0.0.9",
+        "release_date": "2022-01-04T20:26:48+00:00",
+        "title": "Release v0.0.9",
+        "body": "Fixed\r\n-----\r\n\r\n- Numerous fixes related to reliability of Queue Server operation.\r\n\r\n- Implemented changes to make Queue Server compatible with ``aioredis`` v2.\r\n\r\n\r\nAdded\r\n-----\r\n\r\n- The new ``--update-existing-plans-devices`` CLI parameter of ``start-re-manager`` was added that\r\n  controls when the file that stores existing plans and devices is updated.\r\n\r\n- A new parameter of ``permissions_reload`` 0MQ API: ``reload_plans_devices`` (boolean, the default\r\n  value is ``False``). If set ``True``, the parameter forces RE Manager to load the list of\r\n  existing plans and devices from the disk file. The API may be called with ``reload_plans_devices=True``\r\n  using ``qserver`` CLI tool as ``qserver permissions reload lists``.\r\n\r\n- A new parameter of ``permissions_reload`` 0MQ API: ``reload_permissions`` (boolean, the default\r\n  value is ``True``). If ``True``, permissions are reloaded from the disk file (if allowed), otherwise\r\n  the currently used permissions are used in computations.\r\n\r\n- Extended the number of states of worker environment. Currently used states include ``initializing``,\r\n  ``idle``, ``executing_plan``, ``executing_task``, ``closing``, ``closed``.\r\n\r\n- A new status fields (``status`` 0MQ API): ``worker_environment_state``, ``worker_background_tasks``,\r\n  ``task_results_uid``, ``plans_existing_uid``, ``devices_existing_uid``.\r\n\r\n- Extended the number of sections in specification of user group permissions (e.g. in\r\n  ``user_group_permissions.yaml`` file). The new sections (``allowed_functions`` and ``forbidden_functions``)\r\n  define conditions for names of functions that are accessible using ``function_execute`` API by users\r\n  from each user groups.\r\n\r\n- New 0MQ API: ``script_upload``, ``function_execute``, ``task_result``, ``plans_existing``,\r\n  ``devices_existing``. CLI implementation: ``qserver script upload`` (``script_upload`` API),\r\n  ``qserver function execute`` (``function_execute`` API), ``qserver task result`` (``task_result`` API),\r\n  ``qserver existing devices`` (``devices_existing`` API), ``qserver existing plans`` (``plans_existing`` API).\r\n\r\n- A new 0MQ API: ``permissions_set`` and ``permissions_get`` that allow uploading and downloading\r\n  user group permissions. CLI support for the new API: ``qserver permissions set <fln.yaml>`` and\r\n  ``qserver permissions get``.\r\n\r\n- A new parameter of ``start-re-manager`` CLI tool: ``--user-group-permissions-reload``. The parameter accepts\r\n  values ``NEVER``, ``ON_REQUEST`` and ``ON_STARTUP``.\r\n\r\n- A new section in documentation on management of user group permissions.\r\n\r\nChanged\r\n-------\r\n\r\n- Refactoring of the code for management of user group permissions and lists of existing and\r\n  allowed plans and devices to make it more consistent. The identical lists of user permissions\r\n  and existing plans and devices are now maintained by worker and manager processes.\r\n\r\n- The lists of existing plans and devices used by RE Manager (both manager and worker processes)\r\n  is automatically updated each time plans and devices in are changed in RE namespace (currently\r\n  RE namespace is changed only when a new worker environment is opened).\r\n\r\n- All sections for user group permissions are now optional. The ``forbidden_plans``,\r\n  ``forbidden_devices`` and ``forbidden_functions`` sections could be skipped if there are\r\n  no forbidden items that need to be excluded. Skipping ``allowed_...`` section disables all\r\n  items (plans, devices or functions) for the group, e.g. if ``allowed_plans`` is skipped,\r\n  users from this group will not be able to submit or run any plans. Since rules for\r\n  the ``root`` group are applied to the lists accessible by users from all other groups,\r\n  skipping ``allowed_plans`` for ``root`` disables all plans for all other groups.\r\n",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.9"
+      },
+      {
+        "version": "v0.0.8",
+        "release_date": "2021-10-15T20:31:52+00:00",
+        "title": "Release v0.0.8 (2021-10-15)",
+        "body": "Fix for `sdist` and Conda packages.",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.8"
+      },
+      {
+        "version": "v0.0.7",
+        "release_date": "2021-10-07T02:37:31+00:00",
+        "title": "Release v0.0.7 (2021-10-06)",
+        "body": "Fixed\r\n-----\r\n\r\n* Behavior of ``re_pause`` 0MQ API: if ``re_pause`` is called past the last checkpoint of the plan,\r\n  the plan is considered successfully completed and execution of the queue is stopped.\r\n  The stopped queue can be started again using ``queue_start`` API request.\r\n\r\n* JSON schemas and code using validation of JSON schemas was modified for compatibility with\r\n  ``jsonschema`` v4.0.1. Queue server still works with older versions of ``jsonschema``.\r\n\r\nAdded\r\n-----\r\n\r\n* A new boolean flag (``pause_pending``) added to dictionary returned by ``status`` API.\r\n  The flag is ``True`` when request to pause a plan (``re_pause`` API) was accepted by the Queue Server,\r\n  but not processed by the Run Engine. The flag is set in case of immediate and deferred pause request.\r\n  The flag is cleared automatically (set to ``False``) when the request is processed and the plan is paused\r\n  or the queue is stopped (if deferred pause is requested after the last checkpoint of the plan).\r\n",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.7"
+      },
+      {
+        "version": "v0.0.6",
+        "release_date": "2021-09-16T14:31:39+00:00",
+        "title": "Bluesky Queue Server v0.0.6",
+        "body": "Added\r\n-----\r\n\r\n* New API: ``ReceiveConsoleOutputAsync`` (async version of ``ReceiveConsoleOutput``)\r\n  for receiving console output from RE Manager in `asyncio`-based applications (e.g. HTTP Server).\r\n\r\nChanged\r\n-------\r\n\r\n* Renamed parameters of `start-re-manager`:\r\n  - ``--zmq-publish`` is renamed to ``--zmq-publish-console``\r\n  - ``--zmq-publish-addr`` is renamed to ``--zmq-publish-console-addr``\r\n* Parameters ``default``, ``min``, ``max`` and ``step`` of ``parameter_annotation_decorator`` now must be\r\n  python expressions of supported types (``default``) or `int` or `float` numbers (``min``, ``max``\r\n  and ``step``). In previous versions the parameter values had to be converted to strings in user code.\r\n",
+        "href": "https://github.com/bluesky/bluesky-queueserver/releases/tag/v0.0.6"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-darkframes",
     "releases": [
       {
@@ -1635,6 +1913,26 @@
         "title": "Release v0.2.4",
         "body": "## Changes\r\n\r\n- Stop using special ophyd branch in test requirements",
         "href": "https://github.com/bluesky/suitcase-specfile/releases/tag/v0.2.4"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "suitcase-core",
+    "releases": [
+      {
+        "version": "v0.9.1",
+        "release_date": "2021-10-14T01:31:12+00:00",
+        "title": "Release v0.9.1",
+        "body": "## Changes\r\n\r\n- Fixed version mismatch in config",
+        "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.1"
+      },
+      {
+        "version": "v0.9.0",
+        "release_date": "2021-10-13T21:02:03+00:00",
+        "title": "Release v0.9.0",
+        "body": "## Changes\r\n\r\n- Various updates and fixes to documentation\r\n- Documented usage with RunRouter\r\n- `requirements.txt` now included in `MANIFEST.in`\r\n- Added auto-publishing to `bluesky.github.io`\r\n- Added auto-publishing to PyPI",
+        "href": "https://github.com/bluesky/suitcase-core/releases/tag/v0.9.0"
       }
     ],
     "new_commits": 0
