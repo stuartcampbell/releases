@@ -1,5 +1,46 @@
 [
   {
+    "name": "libhkl",
+    "releases": [
+      {
+        "version": "v1.2.2",
+        "release_date": "2024-07-27T21:42:20+00:00",
+        "title": "v1.2.2",
+        "body": "### libhkl-v5.0.0.3501-x86_64.tar.gz\r\n\r\nSee the release [documentation](https://github.com/bluesky/libhkl/blob/main/docs/releases/v5_0_0_3501-x86_64.md).\r\n\r\n## What's Changed\r\n* BUGFIX: use compatible GSL library by @prjemian in https://github.com/bluesky/libhkl/pull/21\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/libhkl/compare/v1.2.1...v1.2.2",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.2"
+      },
+      {
+        "version": "v1.2.1",
+        "release_date": "2024-05-03T16:41:34+00:00",
+        "title": "v1.2.1",
+        "body": "### libhkl-v5.0.0.3434-x86_64.tar.gz\r\n\r\n- adds geometry _ESRF ID01 PSIC_\r\n- supports Python 3.8 - 3.12\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `8565ac5c45d37f9062681ed74b218e0c85360d82e4240d1c7e9af998f0b64147`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n\r\nAnd, set the [`LD_LIBRARY_PATH`](https://github.com/bluesky/libhkl/issues/13)\r\nbash environment variable for the conda environment, so these additional\r\nlibraries are found in the conda environment before other versions provided by\r\nthe operating system:\r\n\r\n```bash\r\nconda env config vars set LD_LIBRARY_PATH=$CONDA_PREFIX/lib\r\n```\r\n\r\n-------\r\n\r\n## What's Changed\r\n* update build tools by @prjemian in https://github.com/bluesky/libhkl/pull/12\r\n* revise build system by @prjemian in https://github.com/bluesky/libhkl/pull/18\r\n* Hkl v5.0.0.3434 for libhkl v1.2.1 by @prjemian in https://github.com/bluesky/libhkl/pull/19\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/libhkl/compare/v1.2.0...v1.2.1",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.1"
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2023-10-05T13:51:01+00:00",
+        "title": "v1.2.0",
+        "body": "### libhkl-v5.0.0.3357-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `cc439eb4787b577e31a7aa7764df5143cfcded9a9fa22ac7fef7974049f1d727`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.0"
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2023-10-02T18:06:54+00:00",
+        "title": "v1.1.0",
+        "body": "### libhkl-v5.0.0.3001-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `b0a79417855ab358a7f1c5e08074b3e7e014b5d2e10c325d6e1328f3442bf69d`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.1.0"
+      },
+      {
+        "version": "v1.0.0",
+        "release_date": "2023-10-02T14:52:02+00:00",
+        "title": "v1.0.0",
+        "body": "This release matches existing version.  Compatibility only.\r\n\r\n### libhkl-v5.0.0.2173-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `0d36ee67057239f6a439b3f4fecac20df5102627c81bae90f1bc1e3c94e56a90`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
+        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.0.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bluesky-queueserver",
     "releases": [
       {
@@ -1123,40 +1164,6 @@
         "title": "",
         "body": "",
         "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "libhkl",
-    "releases": [
-      {
-        "version": "v1.2.1",
-        "release_date": "2024-05-03T16:41:34+00:00",
-        "title": "v1.2.1",
-        "body": "### libhkl-v5.0.0.3434-x86_64.tar.gz\r\n\r\n- adds geometry _ESRF ID01 PSIC_\r\n- supports Python 3.8 - 3.12\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `8565ac5c45d37f9062681ed74b218e0c85360d82e4240d1c7e9af998f0b64147`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n\r\nAnd, set the [`LD_LIBRARY_PATH`](https://github.com/bluesky/libhkl/issues/13)\r\nbash environment variable for the conda environment, so these additional\r\nlibraries are found in the conda environment before other versions provided by\r\nthe operating system:\r\n\r\n```bash\r\nconda env config vars set LD_LIBRARY_PATH=$CONDA_PREFIX/lib\r\n```\r\n\r\n-------\r\n\r\n## What's Changed\r\n* update build tools by @prjemian in https://github.com/bluesky/libhkl/pull/12\r\n* revise build system by @prjemian in https://github.com/bluesky/libhkl/pull/18\r\n* Hkl v5.0.0.3434 for libhkl v1.2.1 by @prjemian in https://github.com/bluesky/libhkl/pull/19\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/libhkl/compare/v1.2.0...v1.2.1",
-        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.1"
-      },
-      {
-        "version": "v1.2.0",
-        "release_date": "2023-10-05T13:51:01+00:00",
-        "title": "v1.2.0",
-        "body": "### libhkl-v5.0.0.3357-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `cc439eb4787b577e31a7aa7764df5143cfcded9a9fa22ac7fef7974049f1d727`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
-        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.0"
-      },
-      {
-        "version": "v1.1.0",
-        "release_date": "2023-10-02T18:06:54+00:00",
-        "title": "v1.1.0",
-        "body": "### libhkl-v5.0.0.3001-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `b0a79417855ab358a7f1c5e08074b3e7e014b5d2e10c325d6e1328f3442bf69d`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
-        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.1.0"
-      },
-      {
-        "version": "v1.0.0",
-        "release_date": "2023-10-02T14:52:02+00:00",
-        "title": "v1.0.0",
-        "body": "This release matches existing version.  Compatibility only.\r\n\r\n### libhkl-v5.0.0.2173-x86_64.tar.gz\r\n\r\npackage | version\r\n--- | ---\r\nsha256 | `0d36ee67057239f6a439b3f4fecac20df5102627c81bae90f1bc1e3c94e56a90`\r\nbuilt on | [Docker](https://github.com/bluesky/libhkl/tree/main/builder)\r\narchitecture | x86_64\r\nOS | debian:bullseye\r\n`gobject-introspection` | 1.78.1 (built from source)\r\n`libgsl-dev` | 2.7 (built from source)\r\n\r\nPackaging requirements to build a conda-forge package with this library:\r\n\r\n```text\r\n    gobject-introspection =1.78.1\r\n    gsl =2.7\r\n    pygobject\r\n    python >=3.8,<3.12\r\n```\r\n",
-        "href": "https://github.com/bluesky/libhkl/releases/tag/v1.0.0"
       }
     ],
     "new_commits": 0
