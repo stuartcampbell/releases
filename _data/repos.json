@@ -6,7 +6,7 @@
         "version": "v1.2.3",
         "release_date": "2024-08-07T13:07:50+00:00",
         "title": "v1.2.3",
-        "body": "Add `APS POLAR` geometry\r\n\r\nSee [release notes](https://github.com/bluesky/libhkl/blob/main/docs/releases/v5_0_0_3512-x86_64.md) for details.\r\n\r\n**Full Changelog**: https://github.com/bluesky/libhkl/compare/v1.2.2...v1.2.3",
+        "body": "Add `APS POLAR` geometry in `libhkl-v5.0.0.3512-x86_64.tar.gz`\r\n\r\nSee [release notes](https://github.com/bluesky/libhkl/blob/main/docs/releases/v5_0_0_3512-x86_64.md) for details.\r\n\r\n**Full Changelog**: https://github.com/bluesky/libhkl/compare/v1.2.2...v1.2.3",
         "href": "https://github.com/bluesky/libhkl/releases/tag/v1.2.3"
       },
       {
