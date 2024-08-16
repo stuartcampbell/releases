@@ -3,6 +3,13 @@
     "name": "scanspec",
     "releases": [
       {
+        "version": "0.7.2",
+        "release_date": "2024-08-16T13:16:22+00:00",
+        "title": "0.7.2",
+        "body": "## What's Changed\r\n* Hotfix numpy versions by @DiamondJoseph in https://github.com/bluesky/scanspec/pull/138\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/scanspec/compare/0.7.1...0.7.2",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.7.2"
+      },
+      {
         "version": "0.7.1",
         "release_date": "2024-08-13T08:26:43+00:00",
         "title": "0.7.1",
