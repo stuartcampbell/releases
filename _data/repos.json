@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "0.5.2",
+        "release_date": "2024-09-04T11:22:13+00:00",
+        "title": "0.5.2",
+        "body": "## What's Changed\r\n* Stop prepare setting negative velocity by @Relm-Arrowny in https://github.com/bluesky/ophyd-async/pull/552\r\n* Fastcs eiger support by @DominicOram in https://github.com/bluesky/ophyd-async/pull/528\r\n* Add no op status by @olliesilvester in https://github.com/bluesky/ophyd-async/pull/540\r\n* Make np_datatype property of ShapeProvider rather than final axis by @DiamondJoseph in https://github.com/bluesky/ophyd-async/pull/555\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/0.5.1...0.5.2",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/0.5.2"
+      },
+      {
         "version": "0.5.1",
         "release_date": "2024-08-30T10:36:41+00:00",
         "title": "0.5.1",
