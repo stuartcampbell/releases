@@ -707,6 +707,13 @@
     "name": "scanspec",
     "releases": [
       {
+        "version": "0.7.3",
+        "release_date": "2024-09-16T15:28:26+00:00",
+        "title": "0.7.3",
+        "body": "## What's Changed\r\n* Move to pyright and fix type errors by @callumforrester in https://github.com/bluesky/scanspec/pull/135\r\n* Remove the need for uses_tagged_union deco by @coretl in https://github.com/bluesky/scanspec/pull/140\r\n* Update to latest copier and make docs nicer by @coretl in https://github.com/bluesky/scanspec/pull/142\r\n* Put pyright in strict mode by @callumforrester in https://github.com/bluesky/scanspec/pull/143\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/scanspec/compare/0.7.2...0.7.3",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.7.3"
+      },
+      {
         "version": "0.7.2",
         "release_date": "2024-08-16T13:16:22+00:00",
         "title": "0.7.2",
