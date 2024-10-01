@@ -3,6 +3,13 @@
     "name": "databroker",
     "releases": [
       {
+        "version": "v2.0.0b50",
+        "release_date": "2024-10-01T16:09:43+00:00",
+        "title": "v2.0.0b50",
+        "body": "## What's Changed\r\n* Bump tiled dep to v0.1.0b9 by @danielballan in https://github.com/bluesky/databroker/pull/824\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b49...v2.0.0b50",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b50"
+      },
+      {
         "version": "v2.0.0b49",
         "release_date": "2024-10-01T14:36:09+00:00",
         "title": "v2.0.0b49",
