@@ -1,5 +1,333 @@
 [
   {
+    "name": "databroker",
+    "releases": [
+      {
+        "version": "v2.0.0b51",
+        "release_date": "2024-10-11T14:58:57+00:00",
+        "title": "v2.0.0b51",
+        "body": "## What's Changed\r\n* Fix and test 'chunks' escape hatch. by @danielballan in https://github.com/bluesky/databroker/pull/826\r\n* FIX: data padding bug in mongo_normalized by @hyperrealist in https://github.com/bluesky/databroker/pull/825\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b50...v2.0.0b51",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b51"
+      },
+      {
+        "version": "v2.0.0b50",
+        "release_date": "2024-10-01T16:09:43+00:00",
+        "title": "v2.0.0b50",
+        "body": "## What's Changed\r\n* Bump tiled dep to v0.1.0b9 by @danielballan in https://github.com/bluesky/databroker/pull/824\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b49...v2.0.0b50",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b50"
+      },
+      {
+        "version": "v2.0.0b49",
+        "release_date": "2024-10-01T14:36:09+00:00",
+        "title": "v2.0.0b49",
+        "body": "## What's Changed\r\n* FIX: return and empty dict for type stability by @tacaswell in https://github.com/bluesky/databroker/pull/822\r\n* reduce `TARGET_PAGE_BYTESIZE` to `8_000_000` by @hyperrealist in https://github.com/bluesky/databroker/pull/823\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b48...v2.0.0b49",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b49"
+      },
+      {
+        "version": "v2.0.0b48",
+        "release_date": "2024-09-18T20:22:51+00:00",
+        "title": "v2.0.0b48",
+        "body": "Update for changes to Starlette and Tiled",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b48"
+      },
+      {
+        "version": "v2.0.0b47",
+        "release_date": "2024-08-20T19:23:04+00:00",
+        "title": "",
+        "body": "Update Tiled container to v0.1.0b7",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b47"
+      },
+      {
+        "version": "v2.0.0b46",
+        "release_date": "2024-06-24T12:20:05+00:00",
+        "title": "Add mongoquery as a server dependency",
+        "body": "This addresses a bug caught in production, where the databroker container image is missing this dependency. It comes up in situations when a ScanID is mixed with other query types.\r\n\r\n## What's Changed\r\n* Add mongoquery as a server dep. by @danielballan in https://github.com/bluesky/databroker/pull/816\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b45...v2.0.0b46",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b46"
+      },
+      {
+        "version": "v2.0.0b45",
+        "release_date": "2024-06-20T19:04:59+00:00",
+        "title": "v2.0.0b45",
+        "body": "Bug fix for numpy 2.0",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b45"
+      },
+      {
+        "version": "v2.0.0b44",
+        "release_date": "2024-06-18T16:10:24+00:00",
+        "title": "v2.0.0b44",
+        "body": "Bump version of Tiled to v0.1.0b4, the first release to support Numpy 2.0.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b44"
+      },
+      {
+        "version": "v2.0.0b43",
+        "release_date": "2024-06-05T01:19:32+00:00",
+        "title": "v2.0.0b43",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b43"
+      },
+      {
+        "version": "v2.0.0b42",
+        "release_date": "2024-05-28T20:56:26+00:00",
+        "title": "v2.0.0b42",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b42"
+      },
+      {
+        "version": "v2.0.0b41",
+        "release_date": "2024-04-26T19:01:03+00:00",
+        "title": "v2.0.0b41",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b41"
+      },
+      {
+        "version": "v2.0.0b40",
+        "release_date": "2024-04-24T21:19:59+00:00",
+        "title": "v2.0.0b40",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b40"
+      },
+      {
+        "version": "v2.0.0b39",
+        "release_date": "2024-04-24T21:10:11+00:00",
+        "title": "v2.0.0b39",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b39"
+      },
+      {
+        "version": "v2.0.0b38",
+        "release_date": "2024-02-29T12:17:42+00:00",
+        "title": "v2.0.0b38",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b38"
+      },
+      {
+        "version": "v2.0.0b37",
+        "release_date": "2024-02-28T18:26:18+00:00",
+        "title": "v2.0.0b37",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b37"
+      },
+      {
+        "version": "v2.0.0b36",
+        "release_date": "2024-02-06T18:48:33+00:00",
+        "title": "v2.0.0b36",
+        "body": "- Bump minimum version of suitcase-mongo to support updating `descriptor` and `stop` documents from Tiled client",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b36"
+      },
+      {
+        "version": "v2.0.0b35",
+        "release_date": "2024-02-05T22:55:45+00:00",
+        "title": "v2.0.0b35",
+        "body": "- Support updating 'stop' and 'descriptor' documents via the Tiled client.\r\n- Bump minimum Tiled version.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b35"
+      },
+      {
+        "version": "v2.0.0b34",
+        "release_date": "2024-02-01T13:54:02+00:00",
+        "title": "v2.0.0b34",
+        "body": "v2.0.0b34",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b34"
+      },
+      {
+        "version": "v2.0.0b33",
+        "release_date": "2023-12-14T21:40:08+00:00",
+        "title": "v2.0.0b33",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b33"
+      },
+      {
+        "version": "v2.0.0b32",
+        "release_date": "2023-12-13T14:22:53+00:00",
+        "title": "v2.0.0b32",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b32"
+      },
+      {
+        "version": "v2.0.0b31",
+        "release_date": "2023-09-28T20:09:21+00:00",
+        "title": "v2.0.0b31",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b31"
+      },
+      {
+        "version": "v2.0.0b30",
+        "release_date": "2023-09-11T20:48:18+00:00",
+        "title": "v2.0.0b30",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b30"
+      },
+      {
+        "version": "v2.0.0b29",
+        "release_date": "2023-08-25T00:46:45+00:00",
+        "title": "v2.0.0b29",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b29"
+      },
+      {
+        "version": "v2.0.0b28",
+        "release_date": "2023-08-06T03:01:25+00:00",
+        "title": "v2.0.0b28",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b28"
+      },
+      {
+        "version": "v2.0.0b27",
+        "release_date": "2023-08-01T21:11:52+00:00",
+        "title": "v2.0.0b27",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b27"
+      },
+      {
+        "version": "v2.0.0b26",
+        "release_date": "2023-07-25T12:07:39+00:00",
+        "title": "v2.0.0b26",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b26"
+      },
+      {
+        "version": "v2.0.0b25",
+        "release_date": "2023-07-09T14:32:18+00:00",
+        "title": "v2.0.0b25",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b25"
+      },
+      {
+        "version": "v2.0.0b23",
+        "release_date": "2023-06-02T20:21:32+00:00",
+        "title": "v2.0.0b23",
+        "body": "This adds support for [`distinct()`](https://blueskyproject.io/tiled/reference/generated/tiled.client.node.Node.distinct.html#tiled.client.node.Node.distinct) and adds a `.v2` accessor in more places.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b23"
+      },
+      {
+        "version": "v2.0.0b22",
+        "release_date": "2023-03-22T19:12:42+00:00",
+        "title": "v2.0.0b22",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b22"
+      },
+      {
+        "version": "v2.0.0b17",
+        "release_date": "2023-02-21T19:16:33+00:00",
+        "title": "v2.0.0b17",
+        "body": "Fixes Broker.named('temp')",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b17"
+      },
+      {
+        "version": "v2.0.0b10",
+        "release_date": "2022-09-15T18:51:06+00:00",
+        "title": "v2.0.0b10",
+        "body": "## What's Changed\r\n* Added update_metadata() to write_ adapters by @jmaruland in https://github.com/bluesky/databroker/pull/716\r\n* Header.data() fix by @gwbischof in https://github.com/bluesky/databroker/pull/728\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b9...v2.0.0b10",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b10"
+      },
+      {
+        "version": "v2.0.0b9",
+        "release_date": "2022-09-13T20:59:16+00:00",
+        "title": "v2.0.0b9",
+        "body": "## What's Changed\r\n* FIX: the back-compat getattr shim in databroker by @tacaswell in https://github.com/bluesky/databroker/pull/713\r\n* Added delete() method for arrays and dataframes by @jmaruland in https://github.com/bluesky/databroker/pull/715\r\n* Support new queries types in mongo_normalized. by @danielballan in https://github.com/bluesky/databroker/pull/717\r\n* Expose 'specs'. by @danielballan in https://github.com/bluesky/databroker/pull/718\r\n* Update for xarray refactor in Tiled. by @danielballan in https://github.com/bluesky/databroker/pull/720\r\n* HOTFIX: ArrayAdapter usage with handlers that return dask. by @danielballan in https://github.com/bluesky/databroker/pull/721\r\n* Add ScanIDRange by @gwbischof in https://github.com/bluesky/databroker/pull/719\r\n* [Experimental backend] Support chunked upload and sparse arrays by @danielballan in https://github.com/bluesky/databroker/pull/722\r\n* Implement __len__. by @danielballan in https://github.com/bluesky/databroker/pull/723\r\n* Fix slicing into WritableDataFrameAdapter. by @danielballan in https://github.com/bluesky/databroker/pull/724\r\n* Fix temp. by @danielballan in https://github.com/bluesky/databroker/pull/726\r\n* Follow-up to #726: commit test by @danielballan in https://github.com/bluesky/databroker/pull/730\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b4...v2.0.0b9",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b9"
+      },
+      {
+        "version": "v2.0.0b4",
+        "release_date": "2022-06-29T19:50:35+00:00",
+        "title": "v2.0.0b4",
+        "body": "## What's Changed\r\n* Hacks to get databroker github actions working by @clintonroy in https://github.com/bluesky/databroker/pull/693\r\n* Doc: just fixing a few typos. by @clintonroy in https://github.com/bluesky/databroker/pull/692\r\n* Merge v2.0.0-dev into master branch by @danielballan in https://github.com/bluesky/databroker/pull/694\r\n* Support nesting raw data into /raw in backward-compatible way. by @danielballan in https://github.com/bluesky/databroker/pull/697\r\n* Deprecate RawMongo by @danielballan in https://github.com/bluesky/databroker/pull/705\r\n* Add new storage backend that supports writing via client by @jmaruland in https://github.com/bluesky/databroker/pull/696\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/databroker/pull/678\r\n* Fix missing f-string f. by @danielballan in https://github.com/bluesky/databroker/pull/709\r\n* add tiled dependancy by @gwbischof in https://github.com/bluesky/databroker/pull/710\r\n* Added NotEq, In and NotIn to MongoAdpater by @jmaruland in https://github.com/bluesky/databroker/pull/708\r\n\r\n## New Contributors\r\n* @jmaruland made their first contribution in https://github.com/bluesky/databroker/pull/696\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.5...v2.0.0b4",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b4"
+      },
+      {
+        "version": "v1.2.5",
+        "release_date": "2022-01-21T19:57:43+00:00",
+        "title": "v1.2.5",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish to PyPI by @mrakitin in https://github.com/bluesky/databroker/pull/676\r\n* Get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/677\r\n* DOC: corrected the same typo a few times. by @clintonroy in https://github.com/bluesky/databroker/pull/682\r\n* DOC: just a typo fix. by @clintonroy in https://github.com/bluesky/databroker/pull/683\r\n* don't use intake v0.6.5, and get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/685\r\n* release notes v1.2.5 by @gwbischof in https://github.com/bluesky/databroker/pull/686\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.4...v1.2.5",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
+      },
+      {
+        "version": "v1.2.4",
+        "release_date": "2021-10-07T18:15:42+00:00",
+        "title": "databroker v1.2.4",
+        "body": "### Fixed\r\n* tzlocal support",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
+      },
+      {
+        "version": "v1.2.0",
+        "release_date": "2020-12-17T22:57:38+00:00",
+        "title": "v1.2.0",
+        "body": "## Added\r\n* New accessors on BlueskyEventStream named config, timestamps, and config_timestamps provide xarray Datasets of secondary readings from Event Descriptors and Events.\r\n* A\u201csummary\u201d projector that operates, inexpensively, on just the \u2018start\u2019 document.\r\n\r\n## Fixed\r\n* Adjust to upstream (yet unreleased) changes to intake.\r\n* When the \u2018stop\u2019 document is not yet available (or permanently missing) the IPython repr degrades gracefully.\r\n* When comparing BlueskyRun (v2) or a Header (v1) to another object via equality, return False if the other object is of a different type, instead of raising an exception.\r\n\r\n## Changed\r\n* Remove configuration columns from output of BlueskyEventStream.read() and .to_dask(). The new config acccessor should be used to access these.\r\n* In v1, provide more helpful exceptions when a Datum is referenced by an Event is not found. (In v2 this is already done, via event_model.Filler.)\r\n* The method BlueskyRun.canonical has been renamed to BlueskyRun.documents. The old name is deprecated and issues a warning when used.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
+      },
+      {
+        "version": "v1.1.0",
+        "release_date": "2020-09-04T16:51:57+00:00",
+        "title": "databroker v1.1.0",
+        "body": "v1.1.0 (2020-09-03)\r\n-------------------\r\n\r\n## Added\r\n\r\n* Experimental ``databroker.projector`` module\r\n* A ``stats`` method on the ``BlueskyMongoCatalog`` to access MongoDB storage\r\n  info.\r\n\r\n## Fixed\r\n\r\n* Do more to try to recover from inaccurate ``shape`` metadata.\r\n* Tolerate old Resource documents that rely on MongoDB ``_id`` and are missing\r\n  ``uid``.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
+      },
+      {
+        "version": "v0.13.3",
+        "release_date": "2019-08-22T21:29:32+00:00",
+        "title": "v0.13.3",
+        "body": "### Enhancements\r\n\r\n* Replaced deprecated unordered bulk write (requires ``pymongo >= 3.0``).\r\n\r\n### Documentation\r\n\r\n* Update the links in the sidebar to point to the Bluesky Project.\r\n\r\n### Packaging\r\n\r\n* Added missing files in the source distribution for PyPI.\r\n\r\nSee [the v0.13.3 GitHub milestone](https://github.com/bluesky/databroker/milestone/10?closed=1) for a full enumeration of the changes in this release.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.3"
+      },
+      {
+        "version": "v0.13.1",
+        "release_date": "2019-07-30T14:06:12+00:00",
+        "title": "v0.13.1",
+        "body": "This release makes the sqlite-backed asset registry threadsafe, for compatibility with bluesky 1.6.0.",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.1"
+      },
+      {
+        "version": "v0.11.3",
+        "release_date": "2018-09-05T22:47:11+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
+      },
+      {
+        "version": "v0.11.2rc1",
+        "release_date": "2018-06-25T16:02:41+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
+      },
+      {
+        "version": "v0.11.1",
+        "release_date": "2018-05-19T23:49:39+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.1"
+      },
+      {
+        "version": "v0.11.0",
+        "release_date": "2018-05-15T17:02:56+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
+      },
+      {
+        "version": "v0.10.0",
+        "release_date": "2018-02-20T13:46:03+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
+      },
+      {
+        "version": "v0.9.4",
+        "release_date": "2017-12-06T20:31:59+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
+      },
+      {
+        "version": "v0.8.1",
+        "release_date": "2017-05-22T13:57:54+00:00",
+        "title": "v0.8.1",
+        "body": "",
+        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "tiled",
     "releases": [
       {
@@ -928,327 +1256,6 @@
         "title": "bluesky version 0.10.0",
         "body": "We are proud to announce the 0.10.0 release of bluesky.\r\n\r\n* Automatic best-effort visualization and peak-fitting is available for all plans, including user-defined ones.\r\n* The \u201cSPEC-like\u201d API has been fully removed, and its most useful features have been applied to the library in a self-consistent way. See [here](https://nsls-ii.github.io/bluesky/api_changes.html#api-changes) for detailed instructions on migrating.\r\n* Improved tooling for streaming documents over a network for live processing and visualization in a different process or on a different machine.\r\n\r\nFull release notes are on our [documentation website](https://nsls-ii.github.io/bluesky/api_changes.html#v0-10-0)",
         "href": "https://github.com/bluesky/bluesky/releases/tag/v0.10.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "databroker",
-    "releases": [
-      {
-        "version": "v2.0.0b50",
-        "release_date": "2024-10-01T16:09:43+00:00",
-        "title": "v2.0.0b50",
-        "body": "## What's Changed\r\n* Bump tiled dep to v0.1.0b9 by @danielballan in https://github.com/bluesky/databroker/pull/824\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b49...v2.0.0b50",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b50"
-      },
-      {
-        "version": "v2.0.0b49",
-        "release_date": "2024-10-01T14:36:09+00:00",
-        "title": "v2.0.0b49",
-        "body": "## What's Changed\r\n* FIX: return and empty dict for type stability by @tacaswell in https://github.com/bluesky/databroker/pull/822\r\n* reduce `TARGET_PAGE_BYTESIZE` to `8_000_000` by @hyperrealist in https://github.com/bluesky/databroker/pull/823\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b48...v2.0.0b49",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b49"
-      },
-      {
-        "version": "v2.0.0b48",
-        "release_date": "2024-09-18T20:22:51+00:00",
-        "title": "v2.0.0b48",
-        "body": "Update for changes to Starlette and Tiled",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b48"
-      },
-      {
-        "version": "v2.0.0b47",
-        "release_date": "2024-08-20T19:23:04+00:00",
-        "title": "",
-        "body": "Update Tiled container to v0.1.0b7",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b47"
-      },
-      {
-        "version": "v2.0.0b46",
-        "release_date": "2024-06-24T12:20:05+00:00",
-        "title": "Add mongoquery as a server dependency",
-        "body": "This addresses a bug caught in production, where the databroker container image is missing this dependency. It comes up in situations when a ScanID is mixed with other query types.\r\n\r\n## What's Changed\r\n* Add mongoquery as a server dep. by @danielballan in https://github.com/bluesky/databroker/pull/816\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b45...v2.0.0b46",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b46"
-      },
-      {
-        "version": "v2.0.0b45",
-        "release_date": "2024-06-20T19:04:59+00:00",
-        "title": "v2.0.0b45",
-        "body": "Bug fix for numpy 2.0",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b45"
-      },
-      {
-        "version": "v2.0.0b44",
-        "release_date": "2024-06-18T16:10:24+00:00",
-        "title": "v2.0.0b44",
-        "body": "Bump version of Tiled to v0.1.0b4, the first release to support Numpy 2.0.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b44"
-      },
-      {
-        "version": "v2.0.0b43",
-        "release_date": "2024-06-05T01:19:32+00:00",
-        "title": "v2.0.0b43",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b43"
-      },
-      {
-        "version": "v2.0.0b42",
-        "release_date": "2024-05-28T20:56:26+00:00",
-        "title": "v2.0.0b42",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b42"
-      },
-      {
-        "version": "v2.0.0b41",
-        "release_date": "2024-04-26T19:01:03+00:00",
-        "title": "v2.0.0b41",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b41"
-      },
-      {
-        "version": "v2.0.0b40",
-        "release_date": "2024-04-24T21:19:59+00:00",
-        "title": "v2.0.0b40",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b40"
-      },
-      {
-        "version": "v2.0.0b39",
-        "release_date": "2024-04-24T21:10:11+00:00",
-        "title": "v2.0.0b39",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b39"
-      },
-      {
-        "version": "v2.0.0b38",
-        "release_date": "2024-02-29T12:17:42+00:00",
-        "title": "v2.0.0b38",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b38"
-      },
-      {
-        "version": "v2.0.0b37",
-        "release_date": "2024-02-28T18:26:18+00:00",
-        "title": "v2.0.0b37",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b37"
-      },
-      {
-        "version": "v2.0.0b36",
-        "release_date": "2024-02-06T18:48:33+00:00",
-        "title": "v2.0.0b36",
-        "body": "- Bump minimum version of suitcase-mongo to support updating `descriptor` and `stop` documents from Tiled client",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b36"
-      },
-      {
-        "version": "v2.0.0b35",
-        "release_date": "2024-02-05T22:55:45+00:00",
-        "title": "v2.0.0b35",
-        "body": "- Support updating 'stop' and 'descriptor' documents via the Tiled client.\r\n- Bump minimum Tiled version.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b35"
-      },
-      {
-        "version": "v2.0.0b34",
-        "release_date": "2024-02-01T13:54:02+00:00",
-        "title": "v2.0.0b34",
-        "body": "v2.0.0b34",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b34"
-      },
-      {
-        "version": "v2.0.0b33",
-        "release_date": "2023-12-14T21:40:08+00:00",
-        "title": "v2.0.0b33",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b33"
-      },
-      {
-        "version": "v2.0.0b32",
-        "release_date": "2023-12-13T14:22:53+00:00",
-        "title": "v2.0.0b32",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b32"
-      },
-      {
-        "version": "v2.0.0b31",
-        "release_date": "2023-09-28T20:09:21+00:00",
-        "title": "v2.0.0b31",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b31"
-      },
-      {
-        "version": "v2.0.0b30",
-        "release_date": "2023-09-11T20:48:18+00:00",
-        "title": "v2.0.0b30",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b30"
-      },
-      {
-        "version": "v2.0.0b29",
-        "release_date": "2023-08-25T00:46:45+00:00",
-        "title": "v2.0.0b29",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b29"
-      },
-      {
-        "version": "v2.0.0b28",
-        "release_date": "2023-08-06T03:01:25+00:00",
-        "title": "v2.0.0b28",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b28"
-      },
-      {
-        "version": "v2.0.0b27",
-        "release_date": "2023-08-01T21:11:52+00:00",
-        "title": "v2.0.0b27",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b27"
-      },
-      {
-        "version": "v2.0.0b26",
-        "release_date": "2023-07-25T12:07:39+00:00",
-        "title": "v2.0.0b26",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b26"
-      },
-      {
-        "version": "v2.0.0b25",
-        "release_date": "2023-07-09T14:32:18+00:00",
-        "title": "v2.0.0b25",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b25"
-      },
-      {
-        "version": "v2.0.0b23",
-        "release_date": "2023-06-02T20:21:32+00:00",
-        "title": "v2.0.0b23",
-        "body": "This adds support for [`distinct()`](https://blueskyproject.io/tiled/reference/generated/tiled.client.node.Node.distinct.html#tiled.client.node.Node.distinct) and adds a `.v2` accessor in more places.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b23"
-      },
-      {
-        "version": "v2.0.0b22",
-        "release_date": "2023-03-22T19:12:42+00:00",
-        "title": "v2.0.0b22",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b22"
-      },
-      {
-        "version": "v2.0.0b17",
-        "release_date": "2023-02-21T19:16:33+00:00",
-        "title": "v2.0.0b17",
-        "body": "Fixes Broker.named('temp')",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b17"
-      },
-      {
-        "version": "v2.0.0b10",
-        "release_date": "2022-09-15T18:51:06+00:00",
-        "title": "v2.0.0b10",
-        "body": "## What's Changed\r\n* Added update_metadata() to write_ adapters by @jmaruland in https://github.com/bluesky/databroker/pull/716\r\n* Header.data() fix by @gwbischof in https://github.com/bluesky/databroker/pull/728\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b9...v2.0.0b10",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b10"
-      },
-      {
-        "version": "v2.0.0b9",
-        "release_date": "2022-09-13T20:59:16+00:00",
-        "title": "v2.0.0b9",
-        "body": "## What's Changed\r\n* FIX: the back-compat getattr shim in databroker by @tacaswell in https://github.com/bluesky/databroker/pull/713\r\n* Added delete() method for arrays and dataframes by @jmaruland in https://github.com/bluesky/databroker/pull/715\r\n* Support new queries types in mongo_normalized. by @danielballan in https://github.com/bluesky/databroker/pull/717\r\n* Expose 'specs'. by @danielballan in https://github.com/bluesky/databroker/pull/718\r\n* Update for xarray refactor in Tiled. by @danielballan in https://github.com/bluesky/databroker/pull/720\r\n* HOTFIX: ArrayAdapter usage with handlers that return dask. by @danielballan in https://github.com/bluesky/databroker/pull/721\r\n* Add ScanIDRange by @gwbischof in https://github.com/bluesky/databroker/pull/719\r\n* [Experimental backend] Support chunked upload and sparse arrays by @danielballan in https://github.com/bluesky/databroker/pull/722\r\n* Implement __len__. by @danielballan in https://github.com/bluesky/databroker/pull/723\r\n* Fix slicing into WritableDataFrameAdapter. by @danielballan in https://github.com/bluesky/databroker/pull/724\r\n* Fix temp. by @danielballan in https://github.com/bluesky/databroker/pull/726\r\n* Follow-up to #726: commit test by @danielballan in https://github.com/bluesky/databroker/pull/730\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v2.0.0b4...v2.0.0b9",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b9"
-      },
-      {
-        "version": "v2.0.0b4",
-        "release_date": "2022-06-29T19:50:35+00:00",
-        "title": "v2.0.0b4",
-        "body": "## What's Changed\r\n* Hacks to get databroker github actions working by @clintonroy in https://github.com/bluesky/databroker/pull/693\r\n* Doc: just fixing a few typos. by @clintonroy in https://github.com/bluesky/databroker/pull/692\r\n* Merge v2.0.0-dev into master branch by @danielballan in https://github.com/bluesky/databroker/pull/694\r\n* Support nesting raw data into /raw in backward-compatible way. by @danielballan in https://github.com/bluesky/databroker/pull/697\r\n* Deprecate RawMongo by @danielballan in https://github.com/bluesky/databroker/pull/705\r\n* Add new storage backend that supports writing via client by @jmaruland in https://github.com/bluesky/databroker/pull/696\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/databroker/pull/678\r\n* Fix missing f-string f. by @danielballan in https://github.com/bluesky/databroker/pull/709\r\n* add tiled dependancy by @gwbischof in https://github.com/bluesky/databroker/pull/710\r\n* Added NotEq, In and NotIn to MongoAdpater by @jmaruland in https://github.com/bluesky/databroker/pull/708\r\n\r\n## New Contributors\r\n* @jmaruland made their first contribution in https://github.com/bluesky/databroker/pull/696\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.5...v2.0.0b4",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v2.0.0b4"
-      },
-      {
-        "version": "v1.2.5",
-        "release_date": "2022-01-21T19:57:43+00:00",
-        "title": "v1.2.5",
-        "body": "## What's Changed\r\n* CI: add a workflow to publish to PyPI by @mrakitin in https://github.com/bluesky/databroker/pull/676\r\n* Get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/677\r\n* DOC: corrected the same typo a few times. by @clintonroy in https://github.com/bluesky/databroker/pull/682\r\n* DOC: just a typo fix. by @clintonroy in https://github.com/bluesky/databroker/pull/683\r\n* don't use intake v0.6.5, and get the CI passing by @gwbischof in https://github.com/bluesky/databroker/pull/685\r\n* release notes v1.2.5 by @gwbischof in https://github.com/bluesky/databroker/pull/686\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/databroker/compare/v1.2.4...v1.2.5",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.5"
-      },
-      {
-        "version": "v1.2.4",
-        "release_date": "2021-10-07T18:15:42+00:00",
-        "title": "databroker v1.2.4",
-        "body": "### Fixed\r\n* tzlocal support",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.4"
-      },
-      {
-        "version": "v1.2.0",
-        "release_date": "2020-12-17T22:57:38+00:00",
-        "title": "v1.2.0",
-        "body": "## Added\r\n* New accessors on BlueskyEventStream named config, timestamps, and config_timestamps provide xarray Datasets of secondary readings from Event Descriptors and Events.\r\n* A\u201csummary\u201d projector that operates, inexpensively, on just the \u2018start\u2019 document.\r\n\r\n## Fixed\r\n* Adjust to upstream (yet unreleased) changes to intake.\r\n* When the \u2018stop\u2019 document is not yet available (or permanently missing) the IPython repr degrades gracefully.\r\n* When comparing BlueskyRun (v2) or a Header (v1) to another object via equality, return False if the other object is of a different type, instead of raising an exception.\r\n\r\n## Changed\r\n* Remove configuration columns from output of BlueskyEventStream.read() and .to_dask(). The new config acccessor should be used to access these.\r\n* In v1, provide more helpful exceptions when a Datum is referenced by an Event is not found. (In v2 this is already done, via event_model.Filler.)\r\n* The method BlueskyRun.canonical has been renamed to BlueskyRun.documents. The old name is deprecated and issues a warning when used.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.2.0"
-      },
-      {
-        "version": "v1.1.0",
-        "release_date": "2020-09-04T16:51:57+00:00",
-        "title": "databroker v1.1.0",
-        "body": "v1.1.0 (2020-09-03)\r\n-------------------\r\n\r\n## Added\r\n\r\n* Experimental ``databroker.projector`` module\r\n* A ``stats`` method on the ``BlueskyMongoCatalog`` to access MongoDB storage\r\n  info.\r\n\r\n## Fixed\r\n\r\n* Do more to try to recover from inaccurate ``shape`` metadata.\r\n* Tolerate old Resource documents that rely on MongoDB ``_id`` and are missing\r\n  ``uid``.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v1.1.0"
-      },
-      {
-        "version": "v0.13.3",
-        "release_date": "2019-08-22T21:29:32+00:00",
-        "title": "v0.13.3",
-        "body": "### Enhancements\r\n\r\n* Replaced deprecated unordered bulk write (requires ``pymongo >= 3.0``).\r\n\r\n### Documentation\r\n\r\n* Update the links in the sidebar to point to the Bluesky Project.\r\n\r\n### Packaging\r\n\r\n* Added missing files in the source distribution for PyPI.\r\n\r\nSee [the v0.13.3 GitHub milestone](https://github.com/bluesky/databroker/milestone/10?closed=1) for a full enumeration of the changes in this release.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.3"
-      },
-      {
-        "version": "v0.13.1",
-        "release_date": "2019-07-30T14:06:12+00:00",
-        "title": "v0.13.1",
-        "body": "This release makes the sqlite-backed asset registry threadsafe, for compatibility with bluesky 1.6.0.",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.13.1"
-      },
-      {
-        "version": "v0.11.3",
-        "release_date": "2018-09-05T22:47:11+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.3"
-      },
-      {
-        "version": "v0.11.2rc1",
-        "release_date": "2018-06-25T16:02:41+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.2rc1"
-      },
-      {
-        "version": "v0.11.1",
-        "release_date": "2018-05-19T23:49:39+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.1"
-      },
-      {
-        "version": "v0.11.0",
-        "release_date": "2018-05-15T17:02:56+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.11.0"
-      },
-      {
-        "version": "v0.10.0",
-        "release_date": "2018-02-20T13:46:03+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.10.0"
-      },
-      {
-        "version": "v0.9.4",
-        "release_date": "2017-12-06T20:31:59+00:00",
-        "title": "",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.9.4"
-      },
-      {
-        "version": "v0.8.1",
-        "release_date": "2017-05-22T13:57:54+00:00",
-        "title": "v0.8.1",
-        "body": "",
-        "href": "https://github.com/bluesky/databroker/releases/tag/v0.8.1"
       }
     ],
     "new_commits": 0
