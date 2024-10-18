@@ -3,6 +3,13 @@
     "name": "scanspec",
     "releases": [
       {
+        "version": "0.7.6",
+        "release_date": "2024-10-18T14:39:10+00:00",
+        "title": "0.7.6",
+        "body": "## What's Changed\r\n* Replace use of deprecated np.bool with dtype alias by @DiamondJoseph in https://github.com/bluesky/scanspec/pull/150\r\n* Lint Dockerfile warnings by @DiamondJoseph in https://github.com/bluesky/scanspec/pull/151\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/scanspec/compare/0.7.5...0.7.6",
+        "href": "https://github.com/bluesky/scanspec/releases/tag/0.7.6"
+      },
+      {
         "version": "0.7.5",
         "release_date": "2024-10-16T16:15:26+00:00",
         "title": "0.7.5",
