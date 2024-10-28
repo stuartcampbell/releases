@@ -3,6 +3,13 @@
     "name": "event-model",
     "releases": [
       {
+        "version": "v1.22.1",
+        "release_date": "2024-10-28T13:04:00+00:00",
+        "title": "v1.22.1",
+        "body": "## What's Changed\r\n* added `types-requests` to fix linting CI by @evalott100 in https://github.com/bluesky/event-model/pull/319\r\n* Adopt copier template by @evalott100 in https://github.com/bluesky/event-model/pull/320\r\n* made `units` optional again by @evalott100 in https://github.com/bluesky/event-model/pull/325\r\n* made precision optional by @evalott100 in https://github.com/bluesky/event-model/pull/328\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.22.0...v1.22.1",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.22.1"
+      },
+      {
         "version": "v1.22.1rc1",
         "release_date": "2024-10-25T13:21:10+00:00",
         "title": "v1.22.1rc1",
