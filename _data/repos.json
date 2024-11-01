@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "v0.8.0a2",
+        "release_date": "2024-11-01T11:29:39+00:00",
+        "title": "v0.8.0a2",
+        "body": "## What's Changed\r\n* Allow CA/PVA mismatching enums to be bools by @coretl in https://github.com/bluesky/ophyd-async/pull/632\r\n* Allow shared parent mock to be passed to Device.connect by @jsouter in https://github.com/bluesky/ophyd-async/pull/599\r\n* Report Device name in error when using AsyncStatus.wrap by @jsouter in https://github.com/bluesky/ophyd-async/pull/607\r\n* Temporary fix for PyPI publishing by @coretl in https://github.com/bluesky/ophyd-async/pull/634\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/v0.8.0a1...v0.8.0a2",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.8.0a2"
+      },
+      {
         "version": "v0.8.0a1",
         "release_date": "2024-10-30T14:04:58+00:00",
         "title": "v0.8.0a1",
