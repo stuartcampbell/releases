@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "v0.8.0a4",
+        "release_date": "2024-11-11T21:45:26+00:00",
+        "title": "v0.8.0a4",
+        "body": "## What's Changed\r\n* Update to copier 2.5.0 by @coretl in https://github.com/bluesky/ophyd-async/pull/637\r\n* Speed up device creation and connection in mock mode by @coretl in https://github.com/bluesky/ophyd-async/pull/641\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/v0.8.0a3...v0.8.0a4",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.8.0a4"
+      },
+      {
         "version": "v0.8.0a3",
         "release_date": "2024-11-04T11:02:36+00:00",
         "title": "v0.8.0a3",
