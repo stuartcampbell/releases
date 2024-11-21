@@ -795,6 +795,201 @@
     "new_commits": 0
   },
   {
+    "name": "event-model",
+    "releases": [
+      {
+        "version": "v1.22.1",
+        "release_date": "2024-10-28T13:04:00+00:00",
+        "title": "v1.22.1",
+        "body": "## What's Changed\r\n* added `types-requests` to fix linting CI by @evalott100 in https://github.com/bluesky/event-model/pull/319\r\n* Adopt copier template by @evalott100 in https://github.com/bluesky/event-model/pull/320\r\n* made `units` optional again by @evalott100 in https://github.com/bluesky/event-model/pull/325\r\n* made precision optional by @evalott100 in https://github.com/bluesky/event-model/pull/328\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.22.0...v1.22.1",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.22.1"
+      },
+      {
+        "version": "v1.22.1rc1",
+        "release_date": "2024-10-25T13:21:10+00:00",
+        "title": "v1.22.1rc1",
+        "body": "## What's Changed\r\n* added `types-requests` to fix linting CI by @evalott100 in https://github.com/bluesky/event-model/pull/319\r\n* Adopt copier template by @evalott100 in https://github.com/bluesky/event-model/pull/320\r\n* made `units` optional again by @evalott100 in https://github.com/bluesky/event-model/pull/325\r\n* made precision optional by @evalott100 in https://github.com/bluesky/event-model/pull/328\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.22.0...v1.22.1rc1",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.22.1rc1"
+      },
+      {
+        "version": "v1.22.0",
+        "release_date": "2024-10-08T13:35:10+00:00",
+        "title": "v1.22.0",
+        "body": "## What's Changed\r\n* Added a `NX_class` field as a `PerObjectHint` to the `EventDescriptor` document.\r\n* Removed `Optional` on `DataKey` fields `precision`, ``choices``, and `units`. These fields can still be left out of the `DataKey`, but if provided they cannot be `None`.\r\n* Added a `Limits` type for storing EPICS limit data and a `NotRequired[Limits]` `limits` field to `DataKey`.\r\n* Added a `NotRequired` `dtype_numpy` field to `DataKey` for specifying the numpy dtype of data.\r\n* Bumped from `jsonschema 3.*` to `jsonschema 4.*`.\r\n* Added all documents to `event_model` namespace.\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.21.0...v1.22.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.22.0"
+      },
+      {
+        "version": "v1.21.0",
+        "release_date": "2024-05-21T21:07:28+00:00",
+        "title": "v1.21.0",
+        "body": "## What's Changed:\r\n* Update schemas for StreamResource and StreamDatum by @genematx in https://github.com/bluesky/event-model/pull/301. Introduced `uri`, `parameters`, and `mimetype` fields; removed `path_semantics` and `resource_kwargs`. More detail: https://github.com/bluesky/event-model/issues/296\r\n* Bump peaceiris/actions-gh-pages from 3.9.3 to 4.0.0 by @dependabot in https://github.com/bluesky/event-model/pull/303\r\n* DOC: Fix the switcher URL by @AlexanderWells-diamond in https://github.com/bluesky/event-model/pull/305\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.20.0...v1.21.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.21.0"
+      },
+      {
+        "version": "v1.20.0",
+        "release_date": "2024-03-28T20:06:48+00:00",
+        "title": "v1.20.0",
+        "body": "Changed\r\n-------\r\n\r\n- Bumped from `pydantic 1.*` to `pydantic 2.*`\r\n\r\nFixed\r\n-----\r\n\r\n- Bug in `rechunk_event_pages` affecting Events with an empty `filled` key\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.20.0"
+      },
+      {
+        "version": "v1.19.9",
+        "release_date": "2023-11-22T19:13:25+00:00",
+        "title": "v1.19.9",
+        "body": "## Changed\r\n\r\nDropped support for jsonschema 2.*.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.9"
+      },
+      {
+        "version": "v1.19.8",
+        "release_date": "2023-10-11T09:05:05+00:00",
+        "title": "v1.19.8",
+        "body": "## What's Changed\r\n* Find schema files relative to source code, this allows tests to be ru\u2026 by @clintonroy in https://github.com/bluesky/event-model/pull/282\r\n* Rethinking external assets 2 by @evalott100 in https://github.com/bluesky/event-model/pull/272\r\n\r\n## New Contributors\r\n* @clintonroy made their first contribution in https://github.com/bluesky/event-model/pull/282\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.7...v1.19.8",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.8"
+      },
+      {
+        "version": "v1.19.7",
+        "release_date": "2023-07-05T15:00:33+00:00",
+        "title": "v1.19.7",
+        "body": "## What's Changed\r\nPatch to prevent pydantic 2 causing errors on the document TypedDicts and schema generation\r\n\r\n* Fixed imports to avoid pydantic if the version is >=2 by @evalott100 in https://github.com/bluesky/event-model/pull/281\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.6...v1.19.7",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.7"
+      },
+      {
+        "version": "v1.19.6",
+        "release_date": "2023-07-04T12:08:23+00:00",
+        "title": "v1.19.6",
+        "body": "## What's Changed\r\n* Specified pydantic <2 by @evalott100 in https://github.com/bluesky/event-model/pull/279\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.5...v1.19.6",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.6"
+      },
+      {
+        "version": "v1.19.5",
+        "release_date": "2023-06-30T10:38:30+00:00",
+        "title": "v1.19.5",
+        "body": "## What's Changed\r\n* Switch from partials to classes by @evalott100 in https://github.com/bluesky/event-model/pull/262\r\n* Added to the schema extra of event_descriptor to allow precision to be null by @evalott100 in https://github.com/bluesky/event-model/pull/277\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.4...v1.19.5",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.5"
+      },
+      {
+        "version": "v1.19.4",
+        "release_date": "2023-06-23T15:29:42+00:00",
+        "title": "v1.19.4",
+        "body": "## What's Changed\r\n### A slight fix to release [v1.19.3](https://github.com/bluesky/event-model/releases/tag/v1.19.3)\r\n* Allow descriptor units to be null by @coretl in https://github.com/bluesky/event-model/pull/275\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.3...v1.19.4",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.4"
+      },
+      {
+        "version": "v1.19.3",
+        "release_date": "2023-06-21T14:53:17+00:00",
+        "title": "v1.19.3",
+        "body": "## What's Changed\r\n* Adopted the [bluesky pip python skeleton](https://github.com/bluesky/python3-pip-skeleton) \r\n* Fixed validation errors in the schema in https://github.com/bluesky/event-model/pull/258\r\n* Added event_counters as an optional kwarg to compose_run in https://github.com/bluesky/event-model/pull/257\r\n* Introduced the skeleton method of versioning, removing _version.py in https://github.com/bluesky/event-model/pull/264\r\n* Added unit test to test dots aren't accepted in keys in https://github.com/bluesky/event-model/pull/269\r\n* Added typing support so mypy passes in https://github.com/bluesky/event-model/pull/247\r\n    * Documents can now be typed by their TypedDict, the jsonschema is the same but is generated from the TypedDicts.\r\n* Use importlib resources instead of pkg_resources in https://github.com/bluesky/event-model/pull/273\r\n\r\n## New Contributors\r\n* @coretl made their first contribution in https://github.com/bluesky/event-model/pull/253\r\n* @DiamondJoseph made their first contribution in https://github.com/bluesky/event-model/pull/258\r\n* @dependabot made their first contribution in https://github.com/bluesky/event-model/pull/248\r\n* @ksunden made their first contribution in https://github.com/bluesky/event-model/pull/273\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.19.2...v1.19.3",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.3"
+      },
+      {
+        "version": "v1.19.2",
+        "release_date": "2023-02-24T15:28:35+00:00",
+        "title": "v1.19.2",
+        "body": "Changed\r\n-------\r\n\r\n* Fix warnings about distutils being deprecated in Python>=3.10",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.2"
+      },
+      {
+        "version": "v1.19.1",
+        "release_date": "2022-12-09T16:17:36+00:00",
+        "title": "v1.19.1 (2022-12-09)",
+        "body": "v1.19.1 (2022-12-09)\r\n====================\r\n\r\nThis release fixes compatibility with Python 3.7, which was inadvertently\r\nbroken in the previous release, 1.19.0.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.1"
+      },
+      {
+        "version": "v1.19.0",
+        "release_date": "2022-11-03T18:03:35+00:00",
+        "title": "event-model v1.19.0",
+        "body": "v1.19.0 (2022-11-03)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Add two experimental new document types: a `stream_resource` that manages an\r\n  unknown number of contiguous `stream_datum`, with the potential for multiple\r\n  streams. This is especially relevant when the data is expected to be ragged\r\n  or has no pre-determined shape (number of rows).\r\n\r\nChanged\r\n-------\r\n\r\n* Added ``object_name`` to Event Descriptor schema. The RunEngine has been\r\n  adding this for many years. This change merely documents the status quo.\r\n* Use ``importlib`` instead of ``__version__`` to implement logic conditional\r\n  on jsonschema version.\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.19.0"
+      },
+      {
+        "version": "v1.18.0",
+        "release_date": "2022-08-05T14:02:38+00:00",
+        "title": "event-model v1.18.0",
+        "body": "## What's Changed\r\n* CI: add a workflow to publish on PyPI by @mrakitin in https://github.com/bluesky/event-model/pull/216\r\n* Fix for `databroker.v0` API by @mrakitin in https://github.com/bluesky/event-model/pull/218\r\n* Fix versioneer compat with py311 by @tacaswell in https://github.com/bluesky/event-model/pull/217\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/event-model/compare/v1.17.2...v1.18.0",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.18.0"
+      },
+      {
+        "version": "v1.17.2",
+        "release_date": "2021-06-21T18:56:03+00:00",
+        "title": "event-model v1.17.2",
+        "body": "v1.17.2 (2021-06-21)\r\n====================\r\n\r\nAdded\r\n-----\r\n\r\n* Event, Datum Page were added to TOC\r\n\r\nChanged\r\n-------\r\n\r\n* The ``start document`` parameter to :func:`~event_model.compose_resource` is now optional\r\n* :meth:`~event_model.RunRouter.descriptor` has been modified to record descriptor document\r\n  id before executing callbacks",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.2"
+      },
+      {
+        "version": "v1.17.1",
+        "release_date": "2021-01-29T21:13:47+00:00",
+        "title": "v1.17.1",
+        "body": "Any object that implements __array__ is accepted by the schema validators as any array. This enables the validator to tolerate numpy-like variants that are not literal numpy arrays, such as dask, sparse, or cupy arrays.\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.1"
+      },
+      {
+        "version": "v1.17.0",
+        "release_date": "2020-12-17T22:46:45+00:00",
+        "title": "v1.17.0",
+        "body": "## Added\r\n*Added data_session and data_groups to Run Start document schema.\r\n\r\n## Changed\r\n* The package requirements have been relaxed to accept jsonschema versions 2 or 3. Both are supported.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.17.0"
+      },
+      {
+        "version": "v1.16.1",
+        "release_date": "2020-11-15T03:00:13+00:00",
+        "title": "v1.16.1",
+        "body": "* The \"projections\" schema in the Run Start document has been enhanced to accept \"configuration\" locations intended to link to fields that are in Event stream Configuration See :ref:`projections`. Additionally, validation of projections was enhanced.\r\n* The method https://github.com/bluesky/event-model/blob/b7a5fd8f54a9ee96c33a2171e8ecb243f0b08391/event_model/__init__.py#L1283 was enhanced to check for repeated runs with  colliding uids, raising an ValueError when this occurs.\r\n[event-model-1.16.1.tar.gz](https://github.com/bluesky/event-model/files/5550012/event-model-1.16.1.tar.gz)\r\n[event-model-1.16.1.zip](https://github.com/bluesky/event-model/files/5550013/event-model-1.16.1.zip)\r\n\r\n",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.1"
+      },
+      {
+        "version": "v1.16.0",
+        "release_date": "2020-09-03T18:30:51+00:00",
+        "title": "v1.16.0",
+        "body": "## Added\r\n* The schema for Run Start documents now includes an optional \u201cprojections\u201d key. See Projections (Experimental).\r\n* Added the method emit and an emit parameter to DocumentRouter to support chaining them.\r\n* The Filler now provides public methods for clearing its caches, clear_handler_cache() and clear_document_caches().\r\n* The method deregister_handler() returns the handler that it has deregistered.\r\n* The filler_state attribute of Filler now includes attributes resource and datum which may be used by coercion functions to work around incorrect shape metadata.\r\n\r\n## Changed\r\nThe function register_coercion() replaces the misspelled register_coersion(), which is retained as an alias for backward-compatibility.",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.16.0"
+      },
+      {
+        "version": "v1.15.2",
+        "release_date": "2020-06-12T19:28:01+00:00",
+        "title": "v1.15.2",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.15.2"
+      },
+      {
+        "version": "v1.13.3",
+        "release_date": "2020-03-05T21:55:06+00:00",
+        "title": "v1.13.3",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.13.3"
+      },
+      {
+        "version": "v1.11.0",
+        "release_date": "2019-06-27T15:22:18+00:00",
+        "title": "Filler updates",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.11.0"
+      },
+      {
+        "version": "v1.6.0",
+        "release_date": "2018-08-29T22:41:47+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.6.0"
+      },
+      {
+        "version": "v1.5.0",
+        "release_date": "2018-05-15T15:42:21+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.5.0"
+      },
+      {
+        "version": "v1.4.0",
+        "release_date": "2017-11-01T16:14:32+00:00",
+        "title": "",
+        "body": "",
+        "href": "https://github.com/bluesky/event-model/releases/tag/v1.4.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "scanspec",
     "releases": [
       {
