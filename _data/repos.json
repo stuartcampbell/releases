@@ -3,6 +3,13 @@
     "name": "ophyd-async",
     "releases": [
       {
+        "version": "v0.8.0a6",
+        "release_date": "2024-11-22T10:15:57+00:00",
+        "title": "v0.8.0a6",
+        "body": "## What's Changed\r\n* wait_for_value_interface_change by @ZohebShaikh in https://github.com/bluesky/ophyd-async/pull/652\r\n* Fix type hints and error messages in tests caused by pydantic update by @coretl in https://github.com/bluesky/ophyd-async/pull/665\r\n* FIX: Handle NonSupportedFeature exception for pipes by @burkeds in https://github.com/bluesky/ophyd-async/pull/660\r\n* Change tango decorators to Annotations by @coretl in https://github.com/bluesky/ophyd-async/pull/658\r\n* Restructure epics/test_signals.py by @jsouter in https://github.com/bluesky/ophyd-async/pull/630\r\n\r\n\r\n**Full Changelog**: https://github.com/bluesky/ophyd-async/compare/v0.8.0a5...v0.8.0a6",
+        "href": "https://github.com/bluesky/ophyd-async/releases/tag/v0.8.0a6"
+      },
+      {
         "version": "v0.8.0a5",
         "release_date": "2024-11-15T16:10:27+00:00",
         "title": "v0.8.0a5",
